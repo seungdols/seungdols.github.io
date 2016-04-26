@@ -4,7 +4,7 @@ title:  "Dynamic Programming"
 categories: dp dynamic Programming
 ---
 
-##Dynamic Programming
+Dynamic Programming
 
 여기서 사용되는 Dynamic은 의미 없는 말이다.
 또한, 동적 계획법이라고 표현해야 옳은 표현이라고 할 수 있다.
@@ -55,7 +55,7 @@ int fibonacci(int n){
 }
 ```
 
-cpp
+```cpp
 int fibonacci_topDown(int n){
 
     if(n <= 1)
@@ -65,9 +65,9 @@ int fibonacci_topDown(int n){
             return fibonacci(n-1) + fibonacci(n-2);
     }
 }
+```
 
-
-cpp
+```cpp
 int d[100];
 int fibonacci_bottomUp(int n){
     d[0] = 1;
@@ -78,3 +78,4 @@ int fibonacci_bottomUp(int n){
     }
     return d[n];
 }
+```
