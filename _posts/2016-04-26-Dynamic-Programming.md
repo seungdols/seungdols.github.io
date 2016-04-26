@@ -38,7 +38,7 @@ Fibonacci(5) = Fibonacci(4) + Fibonacci(3)
 즉, 5번째를 구한다 쳐도 결국 2번째 피보나치 수도 계산한다.
 고로, 4번째 피보나치 수를 구하든, 5번째 피보나치 수를 구하든 2번째 항의 피보나치 수는 계속 일정하다.
 
-~~~cpp
+```cpp
 #include "stdio.h"
 
 int memo[100];
@@ -53,9 +53,9 @@ int fibonacci(int n){
         memo[n] = fibonacci(n-1) + fibonacci(n-2);
         return memo[n];
 }
-~~~
+```
 
-~~~cpp
+cpp
 int fibonacci_topDown(int n){
 
     if(n <= 1)
@@ -65,9 +65,9 @@ int fibonacci_topDown(int n){
             return fibonacci(n-1) + fibonacci(n-2);
     }
 }
-~~~
 
-~~~cpp
+
+cpp
 int d[100];
 int fibonacci_bottomUp(int n){
     d[0] = 1;
@@ -78,4 +78,3 @@ int fibonacci_bottomUp(int n){
     }
     return d[n];
 }
-~~~
