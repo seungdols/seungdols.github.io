@@ -1,0 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Seungdols
+email: seungdols0822@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hello, This is Seungdols blog pages. You can see all of contents, and write down
+  comments, contact to my email, github, twitter mention. I can try to you help.
+
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "http://seungdols0822.github.com" # the base hostname & protocol for your site
+twitter_username: seungdols
+github_username:  seungdols
+
+# Build settings
+markdown: redcarpet2
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
