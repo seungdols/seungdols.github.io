@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   comments, contact to my email, github, twitter mention. I can try to you help.
 
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://seungdols0822.github.com" # the base hostname & protocol for your site
+url: "http://seungdols.github.com" # the base hostname & protocol for your site
 twitter_username: seungdols
 github_username:  seungdols
 
