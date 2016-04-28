@@ -97,7 +97,7 @@
 
 .post-wrapper{
   padding: 10px;
-  
+
   border-bottom: 1px dashed #ccc;
 
 }
@@ -251,4 +251,32 @@
             font-size: 18px;
         }
     }
+}
+
+/*Tag from https://alexpearce.me*/
+.tags {
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.0em;
+}
+
+.tags li {
+  display: inline-block;
+  margin: 0 0px;
+}
+
+.tags li a {
+  padding: 1px 12px 2px 0px;
+  color: #bcc5c8;
+}
+
+.tags li a:hover {
+  color: #5e6d74;
+}
+
+.post-tags {
+  margin: 20px 0 0 0;
+}
+.tags-ul{
+    margin-left: 0;
 }

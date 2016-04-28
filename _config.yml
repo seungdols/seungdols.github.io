@@ -11,8 +11,8 @@ email: seungdols0822@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hello, This is Seungdols blog pages. You can see all of contents, and write down
   comments, contact to my email, github, twitter mention. I can try to you help.
-
 baseurl: "/blog" # the subpath of your site, e.g. /blog
+permalink: pretty
 url: "http://seungdols.github.com" # the base hostname & protocol for your site
 twitter_username: seungdols
 github_username:  seungdols
