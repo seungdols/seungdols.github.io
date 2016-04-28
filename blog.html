@@ -14,8 +14,18 @@ permalink: /blog/
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        {{ post.excerpt| split:"<!-- more -->" | first }}
+        <!-- {{ post.excerpt| split:"<!-- more -->" | first }} -->
+        <ul class="tags post-tags tags-ul">
+            {% for tag in post.tags %}
+                <li>
+                    <a href="/search/?tags={{ tag }}">{{ tag | downcase }}</a>
+                </li>
+            {% endfor %}
+        </ul>
       </li>
+
+
+
     </div>
     {% endfor %}
   </ul>

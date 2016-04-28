@@ -16,6 +16,11 @@ layout: default
       <li>I enjoy often watching movie, drama Sometimes make used to program for me.</li>
       <li>Now, I interested in opensource-project, linux, dev-oops, cloud-infrastructure.</li>
     </ul>
+    <ul class="tags cf">
+         {% for tag in post.tags %}
+        <li><a href="/search/?tags={{ tag }}">{{ tag | downcase }}</a></li>
+       {% endfor %}
+    </ul>
   </div>
 
 </div>

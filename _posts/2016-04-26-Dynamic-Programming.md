@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Dynamic Programming"
-categories: dp dynamic-programming
-tags: dp programming
+tags: [dp, programming]
 ---
 
 Dynamic Programming
