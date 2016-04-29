@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Dynamic Programming"
+description: "Dynamic Programming이 무엇인지 알아보자꾸나"
 tags: [dp, programming]
 ---
 
 Dynamic Programming
-
+===
 여기서 사용되는 Dynamic은 의미 없는 말이다.
 또한, 동적 계획법이라고 표현해야 옳은 표현이라고 할 수 있다.
 
@@ -61,6 +62,8 @@ int fibonacci(int n){
         return memo[n];
 }
 ```
+위 코드의 경우에는 memo라는 배열에 적으면서 DP를 진행한다. 그래서 다이나믹 프로그래밍은 보통 Memoization을 한다고 표현한다.
+메모한다라는 뜻을 가졌다.
 
 ```cpp
 int fibonacci_topDown(int n){
@@ -73,6 +76,9 @@ int fibonacci_topDown(int n){
     }
 }
 ```
+위 코드의 경우 Top-Dwon방식으로 해답을 구하는데, 보통 재귀 호출을 통해서 답을 구한다.
+
+큰 문제에서 부터 작은 문제로 뻗어 나가는 형식이다.
 
 ```cpp
 int d[100];
@@ -86,3 +92,8 @@ int fibonacci_bottomUp(int n){
     return d[n];
 }
 ```
+
+위 코드는 Bottom-Up방식으로 문제를 해결한다.
+고로, 작은 문제를 풀면서 큰 문제를 풀어간다.
+
+####큰 문제는 작은 부분 문제의 합과 같기에 작은 문제가 풀리면 큰 문제도 풀린다.

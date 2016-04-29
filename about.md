@@ -48,6 +48,15 @@ Who is Seungdols ?
 - [Seungdols Wiki](http://seungdols.com/start)를 운영중
 - 지식 공유를 꾀하는 개발자(고로 당신이 더 잘 알고 있는 걸 난 이제 막 배운 경향이 없지 않아 있을 것이다.)
 - 개인적인 연락/공식적인 연락 모두 좋아하는 사람이다
+- This page is seungdols blog. This blog contains IT infomation, programming, coding info etc.
+
+- You contact to me by write down comments, send to email, github , twitter mentions.
+    - [seungdols0822@gmail.com](seungdols0822@gmail.com)
+    - [seungdols.github.com](http://seungdols.github.com)
+    - [seungdols.twitter.com](http://seungdols.twitter.com)
+- I called seungho, seungdols, seungdols company by other person.
+
+- Now, I interested in opensource-project, linux, dev-oops, cloud-infrastructure.
 
 퍼가기
 ==
