@@ -6,8 +6,8 @@ tags: [dp, programming]
 comments: true
 ---
 
-Dynamic Programming
-===
+### Dynamic Programming
+
 여기서 사용되는 Dynamic은 의미 없는 말이다.
 또한, 동적 계획법이라고 표현해야 옳은 표현이라고 할 수 있다.
 
@@ -97,4 +97,4 @@ int fibonacci_bottomUp(int n){
 위 코드는 Bottom-Up방식으로 문제를 해결한다.
 고로, 작은 문제를 풀면서 큰 문제를 풀어간다.
 
-####큰 문제는 작은 부분 문제의 합과 같기에 작은 문제가 풀리면 큰 문제도 풀린다.
+#### 큰 문제는 작은 부분 문제의 합과 같기에 작은 문제가 풀리면 큰 문제도 풀린다.

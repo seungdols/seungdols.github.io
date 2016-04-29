@@ -5,7 +5,7 @@ description: "자바에서 큰 정수형을 사용하고 싶을 때, BigInteger�
 tags: [java, programming]
 comments: true
 ---
-###Java BigInteger class 사용하기
+### Java BigInteger class 사용하기
 
 주로 int 형 타입을 사용하게 되는데, 이 정수형 타입은 허용 가능한 범위가 존재합니다.
 
