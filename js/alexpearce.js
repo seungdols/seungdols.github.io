@@ -89,7 +89,7 @@ var layoutResultsPage = function(property, value, posts) {
         tags     = post.tags;
 
     for (var j in tags) {
-      tagsList += '<li><a href="/search/?tags=' + tags[j] + '">' + tags[j].toLowerCase() + '</a></li>';
+      tagsList += '<li><a href="/blog/search/?tags=' + tags[j] + '">' + tags[j].toLowerCase() + '</a></li>';
     }
     tagsList += '</ul>';
 
@@ -154,7 +154,7 @@ $(function() {
 
   $.each(map, function(type, value) {
     if (value !== null) {
-      $.getJSON('/search.json', function(data) {
+      $.getJSON('/blog/search.json', function(data) {
         posts = filterPostsByPropertyValue(data, type, value);
         if (posts.length === 0) {
           noResultsPage(type, value);

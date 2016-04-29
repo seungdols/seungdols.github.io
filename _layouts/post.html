@@ -26,7 +26,7 @@ layout: default
             </li>
             {% for tag in page.tags %}
                 <li>
-                    <a href="/search/?tags={{ tag }}">{{ tag | downcase }}</a>
+                    <a href="/blog/search/?tags={{ tag }}">{{ tag | downcase }}</a>
                 </li>
             {% endfor %}
         </ul>
