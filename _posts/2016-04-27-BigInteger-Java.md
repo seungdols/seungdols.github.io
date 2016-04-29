@@ -3,6 +3,7 @@ layout: post
 title: "Use BigInteger of Java "
 description: "자바에서 큰 정수형을 사용하고 싶을 때, BigInteger를 사용하자"
 tags: [java, programming]
+comments: true
 ---
 ###Java BigInteger class 사용하기
 
