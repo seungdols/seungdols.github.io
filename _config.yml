@@ -18,8 +18,12 @@ twitter_username: seungdols
 github_username:  seungdols
 
 # Build settings
+safe: true
 markdown: kramdown
-
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+#http://kramdown.gettalong.org/options.html
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -29,3 +33,12 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
   parse_block_html: true
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  hard_wrap: false
+  coderay:
+    coderay_wrap:              div
+    coderay_line_numbers:      inline
+    coderay_line_number_start: 1
+    coderay_tab_width:         4
+    coderay_bold_every:        10
+    coderay_css:               style
