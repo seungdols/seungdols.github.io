@@ -19,7 +19,7 @@ github_username:  seungdols
 
 # Build settings
 # highlighter: rouge
-highlighter: pygments
+
 lsi: false
 future: true
 markdown: kramdown
