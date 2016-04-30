@@ -18,7 +18,8 @@ twitter_username: seungdols
 github_username:  seungdols
 
 # Build settings
-highlighter: rouge
+# highlighter: rouge
+highlighter: pygments
 lsi: false
 future: true
 markdown: kramdown
@@ -26,4 +27,4 @@ markdown: kramdown
 #http://kramdown.gettalong.org/options.html
 kramdown:
   input: GFM
-  
+  syntax_highlighter: rouge
