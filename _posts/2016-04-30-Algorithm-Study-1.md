@@ -3,6 +3,7 @@ layout: post
 title: "Algorithm Study 1일차"
 description: "자료구조/알고리즘"
 tags: [Algorithm, study]
+comments: true
 ---
 
 # 알고리즘 스터디 - 1일차
