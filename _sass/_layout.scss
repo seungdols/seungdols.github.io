@@ -10,7 +10,11 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 }
-
+.header-title{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -117,7 +121,7 @@
 .footer-wrapper{
   margin: 0 auto;
   text-align: center;
-  font-size: 9pt;
+  font-size: 12pt;
 }
 .contact-list,
 .social-media-list {
@@ -226,6 +230,7 @@
 }
 
 .post-content {
+    font-family: 'Roboto', sans-serif;
     margin-bottom: $spacing-unit;
 
     h2 {
