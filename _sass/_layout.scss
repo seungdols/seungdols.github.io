@@ -4,16 +4,18 @@
  */
 .site-header {
     // border-top: 1px solid $grey-color-light;
-    border-bottom: 1px solid $grey-color-light;
+    // border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 .header-title{
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
+    display: table;
+    margin: 0 auto;
+    a {
+        font-size: 2.5em;
+    }
 }
 .site-title {
     font-size: 26px;
@@ -31,8 +33,9 @@
 
 .site-nav {
     // float: left;
+    font-size: 1.3em;
     line-height: 56px;
-
+    border-bottom: 1px solid $grey-color-light;
     .menu-icon {
         display: none;
     }
@@ -109,7 +112,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    // border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 
 }
@@ -122,6 +125,8 @@
   margin: 0 auto;
   text-align: center;
   font-size: 12pt;
+  padding: 20px 0;
+  border-top: 1px solid $grey-color-light;
 }
 .contact-list,
 .social-media-list {
