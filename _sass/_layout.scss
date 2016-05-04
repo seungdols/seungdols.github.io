@@ -10,6 +10,15 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 }
+.header-text{
+    display: table;
+    margin: 0 auto;
+    span{
+        font-size: 1.1em;
+        font-style: italic;
+        color: $header-text-color;
+    }
+}
 .header-title{
     display: table;
     margin: 0 auto;
@@ -208,6 +217,7 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    float:right;
 }
 
 .post-link {
@@ -228,7 +238,8 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
-
+    color: $post-title-color;
+    text-align: center;
     @include media-query($on-laptop) {
         font-size: 36px;
     }
@@ -277,16 +288,19 @@
 
 .tags li a {
   padding: 1px 12px 2px 0px;
-  color: #bcc5c8;
+  color: $tag-color;
 }
 
 .tags li a:hover {
   color: #5e6d74;
 }
-
+.wrapper-tags{
+    min-height: 60px;
+}
 .post-tags {
   margin: 20px 0 0 0;
 }
 .tags-ul{
     margin-left: 0;
+    float:right;
 }
