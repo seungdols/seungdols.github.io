@@ -16,16 +16,8 @@ comments: true
 사용하는 방법은 간단합니다.
 (참고로 Class가 무엇인지, API가 무엇인지는 알고 계셔야 합니다.)
 
-```java
- public void longNumberSum(long x, long y)
-    {
-        BigInteger a = BigInteger.valueOf(x);
-        BigInteger b = BigInteger.valueOf(y);
-        BigInteger result = a.add(b);//Class 이므로 메소드 형태로 가감승제 외 다른 기능을 제공합니다.
+<script src="https://gist.github.com/seungdols/9f2ce274ae65fc8957cc9756b9a99c01.js"></script>
 
-        System.out.println(result);
-    }
-```
 예를 들어 인자로 x, y를 입력하는데 두 수의 크기가 long이고, 덧셈을 한다면 오버플로우(Overflow)를 발생할 수 있으습니다.
 
 오버플로우는 연산간의 오작동인데, 이를 악용한 해킹 기법도 존재하므로 없어야 하는 프로그램 상의 버그입니다.
