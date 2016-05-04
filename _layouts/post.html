@@ -21,9 +21,7 @@ layout: default
     </div>
     <div class="wrapper-tags">
         <ul class="tags post-tags tags-ul">
-            <li>
-            <img src="{{ site.baseurl }}/assets/img/tag.png" alt="tag-img" id="tag-img" />
-            </li>
+        
             {% for tag in page.tags %}
                 <li>
                     <a href="/blog/search/?tags={{ tag }}">{{ tag | downcase }}</a>
