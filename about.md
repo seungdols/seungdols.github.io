@@ -40,6 +40,8 @@ STIL 작성 규칙
     - [creatijin](http://creatijin.tistory.com)에게 ~~디자인 시안을 요청해둔 상태다.~~
     - 전반적인 디자인 시안은 [creatijin](http://creatijin.tistory.com)이 친구가 해주었고, 상세 설정은 내가 알아서 할 예정이다.
 - 기본적으로 도쿠위키를 사용중인데 5월 이내로 블로그에 데이터를 옮긴 후 깃허브가 아닌 클라우드에 동작 시킬지 말지 고민중이다.
+
+
 Who is Seungdols ?
 ====
 - 주로 `Seungdols` , `Seungdols Company`라는 별칭을 사용합니다.(그렇게 불러주세요)
