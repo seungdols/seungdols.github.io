@@ -22,7 +22,8 @@ TIL은 사실 Jay Jin님의 [Slideshare](http://www.slideshare.net/jayjin0427/ss
 - 심각하게 이쁘지 않다.
 - 시간이 많지 않다.(이건 뻥이다.)
 - 추후 테마도 손 보면서 확장 할 예정
-- [creatijin](http://creatijin.tistory.com)에게 디자인 시안을 요청해둔 상태다. 
+- [creatijin](http://creatijin.tistory.com)에게 ~~디자인 시안을 요청해둔 상태다.~~
+- 전반적인 디자인 시안은 [creatijin](http://creatijin.tistory.com)이 친구가 해주었고, 상세 설정은 내가 알아서 할 예정이다.
 
 ###Who is Seungdols ?
 - 그냥 저냥 개발하는 전공자
