@@ -9,6 +9,8 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    border-top: 1px solid $grey-color-light;
+
 }
 .header-text{
     display: table;
@@ -39,17 +41,30 @@
         color: $grey-color-dark;
     }
 }
+/******set social-link*******/
 .social-wrapper{
     float: right;
+}
+.social-link{
+    max-width: 32px;
+    max-height: 32px;
     .img-social{
         max-width: 32px;
         max-height: 32px;
     }
 }
+/*******hidding footer-social-link on desktop and laptop*********/
+@media screen and(min-width:700px) {
+    .footer-social-wrapper{display: none;}
+    .img-social{display: hidden;}
+}
+
+
+
 .site-nav {
     // float: left;
     font-size: 1.3em;
-    line-height: 56px;
+    line-height: 66px;
     border-bottom: 1px solid $grey-color-light;
     .menu-icon {
         display: none;
@@ -73,7 +88,9 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
-
+        /*******hidding nav-social-link on mobile*********/
+        .social-wrapper{display: none;}
+        .img-social{display: hidden;}
         .menu-icon {
             display: block;
             float: right;

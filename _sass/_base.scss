@@ -115,7 +115,6 @@ blockquote {
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
-    font-style: italic;
 
     > :last-child {
         margin-bottom: 0;
@@ -132,7 +131,7 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    // background-color: #eef;
 }
 
 code {
@@ -160,6 +159,7 @@ pre {
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 20px;//add margin-bottom because of header title spacing
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
@@ -186,19 +186,19 @@ pre {
 
 
 
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
-    }
-}
+// /**
+//  * Icons
+//  */
+// .icon {
+//
+//     > svg {
+//         display: inline-block;
+//         width: 16px;
+//         height: 16px;
+//         vertical-align: middle;
+//
+//         path {
+//             fill: $grey-color;
+//         }
+//     }
+// }
