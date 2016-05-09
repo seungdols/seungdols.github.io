@@ -21,10 +21,10 @@ layout: default
     </div>
     <div class="wrapper-tags">
         <ul class="tags post-tags tags-ul">
-        
+
             {% for tag in page.tags %}
                 <li>
-                    <a href="/blog/search/?tags={{ tag }}">{{ tag | downcase }}</a>
+                    <a href="{{site.baseurl}}/search/?tags={{ tag }}">{{ tag | downcase }}</a>
                 </li>
             {% endfor %}
         </ul>
