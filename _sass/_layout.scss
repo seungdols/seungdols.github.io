@@ -39,7 +39,13 @@
         color: $grey-color-dark;
     }
 }
-
+.social-wrapper{
+    float: right;
+    .img-social{
+        max-width: 32px;
+        max-height: 32px;
+    }
+}
 .site-nav {
     // float: left;
     font-size: 1.3em;
