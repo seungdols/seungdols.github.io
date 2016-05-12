@@ -295,6 +295,22 @@
             font-size: 18px;
         }
     }
+    /**
+     * Links
+     */
+    a {
+        color: $link-post-color;
+        text-decoration: none;
+
+        &:visited {
+            color: darken($brand-color, 15%);
+        }
+
+        &:hover {
+            color: lighten($link-post-color, 20%);
+            text-decoration: none;
+        }
+    }
 }
 
 /*Tag from https://alexpearce.me*/

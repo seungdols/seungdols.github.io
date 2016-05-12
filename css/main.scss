@@ -14,14 +14,16 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #2e3338;
+$text-color:       #363636;
 $background-color: #fdfdfd;
 $brand-color:      #9CA3A9;
 
 $grey-color:       #828282;
-$post-title-color: #828282;
+$blue-color:       #3b8ede;
+$post-title-color: darken($blue-color, 30%);
 $header-text-color:#BBBCBD;
 $tag-color:        #59CCAC;
+$link-post-color:  #FA5D5B;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
