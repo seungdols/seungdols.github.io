@@ -9,16 +9,24 @@ comments: true
 
 
 ##### 디렉토리 변경
-`  cd /etc/apt`
+```text
+cd /etc/apt
+```
 
 ##### 업데이트 서버 변경 (우분투 한국 서버 kr.archive.ubuntu.com )
-` sudo sed -i 's,http://.*ubuntu.com,http://old-releases.ubuntu.com,g' sources.list`
+```bash
+sudo sed -i 's,http://.*ubuntu.com,http://old-releases.ubuntu.com,g' sources.list
+```
 
 ##### Daum 서버
-`  sudo sed -i 's,http://.*ftp.duam.net,http://old-releases.ubuntu.com,g' sources.list`
+```bash
+sudo sed -i 's,http://.*ftp.duam.net,http://old-releases.ubuntu.com,g' sources.list
+```
 
 ##### 변경 완료 후 목록 갱신
-`  sudo apt-get update`
+```bash
+sudo apt-get update
+```
 
 ##### 우분투/윈도우 멀티 부팅시 윈도우 재설치 후 Grup 복구
 
