@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Python Guide"
-description:"python에 대해 배우자"
+description: "python에 대해 배우자"
 date: "2016-06-11 00:22"
 tags: [python, python-install]
 comments: true
