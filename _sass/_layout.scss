@@ -237,6 +237,14 @@
     }
 }
 
+.post-h2{
+    text-align: center;
+}
+
+.post-desc{
+    font-size: $small-font-size;
+    font-family: $post-desc-font;
+}
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
@@ -318,6 +326,7 @@
   padding: 0;
   list-style-type: none;
   font-size: 1.0em;
+  text-align: center;
 }
 
 .tags li {
