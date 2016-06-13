@@ -23,7 +23,7 @@ List <> = new ArrayList<>();
 List <> = new ArrayList<>();
 ```
 
-제네릭이 ++컴파일 타임의 Type Check에 대한 기능++을 기본적으로 가지게 되는데 `Java의 경우 컴파일 트릭`에 불과하다.
+제네릭이 **컴파일 타임의 Type Check에 대한 기능**을 기본적으로 가지게 되는데 `Java의 경우 컴파일 트릭`에 불과하다.
 
 ```java
 public class GenericsErasure {
@@ -150,7 +150,7 @@ C#의 경우 컴파일 되고나면, `IL (Intermediate Language)`로 번역이 �
   - delegate로 변함
 * 대리자 (delegate)
   - Function Pointer와 비슷함
-* [링큐 (LinQ)](#LinQ)
+* [링큐 (LinQ)](###LinQ)
 * 확장 메서드 (Extension Method)
 
 ### LinQ
