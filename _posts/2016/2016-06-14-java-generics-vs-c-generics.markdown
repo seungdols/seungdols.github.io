@@ -150,7 +150,7 @@ C#의 경우 컴파일 되고나면, `IL (Intermediate Language)`로 번역이 �
   - delegate로 변함
 * 대리자 (delegate)
   - Function Pointer와 비슷함
-* [링큐 (LinQ)](###LinQ)
+* 링큐 (LinQ)
 * 확장 메서드 (Extension Method)
 
 ### LinQ
