@@ -242,7 +242,7 @@
 }
 
 .post-desc{
-    font-size: $small-font-size;
+    font-size: $base-font-size;
     font-family: $post-desc-font;
 }
 .post-meta {
@@ -277,7 +277,8 @@
 }
 
 .post-content {
-    font-family: 'Roboto', sans-serif;
+    font-family: $post-content-font;
+    font-size: 1.1rem;
     margin-bottom: $spacing-unit;
 
     h2 {
