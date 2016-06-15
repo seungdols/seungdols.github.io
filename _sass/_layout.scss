@@ -278,7 +278,7 @@
 
 .post-content {
     font-family: $post-content-font;
-    font-size: 1.1rem;
+    font-size: $post-content-font-size;
     margin-bottom: $spacing-unit;
 
     h2 {
