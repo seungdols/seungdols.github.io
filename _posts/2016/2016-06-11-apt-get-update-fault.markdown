@@ -28,13 +28,14 @@ sudo sed -i 's,http://.*ftp.duam.net,http://old-releases.ubuntu.com,g' sources.l
 sudo apt-get update
 ```
 
-##### 우분투/윈도우 멀티 부팅시 윈도우 재설치 후 Grup 복구
+#### 우분투/윈도우 멀티 부팅시 윈도우 재설치 후 Grup 복구
 
-먼저 우분투 부팅 usb나 dvd로 부팅 후 우분투 설치 없이 사용함 클릭 후 우분투에 접속먼저 우분투 부팅 usb나 dvd로 부팅 후 우분투 설치 없이 사용함 클릭 후 우분투에 접속
+먼저 우분투 부팅 usb나 dvd로 부팅 후 우분투 설치 없이 사용함 클릭 후 우분투에 접속
 
 ```bash
 $ sudo add-apt-repository ppa:yannubuntu/boot-repair
-$ sudo apt-get update $ sudo apt-get install boot-repair -y
+$ sudo apt-get update
+$ sudo apt-get install boot-repair -y
 ```
 위 코드를 터미널에 하나씩 차례로 입력위 코드를 터미널에 하나씩 차례로 입력
 아래의 코드를 실행아래의 코드를 실행
