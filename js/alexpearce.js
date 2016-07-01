@@ -88,10 +88,10 @@ var layoutResultsPage = function(property, value, posts) {
         post     = posts[i],
         tags     = post.tags;
 
-    for (var j in tags) {
-      tagsList += '<li><a href="{{site.baseurl}}/search/?tags=' + tags[j] + '">' + tags[j].toLowerCase() + '</a></li>';
-    }
-    tagsList += '</ul>';
+    // for (var j in tags) {
+    //   tagsList += '<li><a href="{{site.baseurl}}/search/?tags=' + tags[j] + '">' + tags[j].toLowerCase() + '</a></li>';
+    // }
+    // tagsList += '</ul>';
 
     $container.find('ul.results').append(
       '<li>'
