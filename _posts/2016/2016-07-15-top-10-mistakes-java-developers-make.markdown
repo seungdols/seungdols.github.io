@@ -46,7 +46,7 @@ ArrayList<String> arrayList = new ArrayList<String>(Arrays.asList(arr));
 ```java
 Set<String> set = new HashSet<String>(Arrays.asList(arr));
 return set.contains(targetValue);
- ```
+```
 
 그 코드 작업들은 그러나 list를 set으로 변환하기 위해서 필요하지 않다. list를 set으로 변환하는 것은 긴시간을 요구된다.
 그것을 간단하게 할 수 있다.  
