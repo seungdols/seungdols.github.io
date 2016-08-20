@@ -291,17 +291,17 @@
 
     h3 {
         font-size: 26px;
-
+        text-align: center;
         @include media-query($on-laptop) {
             font-size: 22px;
         }
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 1.4em;
 
         @include media-query($on-laptop) {
-            font-size: 18px;
+            font-size: 1.2em;
         }
     }
     /**

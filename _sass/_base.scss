@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -141,7 +141,8 @@ code {
 pre {
     padding: 8px 12px;
     overflow-x: auto;
-
+    margin: 1em 2em;
+    border-radius: 5px;
     > code {
         border: 0;
         padding-right: 0;
