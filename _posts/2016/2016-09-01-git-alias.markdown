@@ -1,0 +1,63 @@
+---
+layout: "post"
+title: "git-alias"
+description: "깃 명령어 입력이 귀찮을 때, 써보자."
+date: "2016-09-01 00:08"
+tags: [git,study,git-alias]
+comments: true
+---
+
+보통 저는 깃 명령어를 콘솔에서 입력하는 편인데..
+
+쓰다보면, 굉장히 귀찮아 질 때가 많습니다..
+
+그렇다보니 우연히 알게 된 건데, `alias`라는 것이 존재합니다.
+
+역시 귀차니즘은 위대합니다.
+
+```bash
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
+$ git config --global alias.ci commit
+$ git config --global alias.st status
+```
+
+위 처럼, alias.co 로 checkout을 입력하게 되면, `git co`만 입력 해도 `git checkout`을 입력한 것과 동일합니다.
+
+참고로 `--global` 옵션을 주게 되면, 당연히 전역적인 설정이 됩니다. (해당 시스템 내에서 전체적으로 사용 가능..)
+
+```bash
+git config --global alias.last 'log -1 HEAD'
+```
+이렇게 입력하면, `git last` 명령어로 최근 커밋 로그를 확인 할 수 있습니다.
+
+[참고 - git의 기초](https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-Git-Alias)
+
+### 아래는 자주 사용하는 별칭
+
+```bash
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.br branch
+git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+git config --global alias.type 'cat-file -t'
+git config --global alias.dump 'cat-file -p'
+```
+
+이렇게 입력하는 것이 불편하다면, 아예 깃 설정 파일에 추가 하는 방법도 있다.
+
+```text
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+```
+
+이렇게 추가 할 수도 있다.
+
+[참고 - git how to alias](https://githowto.com/aliases)
