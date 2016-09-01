@@ -280,7 +280,9 @@
     font-family: $post-content-font;
     font-size: $post-content-font-size;
     margin-bottom: $spacing-unit;
-
+    p{
+        padding-left: 1.1em;
+    }
     h2 {
         font-size: 32px;
 
@@ -319,6 +321,10 @@
             color: lighten($link-post-color, 20%);
             text-decoration: none;
         }
+    }
+    img{
+        display: block;
+        margin: 10px auto;
     }
 }
 
