@@ -115,3 +115,7 @@ CSS, JS등 코드를 분석해 좋은 방향으로 작성을 돕는다.
 #### Emmet
 
 HTML 코드를 쉽고 빠르게 생성할 수 있게 해준다.
+
+---
+
+[ref - joshuajangblog](https://joshuajangblog.wordpress.com/2016/09/01/atom-plugins-cant-live-without-it/)
