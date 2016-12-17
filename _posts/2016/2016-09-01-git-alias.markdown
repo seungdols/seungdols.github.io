@@ -57,7 +57,23 @@ git config --global alias.dump 'cat-file -p'
   type = cat-file -t
   dump = cat-file -p
 ```
-
 이렇게 추가 할 수도 있다.
+
+## Alias 삭제
+
+```bash
+# 글로벌 설정 삭제
+$ git config --global --unset alias.ci
+# 지역 설정 삭제
+$ git config --unset alias.ci
+```
+
+## Alias 목록 보기
+
+```bash
+$ git config --global --get-regexp alias
+
+$ git config --get-regexp alias
+```
 
 [참고 - git how to alias](https://githowto.com/aliases)
