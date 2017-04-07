@@ -10,7 +10,7 @@ comments: true
 # JavaScript Deferred 객체와 promise
 
 요즘 업무를 하다보니 느낀 사실인데, 비동기 처리나, 동기처리에 관한 이슈가 늘 나를 덮치곤 했다.
-그런 이유로 JavaScript를 좀 더 잘하고 싶은 마음에 찾아본 자료를 참고하여 퍼온 자료를 정리해보았다.
+그런 이유로 JavaScript를 좀 더 잘하고 싶은 마음에 찾아본 자료를 정리해보았다.
 
 ## Deferred Object
 
@@ -105,6 +105,8 @@ In response to a successful request, the function's arguments are the same as th
 Incorporates the functionality of the .done() and .fail() methods, allowing (as of jQuery 1.8) the underlying Promise to be manipulated. Refer to deferred.then() for implementation details.
 
 jQuery의 ajax() 함수는 jqXHR 객체를 반환하는데, 1.5부터 이 객체는 promise 인터페이스를 구현하여, promise 메소드의 주요 기능을 구현했다고 합니다. jqXHR객체에 대해 더 알고 싶다면, [Deferred 객체](http://api.jquery.com/category/deferred-object/)에 대해 더 찾아 보면 될 것 같습니다.
+
+> Deprecation Notice: The jqXHR.success(), jqXHR.error(), and jqXHR.complete() callbacks are removed as of jQuery 3.0. You can use jqXHR.done(), jqXHR.fail(), and jqXHR.always() instead.
 
 ```javascript
 $.ajax({
