@@ -109,7 +109,7 @@ jQuery의 ajax() 함수는 jqXHR 객체를 반환하는데, 1.5부터 이 객체
 > Deprecation Notice: The jqXHR.success(), jqXHR.error(), and jqXHR.complete() callbacks are removed as of jQuery 3.0. You can use jqXHR.done(), jqXHR.fail(), and jqXHR.always() instead.
 
 ```javascript
-$.ajax({
+jQuery.ajax({
   url: "/seungdols/update",
   success: sucFunc,
   error: failFunc
@@ -119,8 +119,9 @@ $.ajax({
 위처럼 작성했다면 이제는 아래 코드처럼 변화했습니다.
 
 ```javascript
-var promise = $.ajax({
-  url: "/seungdols/update"
+var promise = jQuery.ajax({
+  url: "/seungdols/update",
+  data : params
 });
 
 promise.done(sucFunc);
@@ -130,8 +131,9 @@ promise.fail(failFunc);
 `then()`를 이용하여 성공시 콜백과 실패시 콜백을 둘 다 하나로 합칠 수 있습니다.
 
 ```javascript
-var promise = $.ajax({
-  url: "/seungdols/update"
+var promise = jQuery.ajax({
+  url: "/seungdols/update",
+  data: params
 });
 
 promise.then(sucFunc, failFunc);
@@ -144,9 +146,16 @@ promise.then(sucFunc, failFunc);
 3. promise를 서로 합칠 수 있습니다.
 
 ```javascript
-var promise1 = $.ajax("/seungdols/profile/update");
-var promise2 = $.ajax("/seungdols/profile/info");
-$.when(promise1, promise2).done(function(xhrObject1, xhrObject2) {
+var promise1 = jQuery.ajax({
+  url: "/seungdols/profile/update",
+  data : params
+});
+var promise2 = jQuery.ajax({
+  url: "/seungdols/profile/info",
+  data: params
+});
+
+jQuery.when(promise1, promise2).done(function(xhrObject1, xhrObject2) {
  //work
 });
 ```
@@ -154,22 +163,31 @@ $.when(promise1, promise2).done(function(xhrObject1, xhrObject2) {
 4. jQuery 1.8부터 then() chaining이 가능해졌습니다.
 
 ```javascript
-var promise = $.ajax("/seungdols/profile/update");
+var promise = jQuery.ajax({
+  url: "/seungdols/profile/update",
+  data: params
+});
 
 function getThumnailImg() {
-  return $.ajax("/seungdols/profile/thumnail");
+  return jQuery.ajax({
+    url: "/seungdols/profile/thumnail",
+    data: userId
+  });
 }
 
-promise.then(getThumnailImg).then(function(data) {
-
-});
+promise.then(getThumnailImg)
+       .then(function(data) {
+          //work1
+        })
+       .then(successFunc, failFunc);
 ```
+단, `then() chaining`이 가능해지면서 편리해진 것도 사실이지만, 중요한 점으로는 우선, 위 콜백 형태의 경우 `anonymous function`에서 `Error`가 발생하거나, `getThumnailImg Function error`가 발생할 경우, `failFunc`가 동작해야 하나, jQuery에서는 그렇게 동작하지 않는 문제로 인해 무분별한 `promise pattern` 사용을 금하는 게 좋다고 한다.
 
-Promise pattern은 ECMA Script 6에 정식 포함 되었으며, Chrome 브라우저에서도 native promise가 지원되기 시작했다.
-당연히 node.js에도 포함 되어 있을 터...추가적으로 promise를 쓰는 방식이 2가지가 존재한다고 합니다.
+`Promise pattern`은 `ECMA Script 6`에 정식 포함 되었으며, Chrome 브라우저에서도 32이후 부터 `native promise`가 지원되기 시작했다.
+당연히 node.js에도 포함 되어 있을 터...추가적으로 `promise`를 쓰는 방식이 2가지가 존재한다고 합니다.
 이것에 대해서는 좀 더 연구가 필요로 해보입니다.
 
-## [new Promise vs Promise.resolve()](http://han41858.tistory.com/11))
+## [new Promise vs Promise.resolve()](http://han41858.tistory.com/11)
 
 1. Async 로직을 감싸거나 할 때는 new Promise()를 쓰자!
 2. sync 로직인 경우 Promise.resolve()를 쓰자!
