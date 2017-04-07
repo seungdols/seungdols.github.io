@@ -82,7 +82,7 @@ jQuery.ajax(
 * [Promises/A+](https://promisesaplus.com/)
 * [Promises/A wiki](http://wiki.commonjs.org/wiki/Promises/A)
 
-jQuery의 ajax() 함수는 jqXHR 객체를 반환하는데, 1.5부터 이 객체는 promise 인터페이스를 구현하여, promise 메소드의 주요 기능을 구현했다고 한다. jqXHR객체에 대해 더 알고 싶다면, Deferred
+jQuery의 ajax() 함수는 jqXHR 객체를 반환하는데, 1.5부터 이 객체는 promise 인터페이스를 구현하여, promise 메소드의 주요 기능을 구현했다고 한다. jqXHR객체에 대해 더 알고 싶다면, [Deferred 객체](http://api.jquery.com/category/deferred-object/)에 대해 더 찾아 보면 될 것 같다.
 
 ```javascript
 $.ajax({
