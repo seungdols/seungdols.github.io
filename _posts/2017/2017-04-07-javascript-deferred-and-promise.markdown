@@ -10,7 +10,7 @@ comments: true
 # JavaScript Deferred 객체와 promise
 
 요즘 업무를 하다보니 느낀 사실인데, 비동기 처리나, 동기처리에 관한 이슈가 늘 나를 덮치곤 했다.
-그런 이유로 JavaScript를 좀 더 잘하고 싶은 마음에 찾아본 자료를 참고 출처에서 퍼온 자료를 정리해보았다.
+그런 이유로 JavaScript를 좀 더 잘하고 싶은 마음에 찾아본 자료를 참고하여 퍼온 자료를 정리해보았다.
 
 ## Deferred Object
 
