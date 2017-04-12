@@ -37,11 +37,11 @@ $ git config --global color.ui “auto”
 `git commit -m "커밋메시지"`
 
 * 스테이징 영역에 올라가 있는 파일들을 커밋합니다.
-* `-m` 은 커밋메시지를 주는 옵션으로 여러 줄의 커밋메시지를 쓸 경우 -m 을 여러개 사용할 수 있습니다.
+* `-m` 은 커밋메시지를 주는 옵션으로 여러 줄의 커밋메시지를 쓸 경우 `-m` 을 여러개 사용할 수 있습니다.
 
 `git commit -C HEAD -a --amend`
 * 지정한 커밋의 로그메시지를 다시 사용하여 기존커밋을 수정합니다.
-*`-c`를 사용하면 기존메시지를 수정할 수 있는 편집기를 실행해 줍니다.
+* `-c`를 사용하면 기존메시지를 수정할 수 있는 편집기를 실행해 줍니다.
 
 `git status`
 * 커밋되지 않은 변경사항을 조회합니다.
@@ -53,7 +53,8 @@ $ git config --global color.ui “auto”
 * 파라미터로 log와 동일하게 범위를 지정할 수 있으며 `--stat`를 추가하면 변경사항에 대한 통계를 볼 수 있습니다.
 
 `git mv 파일명 새파일명`
-* 기존에 존재하는 파일을 새파일로 이동합니다. 변경이력은 그대로 유지합니다.
+* 기존에 존재하는 파일을 새파일로 이동합니다.
+* 변경이력은 그대로 유지합니다.
 
 `git checkout -- 파일명`
 * 아직 스테이징이나 커밋을 하지 않은 파일의 변경내용을 취소하고 이전 커밋상태로 돌립니다.
@@ -80,7 +81,7 @@ $ git config --global color.ui “auto”
 
 `git branch -m 존재하는브랜치명 새로운브랜치명`
 * 존재하는 브랜치를 새로운브랜치로 변경합니다.
-* 이미 존재하는 브랜치명이 있을 경우에는 에러가 나는데 -M 옵션을 사용하면 이미 있는 브랜치의 경우에도 덮어씁니다.
+* 이미 존재하는 브랜치명이 있을 경우에는 에러가 나는데 `-M` 옵션을 사용하면 이미 있는 브랜치의 경우에도 덮어씁니다.
 
 `git tag 태그명 브랜치명`
 * 브랜치명의 현재시점에 태그명으로 된 태그를 붙힙니다.
@@ -122,10 +123,12 @@ $ git config --global color.ui “auto”
 * 갈 줄 앞에 커밋명과 커밋한 사람등의 정보를 볼 수 있습니다.
 
 `git blame -L 10,15 파일명`
-* `-L` 옵션을 사용하면 10줄부터 15줄로 범위를 지정해서 볼수 있고 `15`대신 `+5`와 같이 사용할 수 있습니다. 숫자의 범위 대신 정규식도 사용이 가능합니다.
+* `-L` 옵션을 사용하면 10줄부터 15줄로 범위를 지정해서 볼수 있고 `15`대신 `+5`와 같이 사용할 수 있습니다.
+* 숫자의 범위 대신 정규식도 사용이 가능합니다.
 
 `git blame -M 파일명`
-* `-M` 옵션을 사용하면 반복되는 패턴을 찾아서 복사하거나 이동된 내용을 찾아줍니다. * `-C` 옵션을 사용하면 파일간의 복사한 경우를 찾아줍니다.
+* `-M` 옵션을 사용하면 반복되는 패턴을 찾아서 복사하거나 이동된 내용을 찾아줍니다.
+* `-C` 옵션을 사용하면 파일간의 복사한 경우를 찾아줍니다.
 * `-C`는 git log에서도 사용가능하며 내용의 복사를 찾을때는 `git log`에서 `-p`옵션을 사용합니다.
 
 `git revert 커밋명`
@@ -150,12 +153,13 @@ $ git config --global color.ui “auto”
 * 원격저장소의 변경사항 가져와서 원격브랜치를 갱신합니다.
 
 `git pull`
-* `git fetch`에서 하는 원격저장소의 변경사항을 가져와서 지역브랙치에 합치는 작업을 한꺼번에 합니다.
+* `git fetch`에서 하는 원격저장소의 변경사항을 가져와서 지역브랜치에 합치는 작업을 한꺼번에 합니다.
 * 파라미터로 풀링할 원격저장소와 반영할 지역브랜치를 줄 수 있습니다.
 
 `git push`
 * 파라미터를 주지 않으면 origin 저장소에 푸싱하며 현재 지역브랜치와 같은 이름의 브랜치에 푸싱합니다.
-* `--dry-run` 옵션을 사용하면 푸싱된 변경사항을 확인할 수 있습니다. 로컬에서 `tag`를 달았을 경우에 기본적으로 푸싱하지 않기 때문에 `git push origin 태그명`이나 모든 태그를 올리기 위해서 `git push origin --tags`를 사용해야 합니다.
+* `--dry-run` 옵션을 사용하면 푸시된 변경사항을 확인할 수 있습니다.
+* 로컬에서 `tag`를 달았을 경우에 기본적으로 푸시 하지 않기 때문에 `git push origin 태그명`이나 모든 태그를 올리기 위해서 `git push origin --tags`를 사용해야 합니다.
 
 `git remote add 이름 저장소주소`
 * 새로운 원격 저장소를 추가합니다.
@@ -175,7 +179,8 @@ $ git config --global color.ui “auto”
 * 연관된 하위모듈을 확인할 수 있습니다.
 
 `git submodule add 저장소주소 서브모듈경로`
-* 새로운 하위모듈을 해당경로에 추가합니다. 추가만하고 초기화 하지는 않으며 커밋해쉬앞에 마이나스(-) 표시가 나타납니다.
+* 새로운 하위모듈을 해당경로에 추가합니다.
+* 추가만하고 초기화 하지는 않으며 commit hash 앞에 마이너스(-) 표시가 나타납니다.
 
 `git submodule init 서브모듈경로`
 * 서브모듈을 초기화 합니다.
@@ -268,55 +273,68 @@ git blame 명령을 사용하면, 해당 코드가 언제 수정되었는지 확
 
 ### 개별파일 원복
 
-```bash
-git checkout  -- <파일> : 워킹트리의 수정된 파일을 index에 있는 것으로 원복
-git checkout HEAD -- <파일명> : 워킹트리의 수정된 파일을 HEAD에 있는 것으로 원복(이 경우 --는 생략가능)
-git checkout FETCH_HEAD -- <파일명> : 워킹트리의 수정된 파일의 내용을 FETCH_HEAD에 있는 것으로 원복? merge?(이 경우 --는 생략가능)
-```
+`git checkout <파일>`
+* 워킹트리의 수정된 파일을 index에 있는 것으로 원복
+
+`git checkout HEAD <파일명>`
+* 워킹트리의 수정된 파일을 HEAD에 있는 것으로 원복(이 경우 --는 생략가능)
+
+`git checkout FETCH_HEAD <파일명>`
+* 워킹트리의 수정된 파일의 내용을 FETCH_HEAD에 있는 것으로 원복? merge?(이 경우 --는 생략가능)
+
 
 ### index 추가 취소
 
-```bash
-git reset -- <파일명> : 해당 파일을 index에 추가한 것을 취소(unstage). 워킹트리의 변경내용은 보존됨. (--mixed 가 default)
-git reset HEAD <파일명> : 위와 동일
-```
+`git reset -- <파일명>`
+* 해당 파일을 index에 추가한 것을 취소(unstage). 워킹트리의 변경내용은 보존됨. (--mixed 가 default)
+
+`git reset HEAD <파일명>`
+* 위와 동일
+
 
 ### commit 취소
 
-```bash
-# commit 후 수정 안하고, 바로 명령어를 입력하면 커밋 메시지만 변경 된다.
-git commit --amend
-```
+`git commit --amend`
+* commit 후 수정 안하고, 바로 명령어를 입력하면 커밋 메시지만 변경 된다.
 
-```bash
-git reset HEAD^ : 최종 커밋을 취소. 워킹트리는 보존됨. (커밋은 했으나 push하지 않은 경우 유용)
-git reset HEAD~2 : 마지막 2개의 커밋을 취소. 워킹트리는 보존됨.
-git reset --hard HEAD~2 : 마지막 2개의 커밋을 취소. index 및 워킹트리 모두 원복됨.
-git reset --hard ORIG_HEAD : 머지한 것을 이미 커밋했을 때,  그 커밋을 취소. (잘못된 머지를 이미 커밋한 경우 유용)
-git revert HEAD : HEAD에서 변경한 내역을 취소하는 새로운 커밋 발행(undo commit). (커밋을 이미 push 해버린 경우 유용)
-```
+`git reset HEAD^`
+* 최종 커밋을 취소. 워킹트리는 보존됨. (커밋은 했으나 push하지 않은 경우 유용)
+
+`git reset HEAD~2`
+* 마지막 2개의 커밋을 취소. 워킹트리는 보존됨.
+
+`git reset --hard HEAD~2`
+* 마지막 2개의 커밋을 취소. index 및 워킹트리 모두 원복됨.
+
+`git reset --hard ORIG_HEAD`
+* 머지한 것을 이미 커밋했을 때,  그 커밋을 취소. (잘못된 머지를 이미 커밋한 경우 유용)
+
+`git revert HEAD`
+* HEAD에서 변경한 내역을 취소하는 새로운 커밋 발행(undo commit). (커밋을 이미 push 해버린 경우 유용)
+
 ### 워킹트리 전체 원복
 
-```bash
-git reset --hard HEAD : 워킹트리 전체를 마지막 커밋 상태로 되돌림. 마지막 커밋이후의 워킹트리와 index의 수정사항 모두 사라짐. (변경을 커밋하지 않았다면 유용)
-git checkout HEAD . : 워킹트리의 모든 수정된 파일의 내용을 HEAD로 원복.
-git checkout -f : 변경된 파일들을 HEAD로 모두 원복(아직 커밋하지 않은 워킹트리와 index 의 수정사항 모두 사라짐. 신규추가 파일 제외)
-```
+`git reset --hard HEAD `
+* 워킹트리 전체를 마지막 커밋 상태로 되돌림. 마지막 커밋이후의 워킹트리와 index의 수정사항 모두 사라짐. (변경을 커밋하지 않았다면 유용)
+
+`git checkout HEAD . `
+* 워킹트리의 모든 수정된 파일의 내용을 HEAD로 원복.
+
+`git checkout -f`
+* 변경된 파일들을 HEAD로 모두 원복(아직 커밋하지 않은 워킹트리와 index 의 수정사항 모두 사라짐. 신규추가 파일 제외)
+
 
 참조 : reset 옵션
 
-```bash
---soft : index 보존, 워킹트리 보존. 즉 모두 보존.
---mixed : index 취소, 워킹트리만 보존 (기본 옵션)
---hard : index 취소, 워킹트리 취소. 즉 모두 취소.
-```
+* `--soft` : index 보존, 워킹트리 보존. 즉 모두 보존.
+* `--mixed` : index 취소, 워킹트리만 보존 (기본 옵션)
+* `--hard` : index 취소, 워킹트리 취소. 즉 모두 취소.
 
-untracked 파일 제거
 
-```bash
-git clean -f
-git clean -f -d : 디렉토리까지 제거
-```
+##### untracked 파일 제거
+
+* `git clean -f`
+* `git clean -f -d` : 디렉토리까지 제거
 
 ----
 
@@ -335,17 +353,13 @@ git config --global alias.last 'log -1 HEAD'
 
 ## Git remote branch 가져오기
 
-```bash
-git branch
-git branch -r # 원격 브랜치 목록
-git branch -a # 모든 브랜치 목록
+* `git branch`
+* `git branch -r` : 원격 브랜치 목록
+* `git branch -a` : 모든 브랜치 목록
+* `git checkout remote이름/branch이름`
+* `git checkout -b 생성할브랜치이름 원격브랜치이름`
+* `git checkout -t remote이름/branch이름`
 
-git checkout remote이름/branch이름
-
-git checkout -b 생성할브랜치이름 원격브랜치이름
-
-git checkout -t remote이름/branch이름
-```
 
 ## Reset 한 것을 취소하기
 
@@ -361,7 +375,6 @@ git reset --hard HEAD@{num}
 ## 하던 일을 stashing 하기
 
 작업을 막 하다가 갑자기 다른 일을 먼저 처리 해야 할 때가 있다.
-
 그럴때, 현재 작업 트리를 temp로 저장시킬 수 있다.
 
 ```bash
@@ -380,12 +393,15 @@ $ git stash list
 $ git stash apply
 ```
 
-해당 명령어 입력시 가장 최근의 stash를 적용한다. 다른 것을 적용 하고자 한다면, stash 이름을 입력하면 된다.
-`--index` 옵션을 주어야 staged 상태까지 복원이 된다.
+* 해당 명령어 입력시 가장 최근의 stash를 적용한다.
+* 다른 것을 적용 하고자 한다면, stash 이름을 입력하면 된다.
+* `--index` 옵션을 주어야 staged 상태까지 복원이 된다.
 
 ### Stash list 깔끔하게 정리하기
 
-stash list는 자동으로 삭제가 되지 않는다. 단, 한 경우를 제외하면 말이다. 바로 stash로 branch를 만들고, 그 것이 성공 했을 때를 제외하면, list를 수동으로 삭제 해주어야 한다.
+* stash list는 자동으로 삭제가 되지 않는다.
+* 단, 한 경우를 제외하면 말이다.
+* 바로 stash로 branch를 만들고, 그것이 성공 했을 때를 제외하면, list를 수동으로 삭제 해주어야 한다.
 
 ```bash
 $ git stash drop stash@{0}
@@ -393,8 +409,8 @@ $ git stash drop stash@{0}
 
 ### **Stash 되돌리기**
 
-stash를 적용하고 나니, 아차...이건 아니다 싶을 때 다시 복원하는 방법이다.
-이 것은 중요한 점은 아무래도 stash unapply를 지원하지 않아 우회적으로 사용하는 방법이다.
+* stash를 적용하고 나니, 아차...이건 아니다 싶을 때 다시 복원하는 방법이다.
+* 중요한 점은 아무래도 `stash unapply`를 지원하지 않아 우회적으로 사용하는 방법이다.
 
 ```bash
 $ git stash show -p stash@{0} | git apply -R
