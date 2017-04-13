@@ -422,7 +422,7 @@ $ git stash show -p stash@{0} | git apply -R
 git config --global alias.stash-unapply '!git stash show -p | git apply -R'
 ```
 
-### Stash를 적용한 브랜드 만들기
+### Stash를 적용한 브랜치 만들기
 
 ```bash
 git stash branch testchanges
