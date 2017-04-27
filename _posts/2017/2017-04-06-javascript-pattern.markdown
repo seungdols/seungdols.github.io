@@ -684,9 +684,359 @@ addTwoCurry(45,4);
     * 메모이제이션 패턴 : 함수 프로퍼티를 사용해 계산 된 값을 저장하고, 그 값을 사용한다. 
     * 자기선언 함수 : 자기 자신을 덮으씀으로 두번 째 호출 이후부터 작업량을 줄이는 용도
 
+---
+
+## 5장 Patterns
+
+#### 네임스페이스 패턴 
+
+네임스페이스 패턴을 사용함으로써 전역 변수를 줄 일 수 있는 패턴으로 흔히 사용한다. 
+
+```javascript
+var SH = {};
+
+SH.Parent = function () {};
+SH.Child = function() {};
+
+SH.seungdols = 1;
+SH.hello_module = {};
+SH.hello_module.korean_hello = {};
+SH.hello_module.korean_hello.data = {HI: '안녕하세요 ?', Hello: '안녕?'};
+SH.hello_module.english_hello = {};
+```
+
+전역 네임스페이스 객체의 이름은 보통 어플리케이션 이름이나 라이브러리의 이름, 도메인명, 회사 이름 중에서 선택하여 사용하곤 한다.
+보통 전역 객체 이름은 모두 대문자로 쓰는 명명 규칙을 사용한다.
+
+장점 
+
+* 코드 내의 이름 충돌을 방지해준다.
+* 전역변수를 줄일 수 있다. 
+
+단점 
+
+* 모든 변수, 함수에 접두어를 붙여야 한다. 
+* 전역 인스턴스는 하나이므로, 일부분이 수정되면, 전역 인스턴스를 수정 하게 된다.
+* 이름이 중첩되고, 길어져 가독성은 나빠질 수 있다. 
+
+##### 범용 네임스페이스 함수 
+
+```javascript
+var SH = {}; //이렇게 쓰면, 기존에 있는 이름과 충돌 가능성이 높다.
+
+if (typeof SH === 'undefined') {//개선안
+    var SH = {};
+}
+
+var SH = SH || {};
+```
+
+기존 코드를 망가뜨리지 않고, 네임스페이스를 만드는 네임스페이스 함수를 구현 할 수 있다. 
+
+```javascript
+var SH = SH || {};
+SH.namespace = function(ns_string) {
+    var parts = ns_string.split('.'),
+        parent = SH,
+        i;
+
+    if (parts[0] === "SH") {
+        parts = parts.slice(1);
+    }
+    for (i = 0; i < parts.length; i+= 1) {
+        if (typeof parent[parts[i]] === "undefined") {
+            parent[parts[i]] = {};
+        }
+
+        parent = parent[parts[i]];
+    }
+    return parent;
+};
+```
+
+위 함수를 가지고 네임스페이스를 안전하게 만들 수 있다. 
+
+```javascript
+SH.namespace("SH.modules.hello");
+```
+
+#### 비공개 프로퍼티와 메서드 
+
+자바스크립트에는 private, protected, public 프로퍼티와 메서드를 나타내는 별도 문법적인 방법이 없으나, 클로저를 이용해 비공개 멤버를 구현 할 수 있다.
+
+```javascript
+function private_member() {
+    var sh = "seungdols";
+    this.getSH = function() {//특권 메서드(privileged method)
+        return sh;
+    };
+}
+
+var seungdols = new private_member();
+
+console.log(seungdols.sh);//접근 안됨.
+console.log(seungdols.getSH);//접근 됨.
+```
+
+객체 리터럴로 만드는 방법
+
+```javascript
+var myobj = (function () {
+    var name = "seungdols';
+
+    return { 
+        getName: function() {
+            return name;
+        }
+    };
+}());
+```
+
+자바스크립트에서 클로저를 활용한 비공개 멤버를 쉽게 구현 할 수 있다. 
+
+비공개 멤버의 허점 
+
+* 파폭 초기 버전 일부는 eval() 함수에 두 번째 매개변수를 전달 할 수 있게 되어 있어 비공개 유효범위에도 접근 할 수 있다.
+* 특권 메서드에서 비공개 변수의 값을 바로 반환할 경우 참조가 반환되어 외부 코드에서 비공개 변수 값을 수정할 수 있게 된다.
+
+생성자를 사용해 비공개 멤버를 만들 경우 생성자를 호출하여 새로운 객체를 만들기 때문에 비공개 멤버가 매번 재생성 된다는 단점이 있다. 
+이를 해결하려면, 공통 프로퍼티와 메서드를 생성자의 prorotype 프로퍼티에 추가해야 한다. 이렇게 하면, 감춰진 비공개 멤버들도 모든 인스턴스가 함께 쓸 수 있다. 
+이를 위해서는 , 생성자 함수 내부에 비공개 멤버를 만드는 패턴과 객체 리터럴로 비공개 멤버를 만드는 패턴을 함께 써야 한다. 
+
+```javascript
+function Seungdols() {
+    var name = "seungdols"
+    this.getName = function() {
+        return name;
+    };
+}
+
+Seungdols.prototype =(function() {
+    var browser = "Chrome";
+    return {
+        getBrowser: function() {
+            return browser;
+        }
+    };
+}());
+
+var sh = new Seungdols();
+console.log(sh.getName());
+console.log(sh.getBrowser());
+```
+
+##### 비공개 함수를 공개 메서드로 노출시키는 방법 
+
+노출 패턴은 비공개 메서드를 구현하면서 동시에 공개 메서드로도 노출하는 것을 말한다. 
+
+```javascript
+var SH;
+
+(function () {
+    var isEmpty = false;
+
+    function isEmpty() {
+        //
+    }
+
+    function isNotEmpty() {
+        //
+    }
+
+    SH = {
+        isEmpty: isEmpty,
+        isNotEmpty: isNotEmpty
+    };
+}());
+```
+
+마지막 부분에서 접근을 허용해도 괜찮은 부분에 대해 SH 객체에 추가해준다. 즉, SH를 통해서는 공개 메서드가 되나, 다른 부분에서는 비공개 멤버가 된다. 
+
+#### 모듈 패턴 
+
+늘어나는 코드를 구조화하고, 정리하는데 도움되는 패턴이다. 이 패턴을 이용하면, 개별적인 코드를 느슨하게 결합시킬 수 있다.
+모듈패턴은 여러개의 패턴을 조합한 것을 말한다. 
+
+* 네임스페이스 패턴
+* 즉시 실행 함수 
+* 비공개 멤버와 특권 멤버
+* 의존 관계 선언 
+
+```javascript
+SEUNGDOLS.namespace('SEUNGDOLS.utilites.ArrayUtils');
+
+SEUNGDOLS.utilities.ArrayUtils = (function() {
+    //의존 관계 
+    var obj = SEUNGDOLS.utilities.object,
+        lang = SEUNGDOLS.utilities.lang,
+
+        array_string = "[object Array]",
+        tos = Object.prototype.toString;
+
+    //비공개 메서드 
+    //...
+
+    //var 선언 끝
+
+    //일회성 초기화 실행 
+    //...
+
+    //공개 API
+    return {
+        //1
+        
+        //2
+    }
+}());
+```
+
+모듈 패턴은 점점 늘어가는 코드를 정리 할 때 널리 사용하며, 추천 되는 방법이다.
 
 
+참고 
+* [영문서이나 괜찮은 문서](http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html)
 
 
+#### 모듈에 전역변수 가져오기 
+
+모듈을 감싼 즉시 실행 함수에 인자를 전달하는 형태가 있는데, 보통 전역 변수에 대한 참조 또는 전역 변수 자체를 전달한다. 
+이렇게 전달을 하게 되면, 탐색작업이 좀 더 빨라진다. 
+
+```javascript
+SEUNGDOLS.utilities.module = (function (app, global) {
+    //
+    //
+}(SEUNGDOLS,this));
+```
+
+
+#### 샌드박스 패턴
+
+네임스페이스 패턴의 단점을 해결해주는 패턴이다. 더군다나 전역 네임스페이스를 보호해주는 역할을 한다. (아직 이해가 잘...)
+
+```javascript
+function Sandbox() {
+    var args = Array.prototype.slice.call(arguments),
+        callback = args.pop(),
+        modules = (args[0] && typeof args[0] === "string" ) ? args : args[0],
+        i;
+
+        //함수가 생성자로 생성되도록 보장
+        if(!(this instanceof Sandbox)) {
+            return new Sandbox(modules, callback);
+        }
+
+        //this에 필요한 프로퍼티들을 추가
+        this.a = 1;
+        this.b = 2;
+
+        // core this 객체에 모듈 추가
+        if( !modules || modules === "*" || modules[0] === "*") {
+            modules = [];
+            for (i in Sandbox.modules) {
+                if (Sandbox.modules.hasOwnProperty(i)) {
+                    modules.push(i);
+                }
+            }
+        }
+
+        //필요한 모듈들 초기화
+        for ( i = 0; i < modules.length; i+= 1) {
+            Sandbox.modules[modules[i]](this);
+        }
+
+        callback(this);
+}
+
+Sandbox.prototype = {
+    name : "seungdols Application",
+    version : "1.0",
+    getName : function () {
+        return this.name;
+    }
+};
+
+Sandbox('dom','hello', function() {
+    console.log('hello');
+});
+
+```
+
+#### 스태틱 멤버
+
+스태틱 프로퍼티와 메서드란 인스턴스에 따라 달라지지 않는 프로퍼티와 메서드를 말한다. 
+자바스크립트 언어에서는 스태틱 멤버를 지칭하는 문법이 지원 되지 않는다. 하지만, 생성자에 프로퍼티를 추가하여 구현할 수 있다. 
+
+##### 공개 스태틱 멤버
+
+```javascript 
+var Gadget = function() {};
+
+Gadget.isShiny = function() {
+    return "you bet";
+};
+
+Gadjet.prototype.setPrice = function(price) {
+    this.price = price;
+};
+```
+
+위처럼 코드를 작성하면, 위험한 점이 존재하게 된다. Gadget.isShiny()를 호출 하면, 내부의 this는 Gadget 생성자를 가리키지만, 아래 코드에서는 위험하다. 
+
+```javascript
+var iphone = new Gadget();
+iphone.setPrice(1000);
+
+typeof Gadget.setPrice;
+typeof iphone.isShiny;
+```
+스태틱 메서드가 인스턴스를 통해 호출 했을 때도 동작한다면, 편리한 경우가 있을 수 있는데, 이 때는 프로토타입에 메서드를 추가 하는 것만으로도 가능하다. 
+그러나, 문제가 포함되어 있다. 
+
+스태틱 메서드 안에서 this를 사용할 떄 주의해야 한다. Gadget.isShiny()를 호출했을 떄는 isShiny()는 가젯 생성자를 가리키지만, iphone, isShiny()를 호출 했을 때는 this가 iphone을 가리키게 된다. 
+
+##### 비공개 스태틱 멤버
+
+* 동일한 생성자 함수로 생성된 객체들이 공유하는 멤버다.
+* 생성자 외부에서는 접근할 수 없다.
+
+먼저 클로저 함수를 만들고, 비공개 멤버를 이 함수로 감싼 후, 이 함수를 즉시 실행한 결과로 새로운 함수를 반환하게 한다. 
+
+```javascript
+var Gadget = (function() {
+    var counter = 0;
+    return function() {
+        console.log(counter += 1);
+    };
+}());
+```
+
+실제로 카운터 값을 인스턴스끼리 공유하는 것을 확인 할 수 있다. 
+
+#### 체이닝 패턴 
+
+객체에 연쇄적으로 메서드를 호출 할 수 있도록 하는 패턴이다. 
+
+* 코드량이 줄어 들고, 간결해진다. 
+* 디버깅이 어렵다.
+
+양날의 검인듯 하지만, 알아 두면 좋을 듯한 패턴이다. 
+메서드에서 return 할 때에 this를 리턴하면 체이닝이 가능해진다. 
+
+#### method() 패턴 
+
+더글라스 크락포드가 고안한 클래스 기반의 언어에 적응한 사람들이 메서드를 구현하는 방식을 고안했다. 허나 이 방법을 추천하지는 않는다. 
+
+생성자 본문 내에 인스턴스 프로퍼티를 추가 할 수 있다. 그러나 this에 인스턴스 메서드를 추가하게 되면, 인스턴스 마다 메서드가 재생성 되어 메모리를 잡아 먹어 비효율적이다.
+
+```javascript
+
+if (typoef Function.prototpye.method !== "function") {
+    Function.prototype.method = function(name, implementation) {
+        this.prototype[name] = implementation;
+        return this;
+    };
+}
+```
 
 
