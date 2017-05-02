@@ -427,3 +427,15 @@ git config --global alias.stash-unapply '!git stash show -p | git apply -R'
 ```bash
 git stash branch testchanges
 ```
+
+### remote에서 merge 완료 된 것 local에서 안보도록 하는 방법
+
+```bash
+alias git-clear='git fetch -p && git branch --merged | grep -v "\*" | grep -v master | grep -v dev | xargs -n 1 git branch -d'
+```
+
+### git log 이쁘게 보기
+
+```bash
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+```
