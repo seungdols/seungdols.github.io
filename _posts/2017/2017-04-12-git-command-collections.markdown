@@ -34,6 +34,9 @@ $ git config --global color.ui “auto”
 `git add 파일명`
 * 해당 파일을 추척함.
 
+`git add -u`
+* Tracked file 중 수정 된 파일 전체를 staged file 상태로 만든다.
+
 `git commit -m "커밋메시지"`
 
 * 스테이징 영역에 올라가 있는 파일들을 커밋합니다.
@@ -95,6 +98,9 @@ $ git config --global color.ui “auto”
 
 `git rebase 브랜치명`
 * 브랜치명의 변경사항을 현재 브랜치에 적용합니다.
+
+`git rebase -i HEAD~~~`
+* 현재 HEAD에서 commit 3개 전까지를 rebase 대상으로 설정한다.
 
 `git merge 브랜치명`
 * 브랜치명의 브랜치를 현재 브랜치로 합칩니다.
