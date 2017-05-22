@@ -283,27 +283,59 @@
     p{
         padding-left: 1.1em;
     }
-    h2 {
+    h1 {
         font-size: 32px;
-
+        background-color: $text-color;
+        color: $background-color;
+        padding: 10px 10px;
+        text-align: center;
+        margin-bottom: 1.1em;
         @include media-query($on-laptop) {
             font-size: 28px;
+            background-color: $text-color;
+            color: $background-color;
+            padding: 10px 10px;
+            text-align: center;
+        }
+    }
+    h2 {
+        font-size: 26px;
+        padding: 10px 10px;
+        border-bottom: 2px dotted $grey-color;
+        @include media-query($on-laptop) {
+            font-size: 22px;
+            padding: 10px 10px;
+            border-bottom: 2px dotted $grey-color;
         }
     }
 
     h3 {
-        font-size: 26px;
-        text-align: center;
+        font-size: 24px;
+        border-left: 5px solid $text-color;
+        padding: 10px;
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: 20px;
+            border-left: 5px solid $text-color;
+            padding: 10px;
         }
     }
 
     h4 {
-        font-size: 1.4em;
-
+        font-size: 22px;
+        border-bottom: 1px solid $text-color;
+        padding: 10px;
         @include media-query($on-laptop) {
-            font-size: 1.2em;
+            font-size: 18px;
+            border-bottom: 1px solid $text-color;
+            padding: 10px;
+        }
+    }
+    h5 {
+        font-size: 20px;
+        padding: 10px;
+        @inclue media-query($on-laptop) {
+            font-size:16px;
+            padding: 10px;
         }
     }
     /**
