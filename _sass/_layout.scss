@@ -222,6 +222,10 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+
+    li {
+        margin: 10px 0;
+    }
 }
 
 .page-heading {
