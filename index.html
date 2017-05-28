@@ -3,7 +3,7 @@ layout: default
 ---
 <section>
     <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <div class="post-wrapper">
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -20,10 +20,24 @@ layout: default
             {% endfor %}
         </ul>
       </li>
-
-
-
     </div>
     {% endfor %}
   </ul>
+  <!-- Pagination links -->
+<div class="pagination">
+    <div class="pagination-previous">
+          {% if paginator.previous_page %}
+            <a href="/blog{{ paginator.previous_page_path }}" class="pagination-link">Previous</a>
+          {% else %}
+            <span class="previous">Previous</span>
+          {% endif %}
+      </div>
+      <div class="pagination-next">
+          {% if paginator.next_page %}
+            <a href="/blog{{ paginator.next_page_path }}" class="pagination-link">Next</a>
+          {% else %}
+            <span class="next ">Next</span>
+          {% endif %}
+      </div>
+ </div>
 </section>
