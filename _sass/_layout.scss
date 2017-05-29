@@ -222,6 +222,10 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+
+    li {
+        margin: 10px 0;
+    }
 }
 
 .page-heading {
@@ -395,5 +399,22 @@
 .results{
     li{
         font-size: $base-font-size+0.3;
+    }
+}
+
+/*pagination*/
+.pagination {
+    .pagination-previous {
+        float: left;
+        font-size: 1.1em;
+
+    }
+    .pagination-next {
+        float: right;
+        font-size: 1.1em;
+    }
+
+    .pagination-link {
+        color: $link-post-color;
     }
 }

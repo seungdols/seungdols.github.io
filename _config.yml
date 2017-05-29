@@ -16,6 +16,13 @@ permalink: pretty
 url: "http://seungdols.github.com" # the base hostname & protocol for your site
 twitter_username: seungdols
 github_username:  seungdols
+timezone: Asia/Seoul
+gems:
+- jekyll-paginate
+
+#pagination
+paginate: 5
+paginate_path: "page/:num/"
 
 # Build settings
 # highlighter: rouge
