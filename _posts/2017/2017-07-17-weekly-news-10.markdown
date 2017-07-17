@@ -1,0 +1,40 @@
+---
+layout: "post"
+title: "weekly-news-#10"
+description: "그냥 저냥 #위클리뉴스 #10"
+date: "2017-07-17 13:30"
+tags: [weekly-news, programming]
+comments: true
+---
+
+# 그냥 저냥 #위클리뉴스 #10
+
+## 개발
+
+- [기술 뉴스 #82 : 17-07-15](https://blog.outsider.ne.kr/1302) : 먹으면 득이 되는 음식과도 같다.
+
+- [kakao의 오픈소스 Ep7 - CMUX: CLI에 날개를 달자!](http://tech.kakao.com/2017/07/12/opensource-7-cmux/)
+
+- [데이터 워크 플로우 관리를 위한 Apache Airflow](http://bcho.tistory.com/1184) : 점점 병렬처리 관련 플랫폼은 늘어나는 것만 같다.
+
+- [How to get started with Kubernetes](http://www.infoworld.com/article/3207686/cloud-computing/how-to-get-started-with-kubernetes.html)
+
+- [java의 몇가지 이야기](http://aoruqjfu.fun25.co.kr/index.php/post/1812)
+
+- [[es2015+] class문은 특별할까?](http://www.bsidesoft.com/?p=5370) : Hika님 회사 블로그인데, 중급 난도의 js 내용이 오랜만에 올라왔다.
+
+- [리스코프 치환 원칙](http://aoruqjfu.fun25.co.kr/index.php/post/1780) : 객체 지향 설계에 관한 원칙 5가지 솔리드의 한 가지인데, 가장 애매한 느낌을 준다.
+
+- [개방 폐쇄 원칙](http://aoruqjfu.fun25.co.kr/index.php/post/1726) : 머루님의 블로그는 자바 관련해서 난도가 꽤 높은편이다.
+
+- [알고리즘 논란은 알고리즘으로 치유를..](http://hamait.tistory.com/852) : 그 유명한 알고리즘 관련 논쟁이 okky에서 일어났었다.
+
+  ​
+
+
+
+## 기사
+
+- [모비두, 롯데멤버스 이어 캡스톤 투자 유치](http://www.thebell.co.kr/front/free/contents/news/article_view.asp?key=201707070100012010000706&svccode=&page=1)
+- [인플루언서 쇼핑앱 ‘브랜디’, 64억원 규모 투자 유치](http://platum.kr/archives/84747)
+- [카카오 미니 공개](http://www.zdnet.co.kr/news/news_view.asp?artice_id=20170710103946)
