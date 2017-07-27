@@ -1,0 +1,29 @@
+---
+layout: "post"
+title: "weekly_news_11"
+description: "그냥 저냥 #위클리뉴스 #11"
+date: "2017-07-27 20:17"
+tags: [weekly_news, programming]
+comments: true
+---
+
+## 개발
+
+- [Tech HR 컨퍼런스 참석 후기](http://jojoldu.tistory.com/163) : 이런건 꼭 봐야 하는 컨퍼런스 후기이고, 이분의 후기 정리는 개발자 중 갑인듯하다.
+- [Spring bean LifeCycle](http://aoruqjfu.fun25.co.kr/index.php/post/1820) : 기본적은 생명주기는 중요한법이다. 기본을 알아야 응용을 할 수 있을테니..
+- [내 맘대로 위클리 뉴스 - 2017년 28주(07월 14일)](https://www.sangkon.com/2017/07/16/sigamdream_weekly_2017_28/)
+- [Using IntelliJ IDEA to Develop Apps With Grails 3](https://dzone.com/articles/why-intellij-idea-is-the-premier-ide-for-grails-3)
+- [21 rules for faster SQL queries](http://www.infoworld.com/article/3209665/application-development/21-rules-for-faster-sql-queries.html)
+- [어려운 것을 쉽게 배우는 방법 : 슈퍼 파워를 장착하기 위한 3단계 학습법](http://www.moreagile.net/2016/02/learning-new-stuff.html?m=1) : 아주 군더더기 없는 글이다. 결국 실천하는 사람이 빨리 배운다. (한국어 번역)
+- [내 맘대로 위클리뉴스 07월 21일](https://www.sangkon.com/2017/07/21/sigamdream_weekly_2017_29/) : graphQL이 또 떠오르는 강자가 되는건가..이미 강자가 되고 있는지도 모른다.
+
+
+
+## 기사
+
+- [크레용웍스, 네이버 검색광고 자동 운영 솔루션](http://www.etnews.com/20170718000155) : 인공지능은 아니라서 다행이다. 차라리 인공지능 아닌 솔루션이 나을듯.
+- [테슬라 전기차에도 구매보조금 지급한다...이르면 9월 중순부터](http://www.etnews.com/20170717000229)
+- [택시사업 막힌 우버, 음식 배달로 한국 '노크'](http://v.media.daum.net/v/20170718173703910)
+- [가상화폐 거래소 '코인원'](http://glance.media/sendy/l/oUXN0LyBotfoX8921o7ffGYg/dU892sZqqwmgSpiAShutvoNQ/f9pBKWe4hZmCKS2VkWpLyQ) : 코인원 거래소가 생각보다 잘 짜여진 싸이트라 신기했는데, 대표가 후덜덜한 보안 능력을 지닌 고수였다.
+- [그는 당신의 비즈니스에 별로 관심이 없다.](https://brunch.co.kr/@mirr5510/19)
+- [아마존, 메시징 앱 '애니타임' 만든다](http://www.zdnet.co.kr/news/news_view.asp?artice_id=20170717080418) : 상품주문이나 예약까지 가능하다는 것이 장점…이를테면, 쇼핑/예약 + 슬랙 기능을 한데 묶은 느낌.
