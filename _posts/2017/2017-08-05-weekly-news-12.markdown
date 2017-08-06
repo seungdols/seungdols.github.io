@@ -15,7 +15,7 @@ comments: true
 - [Apache MXNet에 대한 모든 것!](http://channy.creation.net/blog/1155) : 요즘 하도 딥러닝, 머신러닝하는데 드디어 가장 괜찮은 녀석이 나온거라고 생각하면 되려나..? 딥러닝 프레임워크인데, 생각보다 잘 만들어진 녀석인것 같다. 물론 텐서플로우가 있긴 하지만, 이녀석도 잘 봐두도록 하자.
 - [기술 뉴스 #83 : 17-08-01](https://blog.outsider.ne.kr/1305) : 역시 내용중 관심가는 부분은 ES8과 Spring framework의 아버지 로드 존슨형의 atomist editor가 제일 흥미롭다. 우선은 `프레임워크로 접근하라`라는 명언도 있는데, 로드 존슨 형은 이제 탈프레임워크를 지향하는 느낌이다. 결국, atomist를 설립하고 개발 리드를 하고 있는데, 개발 자동화 툴이라고해야 하나..http://docs.atomist.com/ 이 쪽 내용을 확인 해봐야 할 것 같다. 
 - [MXNet 기반 추천 오픈 소스 딥러닝 프로젝트 모음](http://blog.creation.net/apache-mxnet-deep-learning-project) : 오픈 소스 딥러닝 프로젝트가 정말 다양하다는 것은 그만큼 현재 IT업계에서 가장 큰 이슈이자, 핫한 기술이라는 증거일 것이다.
-- [증분검색을 통한 텍스트 필터링 도구 페코(Peco) - 명령어 히스토리를 비롯한 셸(shell) 어디서나 증분검색하기](http://blog.nacyot.com/articles/2015-12-09-incremental-search-tool-peco/) : 터미널에서 fzf라는 도구를 접한지도 얼마 안되었으나, peco라는 증분검색기는 더 재미난 녀석이었다. 사실 속도면에서는 peco가 더 빠른거 같기도하다. fzf는 카카오 개발자이신 최종건님이 만든 오픈소스이며, vim의 GOD라 불리는 분이시다. ruby로 개발한걸로 알고 있는데, 루비도 정말 잘쓰는 분 중 하나인 것 같다. 어찌되었든, fzf, peco 둘 다 잘만 쓰면, 개발력을 향상시켜준다.
+- [증분검색을 통한 텍스트 필터링 도구 페코(Peco) - 명령어 히스토리를 비롯한 셸(shell) 어디서나 증분검색하기](http://blog.nacyot.com/articles/2015-12-09-incremental-search-tool-peco/) : 터미널에서 fzf라는 도구를 접한지도 얼마 안되었으나, peco라는 증분검색기는 더 재미난 녀석이었다. 사실 속도면에서는 peco가 더 빠른거 같기도하다. fzf는 카카오 개발자이신 최준건님이 만든 오픈소스이며, vie의 GOD라 불리는 분이시다. ~~ruby로 개발한걸로 알고 있는데, 루비도 정말 잘쓰는 분 중 하나인 것 같다.~~ Ruby로 작성 된 것을 Go lang으로 포팅했다고 한다. 어찌되었든, fzf, peco 둘 다 잘만 쓰면, 개발력을 향상시켜준다.
 - [[Review] gitflow, 쉬운 git branch 관리](http://huns.me/development/1131) : git-flow가 단순히 브랜치 전략인줄로만 알았으나, 알고보니 브랜치 전략을 강제화 하도록 만들어둔 git package toolkit 같은 느낌이다. Git-flow를 설치하고, git-flow 명령어로 하다보면, git명령어를 묶음화한 kit라고 생각할 수 있다. 그리고, 쉽게 다중 브랜치를 관리하도록 해준다는 장점이 있고, 협업시에는 무조건 필수적인 요소다. git-flow를 쓰지 않더라도 브랜치 전략은 세워두고 개발을 하는 것이 좋다.
 
 
