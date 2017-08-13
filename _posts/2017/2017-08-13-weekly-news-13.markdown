@@ -1,0 +1,34 @@
+---
+layout: "post"
+title: "weekly-news-13"
+description: "그냥 저냥 #위클리뉴스 #13"
+date: "2017-08-13 17:52"
+tags: [programming,news,weekly news]
+comments: true
+---
+
+## 그냥 저냥 #위클리뉴스 #13
+
+
+
+### 개발새발
+
+
+
+- [폴더별 환경 관리를 위한 direnv](https://blog.outsider.ne.kr/1306) : 폴더별로 특정 설정을 반영하고 싶을 때 쓸만한 툴인 것 같다. python 개발을 한다면, autoenv 같은 느낌이라는 걸 받을 수 있을 것이다.
+- [부동산 - 네이버 부동산 크롤링](https://financedata.github.io/posts/naver-land-crawling.html) : 네이버 부동산의 데이터를 크롤링 하는 방법을 상세하게 알려주며, 실제 코드도 있어 참고하기 좋다.
+- [부동산 - 조인스랜드 데이터 크롤링](https://financedata.github.io/posts/joins-land-crawling.html) : 네이버 부동산 데이터 크롤링 이후 그 다음으로 조인스랜드 데이터를 크롤링 하는 아티클인데, 굉장히 상세하고, 크롤링에 대해 좀 더 많이 알 수 있다.
+- [matplotlib + 한글](https://financedata.github.io/posts/matplotlib-hangul-for-osx.html)
+- [autoenv로 편리한 개발하기](https://beomi.github.io/2017/07/16/Use-Autoenv/)
+- [virtual DOM이란 무엇인가?](http://mygumi.tistory.com/190)
+- [파이썬 로깅의 모든것](http://hamait.tistory.com/880)
+- [java8 Optional.of 쓸 때 주의할점](http://namocom.tistory.com/507)
+- [내 맘대로 위클리뉴스 - 08월 11일](https://www.sangkon.com/2017/08/11/sigamdream_weekly_2017_32/)
+
+
+
+### 아티클
+
+- [책을 자주 읽는 사람이라면, 반드시 부딪히는 고민들](http://ppss.kr/archives/126983) : 요즘 내가 겪는 문제이기도 한다. 책을 읽는 시간이 나지는 않는데, 읽어야 할 책을 쌓여가고 그러다보니 주문은 하게 되고, 쌓여만 간다. 그런데, 한 2달 - 3달은 주문 자체를 하지 말아야겠다.
+- [코딩의 함정](http://ppss.kr/archives/126994) : 비전공자가 개발을 하고 싶어 하는 마음은 알겠으나, 요즘처럼 개발에 핫한 때가 있을까 싶기도 하는데, 진입 장벽이 높을 수도 낮을수도 있는 개발 세계에 쉽게 발을 들여놓고, 나중에 후회하면 안된다. 모든 일은 갈수록 어려워져 간다.
+- [한 번쯤 '혼자' 여행해야 하는 이유](http://ppss.kr/archives/127160) : 국내여행은 혼자서도 잘 다니지만, 아마 조만간은 해외도 도전 해봐야 하지 않나 싶긴하다. 중요한 내용이므로 강추강추!
