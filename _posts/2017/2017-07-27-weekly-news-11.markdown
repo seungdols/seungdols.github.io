@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "weekly_news_11"
 description: "그냥 저냥 #위클리뉴스 #11"
 date: "2017-07-27 20:17"

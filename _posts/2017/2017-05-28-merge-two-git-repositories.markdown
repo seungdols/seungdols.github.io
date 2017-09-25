@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "merge two git repositories"
 description: "Git repositories를 합쳐보자"
 date: "2017-05-28 22:50"

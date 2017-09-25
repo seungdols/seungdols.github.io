@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "spring in action"
 description: "스프링 인 액션 정리"
 date: "2017-05-08 17:48"

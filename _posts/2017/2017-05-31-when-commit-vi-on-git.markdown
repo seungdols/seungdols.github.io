@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "when commit vi on git"
 description: "Git에서 Vi error가 발생 할 때 조치하기"
 date: "2017-05-31 18:06"

@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "weekly-news"
 description: "그냥 저냥 위클리 뉴스 4번째"
 date: "2017-04-02 14:01"

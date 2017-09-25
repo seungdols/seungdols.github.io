@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "try-with-resources"
 description: "자원을 자동으로 닫자! - Autocleable"
 date: "2017-05-18 22:56"

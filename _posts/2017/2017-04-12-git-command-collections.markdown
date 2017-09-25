@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "git-command-collections"
 description: "git command 모음집"
 date: "2017-04-12 18:01"

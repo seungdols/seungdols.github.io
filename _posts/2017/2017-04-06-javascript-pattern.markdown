@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "javascript-pattern"
 description: "JavaScript Patterns 리뷰"
 date: "2017-04-06 17:39"

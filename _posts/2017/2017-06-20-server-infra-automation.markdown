@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "server infra automation"
 description: "서버 환경을 자동화 하는 방법을 찾아보자"
 date: "2017-06-20 21:46"

@@ -1,7 +1,7 @@
 ---
-layout: "post"
+layout: post
 title: "weekly-news-14"
-description: "그냥 저냥 #위클리뉴스 #14
+description: "그냥 저냥 #위클리뉴스 #14"
 date: "2017-09-10 00:41"
 tags: [weekly-news,programming]
 comments: true

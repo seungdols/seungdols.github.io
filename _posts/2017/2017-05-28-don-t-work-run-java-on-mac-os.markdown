@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "don't work run java on Mac OS"
 description: "Mac OS​ intelliJ에서 Java 실행이 안 될 때!"
 date: "2017-05-28 22:44"

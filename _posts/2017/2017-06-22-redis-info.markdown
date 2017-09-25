@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "redis info"
 description: "짜집기편 - 레디스에 대해 알아보자!"
 date: "2017-06-22 15:16"

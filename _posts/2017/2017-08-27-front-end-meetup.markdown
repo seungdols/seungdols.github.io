@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "GDG Front-End 세미나-React, Vue, Angular"
 description: "Front-End의 기술을 알아보자!"
 date: "2017-08-27 16:10"

@@ -1,5 +1,5 @@
 ---
-layout: "post"
+layout: post
 title: "javascript-Deferred-and-promise"
 description: "JavaScript의 Deferred와 Promise 이야기"
 date: "2017-04-07 12:09"
