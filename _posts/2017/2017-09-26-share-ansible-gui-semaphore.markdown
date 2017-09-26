@@ -30,6 +30,16 @@ comments: true
 
 참고로, **Server OS, CPU 버전**이 무엇인지 확인 해두자.
 
+참, Mysql or MariaDB를 먼저 설치 해야 한다. 
+
+```bash
+$ sudo yum install mariadb mariadb-server
+```
+
+명령어로 치면, 알아서 설치를 해준다. 
+
+
+
 ```bash
 $ curl -L <https://github.com/ansible-semaphore/semaphore/releases/download/v2.4.1/semaphore_linux_386> > /home/seungdols/applications/semaphore
 $ chmod +x semaphore
