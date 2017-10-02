@@ -1,0 +1,25 @@
+---
+layout: post
+title: "weekly-news-15"
+description: "그냥 저냥 #위클리뉴스 #15"
+date: "2017-10-03 00:32"
+tags: [weekly-news, programming]
+comments: true
+---
+
+# 그냥 저냥 #위클리뉴스 #15
+
+- [악취나는 코드 개선하기 시리즈 - 심하게 중첩된 코드](http://jojoldu.tistory.com/177) : 창천향로님이 요즘 번역과 정리 하시는 시리즈가 악취나는 코드 개선하기입니다. 사실, 코드를 개선하기란 쉽지 않습니다. 일정에서 자유롭기란 어렵습니다. 그럼에도 틈틈히 기술 부채가 쌓이는 코드들을 정리 해주는 것이 좋다고 생각합니다. 이번 편은 난도가 좀 있는 편입니다. Java8의 문법을 좀 알고 있어야 이해하기 좋습니다. 
+- [SpringBoot @MockBean, @SpyBean 소개](http://jojoldu.tistory.com/226) : 테스트 코드를 작성하는데에는 중요한 요소가 간결성이라고 생각합니다. 테스트 코드가 길어지면, 길어질 수록 테스트 코드 자체에 기술 부채가 쌓이기 쉬운데, spring boot 1.4에서 새로 나온 테스트 어노테이션을 소개해주는 글입니다. 
+- [카카오 신입 공채 1차 코딩 테스트 문제해설](http://tech.kakao.com/2017/09/27/kakao-blind-recruitment-round-1/) : 코드 페스트때의 문제를 보고 카카오에 실망을 좀 하긴 했습니다만, (개인적인 코딩 대회에 대한 회의감?!) 이번 카카오 공채 블라인드 테스트는 문제를 보니 꽤나, 신선한 문제들이 많아 좋다고 판단 했으며, 난도는 적당했다고 판단 됩니다. (물론, 실제로 풀진 않는...^^) 그래도 약간의 논리력을 요했다는 점과 실제로 필요로 해봄직한 프로그래밍적인 요소를 추가 했다는 점이 좋았습니다. 
+- [B급 프로그래머 9월 4주 소식](http://jhrogue.blogspot.kr/2017/09/b-9-4.html) : 개발/관리 도구 관련 링크가 이번에는 많습니다. 훑어보니 vuejs에 관한 이야기도 있고, GraphQL에 관련 링크, C++도 있습니다. 특히나, Java9 and intelliJ 소식에 호기심이 많아지네요!
+- [Spock 소개 및 튜토리얼](http://jojoldu.tistory.com/228) : 사실, spock는 groovy라는 언어로 테스트 코드를 작성하면서, 좀 더 편리하다는 소리는 익히 들었으며, TDD에서 중요하게 생각하는 template인 `gien-when-then`에 대한 부분은 `spock framework`에서 이미 지원을 하고 있습니다. 사실, 이것만 해도 엄청난 가독성의 증대가 아닐까 합니다. 이에 대한 spock 사용법을 친절하게 알려줍니다. 
+- [SpringBoot 환경에서 Spock 사용하기](http://jojoldu.tistory.com/229) : 창천향로님이 spock 소개 튜토리얼뿐만 아니라, spring boot에서도 사용하는 방법에 대해 소개해주고 있습니다. (역시, 창천향로님은 갓...👍)
+- [도커 컨테이너 간 아무제약 없이 ssh접속 하도록 설정하기](http://blog.naver.com/alice_k106/221109234272) : 도커에 대해서 공부를 하다보면, 생각보다 설정 하는 부분이 많아 지게 되는데, ssh접속이 사실 굉장히 귀찮긴 합니다. 이에 대해 해결 할 수 있는 포스팅입니다. 
+- [기술 뉴스#87 : 17-10-01](https://blog.outsider.ne.kr/1322) : 아웃사이더님이 정리 하신 10월 첫주 기술 뉴스입니다. 특히 `더 나은 웹프론트엔드 과정을 고민하며.` 라는 포스팅은 정말 볼만한 링크입니다. 
+- [내 맘대로 위클리 뉴스 - 2017년 39주(09월 29일)](http://sangkonblog.azurewebsites.net/2017/10/02/sigamdream_weekly_2017_39/) : Django의 포스팅이 좋았는데, 사실, 장고 프레임워크 자체도 이미 중급 프레임워크가 되었으므로 공부하기가 쉽지 않다고 생각한다. 그런점에서 이 분의 블로그를 참조하는 것이 좋아 보입니다. 
+- [Ajax Delete Parameter 문제](http://blog.naver.com/alice_k106/221109818082) : 쉽다면, 쉽고 가끔 헤매는 부분이므로 알아두면 좋다. 
+- [나만의 웹 크롤러 만들기(7): 창없는 크롬으로 크롤링하기](https://beomi.github.io/2017/09/28/HowToMakeWebCrawler-Headless-Chrome/) : 크롤링 하는 부분에 있어서는 이 시리즈를 안 볼래야 안볼수가 없다. 생각보다 정말 짜임새 있게 포스팅을 해주셔서 ... 크롤링이 엄청 늘어나지 않을까 싶기도 하다.
+- [kakao의 오픈소스 Ep8 - hbase-packet-inspector](http://tech.kakao.com/2017/09/22/opensource-8-hbase-packet-inspector/) : 카카오의 현재 계신 분으로 `vim`의 신으로 불리기도 하시는 분이시다. `Ruby` , `Go`등 수 많은 언어로 `vi` 플러그인을 제작하신 분으로도 유명하시다. 그런데 이번에는 hbase 패킷의 정보를 분석하는 툴을 개발 하셨네요. 이미 1년전에 만드신 경험이 있으시군요 ^^ [kakao의 오픈소스 Ep3 - HBase Region Inspector](http://tech.kakao.com/2016/03/11/opensource-3-hri/) , 이분의 전문 분야?!인 `vim`에 대한 글도 좋습니다. [그래, 가끔 "Vim에서" GitHub을 보자!](http://tech.kakao.com/2016/03/03/vim-github-dashboard/)
+
+
