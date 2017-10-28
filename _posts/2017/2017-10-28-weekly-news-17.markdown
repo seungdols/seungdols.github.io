@@ -2,7 +2,7 @@
 layout: post
 title: "weekly-news-17"
 description: "그냥 저냥 #위클리뉴스 #17"
-date: "2017-10-28 1666666:54"
+date: "2017-10-28 16:54"
 tags: [weekly-news, programming]
 comments: true
 ---
