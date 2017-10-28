@@ -1,0 +1,39 @@
+---
+layout: post
+title: "weekly-news-17"
+description: "그냥 저냥 #위클리뉴스 #17"
+date: "2017-10-28 1666666:54"
+tags: [weekly-news, programming]
+comments: true
+---
+# 그냥 저냥 #위클리뉴스 #17
+
+
+
+- [스프링 빈이 진짜 뭘까?](http://jinson.tistory.com/286) : 지앤선 블로그에 올라온 "한글화 프로젝트"의 포스팅입니다. 실리콘밸리를 꿈꾸는 개발자인 **백재영**님이 번역을 해주신 글입니다. 사실, 스프링을 사용하면서도 스프링 빈이 도대체 무엇인가 싶을때가 많습니다. 그만큼 중요하기도 합니다. (그래서 필독….꾹)
+- [webpack과 babel로 최신 javascript 개발환경 만들기](https://beomi.github.io/2017/10/18/Setup-Babel-with-webpack/) : 사실 요즘의 거의 트렌드인 툴 webpack 그리고, 트랜스파일러의 대표주자 babel이 가장 핫한 조합이 아닐까 한다. 고로, es6 아니지..이제는 es7을 써야하는 시대가 오는 건가 싶기도 하다. 물론, 나는 es5도 제대로 모르는 javascript 알못이라... 잘하고 싶은 마음이 있다. 그래서인지 자바스크립트 진영에 기웃기웃대곤 하는데, 이러한 글들은 중요하고, 입문하는데 큰 도움을 준다. 
+- [문장(시계열수치)입력 다중클래스분류 모델 레시피](https://tykimos.github.io/2017/08/17/Text_Input_Multiclass_Classification_Model_Recipe/)
+- [시계열수치입력 수치예측 모델 레시피](https://tykimos.github.io/2017/09/09/Time-series_Numerical_Input_Numerical_Prediction_Model_Recipe/)
+- [Spring framework5의 변화](http://atin.tistory.com/626)
+- [junit5 ParameterResolver](http://aoruqjfu.fun25.co.kr/index.php/post/1878) : junit5에서 나타난 **ParameterResolver**에 대해 설명하는 글인데, 굉장히 알차다. 파라미터가 포함된 테스트를 할 때, 괜찮을 것 같은 느낌이 들었다. 여전히 한 번 봐서 잘….
+- [spring5 와 junit5](http://aoruqjfu.fun25.co.kr/index.php/post/1886) : 분명 버전이 올라가면서 달라지는 점은 분명하다. spring과 junit의 결합의 완성도는 점점 더 높아지는 것 같다. 뭐랄까..블로그에도 나오는 말이지만, 비슷해지는 느낌은 있다.
+- [RxJS 써야겠어요? 안써야겠어요?](http://sculove.github.io/blog/2017/10/21/shoulduserxjs/) : RxJS가 이제는 트렌드가 아닌 필수적인 요소로 봐도 될법하다는 느낌이 들었다. 특히, 프레젠테이션에서 RxJS의 역할에 대해 간결하게 정의를 해주고 있다는 점에서 이해가 쉬웠다.
+- [[스프링 웹플럭스] 1.1 소개](http://whiteship.me/?p=13989)
+- [[스프링 웹플럭스] 1.1.1 왜 새로운 웹 프레임워크인가?](http://whiteship.me/?p=13992)
+- [[스프링 웹플럭스] 1.1.2. 리액티브란 무엇이며 왜?](http://whiteship.me/?p=13998)
+- [[스프링 웹플럭스] 1.1.3. 리액티브 API](http://whiteship.me/?p=14011)
+- [[스프링 웹플럭스] 1.1.4. 프로그래밍 모델](http://whiteship.me/?p=14001)
+- [[스프링 웹플럭스] 1.1.5. 웹 프레임워크 선택하기](http://whiteship.me/?p=14015)
+- [[스프링 웹플럭스] 1.1.6. 서버 선택하기](http://whiteship.me/?p=14003)
+- [[스프링 웹플럭스] 1.2. 리액티브 스프링 웹](http://whiteship.me/?p=14008)
+- [[스프링 웹플럭스] 1.2.1. HttpHandler](http://whiteship.me/?p=14020)
+- [[스프링 웹플럭스] 1.1.7. 성능 VS 확장성](http://whiteship.me/?p=14005)
+- [자바9 자바 플랫폼 모듈 시스템](http://whiteship.me/?p=13980)
+
+백기선님의 블로그에 많은 주요한 글들이 올라와 많은 링크를 포함하게 되었습니다. 저도 정독을 해야 할 것 같아 이렇다할 코멘트를 달기가 어렵더군요. 사실, 스프링5에서는 많은 패러다임의 변화가 예고 되고 있기에, 주요 변화는 'webflux' 다라고만 하기는 어렵긴 하지만, 가장 큰 부분을 차지하는 것은 사실입니다. 
+
+
+
+## 아티클
+
+- [퇴사자는 진실을 말하지 않는다.](http://blog.weirdx.io/post/49344)
