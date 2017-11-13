@@ -12,10 +12,10 @@ comments: true
 # tmux 사용 정리
 
 
-맥에서 일단 설치를 해야 합니다. 
+맥에서 일단 설치를 해야 합니다.
 
 
-[homebrew](https://brew.sh/index_ko.html)가 설치 되어 있으리라 생각하며, homebrew 설치를 건너 띄겠습니다. 
+[homebrew](https://brew.sh/index_ko.html)가 설치 되어 있으리라 생각하며, homebrew 설치를 건너 띄겠습니다.
 
 
 
@@ -30,10 +30,10 @@ comments: true
 ## tmux install
 
 ```bash
-$ brew install tmux 
+$ brew install tmux
 ```
 
- 위 처럼 입력하면 알아서 샥샥 설치가 됩니다. 
+ 위 처럼 입력하면 알아서 샥샥 설치가 됩니다.
 
 
 
@@ -41,7 +41,7 @@ $ brew install tmux
 
 
 
-구글 검색하면, 상위에 랭크된 깃허브 레포지토리를 가봅시다. 
+구글 검색하면, 상위에 랭크된 깃허브 레포지토리를 가봅시다.
 
 
 
@@ -55,21 +55,21 @@ $ brew install tmux
 
 
 
-위와 같은 레포가 많습니다. 원하는 이쁜 녀석으로 골라 셋팅을 해줍니다. 
+위와 같은 레포가 많습니다. 원하는 이쁜 녀석으로 골라 셋팅을 해줍니다.
 
-참고로, tmux plugin도 있습니다. 
+참고로, tmux plugin도 있습니다.
 
 - [tpm](https://github.com/tmux-plugins/tpm)
 
-저는 7번 tmux-config를 셋팅 한걸로 기억하고 있습니다. 
+저는 7번 tmux-config를 셋팅 한걸로 기억하고 있습니다.
 
 
-![seungdols-tmux screenshot](images/tmux_image.png)
+![seungdols-tmux screenshot](/blog/assets/img/post/2017/tmux_image.png)
 
 
-tmux의 장점은 화면을 분할 할 수 있다는 것이 장점입니다. 
+tmux의 장점은 화면을 분할 할 수 있다는 것이 장점입니다.
 
-tmux를 이용해 화면 분할을 하나의 세션 내에서 자유롭게 할 수 있죠. 특히나, session으로 관리함으로써 2명이 1개의 세션에 attach 하여 같은 화면을 볼 수도 있구요. 장점은 많습니다. 
+tmux를 이용해 화면 분할을 하나의 세션 내에서 자유롭게 할 수 있죠. 특히나, session으로 관리함으로써 2명이 1개의 세션에 attach 하여 같은 화면을 볼 수도 있구요. 장점은 많습니다.
 
 
 
@@ -78,13 +78,13 @@ tmux를 이용해 화면 분할을 하나의 세션 내에서 자유롭게 할 �
 
 
 - Prefix
-  - 실제 단축키를 눌르기 전에 눌러야 하는 키를 말하며, 보통 `ctrl + b`를 말한다. 
+  - 실제 단축키를 눌르기 전에 눌러야 하는 키를 말하며, 보통 `ctrl + b`를 말한다.
 - Session
-  - tmux가 관리하는 최상위 단위로 세션 단위로 attach/detach가 된다. 
-- Window 
-  - 세션안에 탭 같은 기능으로 하나의 세션 내에 여러개의 윈도우를 가질 수 있다. 
+  - tmux가 관리하는 최상위 단위로 세션 단위로 attach/detach가 된다.
+- Window
+  - 세션안에 탭 같은 기능으로 하나의 세션 내에 여러개의 윈도우를 가질 수 있다.
 - Pane
-  - 윈도우 안에 존재하는 화면 단위로, 세로 분할, 가로 분할 할 수 있다. 각 분할된 화면이 Pane이다. 
+  - 윈도우 안에 존재하는 화면 단위로, 세로 분할, 가로 분할 할 수 있다. 각 분할된 화면이 Pane이다.
 
 
 
@@ -97,7 +97,7 @@ tmux를 이용해 화면 분할을 하나의 세션 내에서 자유롭게 할 �
 
 
 ```bash
-$ tmux 
+$ tmux
 
 $ tmux new -s sessionName
 $ tmux new-session -s sessionName
@@ -108,17 +108,17 @@ $ tmux new-session -s sessionName
 #### 세션 종료
 
 ```bash
-$ exit #in tmux 
+$ exit #in tmux
 
-# or 
-$ tmux kill-session -t sessionName # in terminal, out tmux 
+# or
+$ tmux kill-session -t sessionName # in terminal, out tmux
 ```
 
 
 
 #### 세션 attach
 
-```bash 
+```bash
 $ tmux attach -t sessionName #이름 지정 안했다면, 숫자
 ```
 
@@ -148,27 +148,27 @@ $ tmux ls
 
 
 
-- 윈도우 생성 
+- 윈도우 생성
   - `<prefix> + c`
-- 윈도우 이름 변경 
+- 윈도우 이름 변경
   - `<prefix> + ,`
-- 이전, 다음 윈도우 이동 
+- 이전, 다음 윈도우 이동
   - 이전
     - `<prefix> + n`
   - 다음
     - `<prefix> + p`
-- 모든 윈도우 리스트 보기 
+- 모든 윈도우 리스트 보기
   - `<prefix> + w`
 
 
 
 ### Pane
 
-- 세로 분할 
+- 세로 분할
   - `<prefix> + %`
 - 가로 분할
   - `<prefix> + "`
-- 팬 이동 
+- 팬 이동
   - `<prefix> + q + Number`
   - `<prefix> +  q + 방향키`
 - 줌
