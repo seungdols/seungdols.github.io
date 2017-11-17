@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Weekly News #18"
+description: "그냥 저냥 #위클리뉴스 #18"
+date: "2017-11-18 00:02"
+tags: [weekly-news, programming]
+comments: true
+---
+
+# 그냥 저냥 #위클리뉴스 #18
+
+## 읽어볼만한 아티클
+
+- [신규 서비스에서 고려해야 할 사항](http://kwonnam.pe.kr/wiki/web/%EC%8B%A0%EA%B7%9C%EC%84%9C%EB%B9%84%EC%8A%A4) : 신규 서비스 개발에 대한 개념적인 글이지만, 계속 읽어보면 좋은 글이라 생각합니다. 아직, 많은 경험과 실력이 없는 관계로 단편적으로나마 이해가 갈뿐. 전부를 이해하기는 어렵네요. 
+- [OKKY 미니세미나 <비전공 학원출신 SI개발자, 유명스타트업 들어간.ssul>참석 후기](http://jojoldu.tistory.com/247) : okky에서 코딩 테스트로 레전더리로 유명하신 분의 세미나인데요. 바빠서 가지는 못했지만, 창천향로님이 직접 들으시고 요약해주셨는데, 배울 점이 많은 것 같습니다. 특히 `책을 볼 때, 코드 타이핑` 부분은 제가 공감도 하고, 요즘 많이 못하는 부분이라 확실히 코드 타이핑을 할 때와 하지 않을때의 차이를 느끼곤 합니다. 
+- [What Is Project Valhalla?](https://dzone.com/articles/what-is-project-valhalla) : 발할라 프로젝트에 관한 설명인데 Java 개발자라면, 관심있게 보아도 될만한 글이라 생각합니다. 
+- [Refactoring vs. Redesign](https://www.javacodegeeks.com/2017/11/refactoring-vs-redesign.html) : 무엇이 정답인지는 알 수 없지만, 과연 어떤 상황일때, 무엇이 더 알맞은지를 선택하는 것도 중요하죠.
+- [Introduction to Apache Kafka](https://www.javacodegeeks.com/2017/11/introduction-apache-kafka.html) : 카프카를 많이 쓰시죠? 예전에는 아니, 요즘도 RabbitMq를 많이 쓰시긴 하지만, 카카오나 다른 곳에서는 요즘 카프카를 많이 쓰고 있는 추세입니다. 알아봐두시면 좋겠죠 ??
+- [로그를 잘 남기기](http://ash84.net/2017/09/29/how-do-you-keep-your-logs/) : 로그를 잘 남기는 전략, 설계는 상당히 중요합니다. 로그는 사실, 돈이 되는 데이터는 아니지만, 될 수 있는 충분한 잠재력을 지녔습니다. 페이스북, 구글 우리가 페이스북 좋아요, 구글 지도 사용 흔적등 모든 것들이 로그로 남아 **로그는 가치 있는 데이터가 되고, 정보**가 됩니다. 그 기반을 잘 다지는 것이 `로그 잘 남기기`입니다. 
+- [비공개 메서드를 테스트 해야 하는가?](https://justhackem.wordpress.com/2017/09/29/should-private-methods-be-tested/) : C#을 잘하시는 분으로도 유명하시지만, MS MVP라고 들었습니다. 이규원님의 글인데요. 이 분의 블로그나 글들은 워낙 유명하신게 많아서 개발자라면, 한 번씩 읽어봄직하다고 생각하는 편입니다. 이번의 포스트도 확실히 추천할 만한 글이라 생각합니다. 테스트 관련인데, 많은 생각을 하게 됩니다.
+- [Vim에서 저장하는 방법 - 자동 저장](https://nolboo.kim/blog/2017/09/14/vim-write-autosave/) : 개발자가 아니신데도 불구하고, 자바스크립트를 잘 하시는 분으로 유명하시고 번역활동을 활발하게 하시는 김놀부님의 블로그인데, 이번에는 `vim`에 대해 설명해주셨네요. 저도 vim을 잘 쓰고 싶어하는 유저인데, 이번 기회에 열심히 배워 두어야겠습니다.
+
+## Python
+
+- [HowToMakeWebCrawler-ImplicitWait-vs-ExplicitWait](https://beomi.github.io/2017/10/29/HowToMakeWebCrawler-ImplicitWait-vs-ExplicitWait/) : 크롤러를 만드는 예제인데, Selenuim을 사용합니다. 본래의 기능은 UI테스트 툴이었는데 어느새 크롤러를 만드는 도구로 변화했네요. 
+- [국제 상품 가격 데이터 가져오기](https://financedata.github.io/posts/global-commodity-price.html) : 파이썬은 요즘 배우지 않으면 안되는 언어가 점점 되어가는 것 같습니다. 하둡의 MR또한 파이썬으로 돌리는 시대가 되었으니까요. 12월 연말에는 파이썬 공부를 시작해야겠습니다. 
+
+## JavaScript
+
+- [JavaScript Weekly](http://javascriptweekly.com/issues/360) : javascript weekly를 보면, 생태계의 변화라던지 빠른 흐름을 알 수 있게 됩니다. 물론, 유용한 자료가 많다는 점이 최고...
+- [자바스크립트 this 바인딩 우선순위](http://blog.jeonghwan.net/2017/10/22/js-context-binding.html) : 자바스크립트의 this는 잘 알아야 하는 녀석중에 한 명입니다. 더글라스 크락포드의 자바스크립트 핵심 가이드에서도 4가지로 설명을 하고 있을정도죠...중요하므로 까먹지 않는 것이 중요하겠죠??
+- [Vuetiful Korea 2회 모임 발표 자료](https://vuejs-kr.github.io/vue/meetup/vuetiful/korea/2017/11/06/meet-up-2nd-slide/) : 사실, 요즘 제가 관심 가지는 프론트 기술중에 하나이면서 한 번 도입해보는 것도 나쁘지 않겠다고 생각하는 녀석이 바로 이녀석입니다. 생각보다 배우는데에 어렵지도 않고, Reac, Angular의 장점을 쏙쏙 뽑아놓은 녀석 같아서 관심 갖고 있습니다.
+
+## JVM
+
+- [Looking Into the Java Virtual Machine [Video]](https://dzone.com/articles/what-is-jvm-look-in-to-java-virtual-machine)
+- [Inside the Java Virtual Machine (Part 2)](https://dzone.com/articles/inside-java-virtual-machine-part-02)
+- [Inside the Java Virtual Machine (Part 3): Data Types [Video]](https://dzone.com/articles/inside-java-virtual-machine-part-03-data-types)
+- [Inside the JVM (Part 4): ClassLoader [Video]](https://dzone.com/articles/inside-the-jvm-part-4-classloader)
+
+
