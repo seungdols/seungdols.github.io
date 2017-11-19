@@ -24,14 +24,10 @@ TIL은 사실 Jay Jin님의 [Slideshare](http://www.slideshare.net/jayjin0427/ss
 - 무조건 공부한 것은 간단하게 작성할 것
 - 이미지가 필요하지 않은 글을 작성(이미지 첨부의 경우 위지웍 에디터를 지원하는 티스토리가 편리하다)
 - 글은 무조건 Github markdown을 작성 규칙으로 한다.
-- ~~하루패드를 사랑하여 간혹 하루패드로 작성할 수 있다.~~(요즘은 Atom.io or Vi를 이용한다.)
-- ~~Vi/Vim으로 포스팅을 할 정도가 되려면 Mac book을 사야한다.(먼 미래의 이야기)~~
-- Vi를 Mac Iterm2처럼 이쁘게 꾸몄다.
 
 ### 추가
 
 - 디자인은 계속 진화 중이다. (지금 상당히 이쁨)
-- ~~시간이 많지 않다(이건 뻥이다)~~
 - 전반적인 디자인 시안은 [creatijin](http://creatijin.tistory.com)이 친구가 해주었고, 상세 설정은 내가 알아서 ~~할 예정이다.~~ 했다.
 
 #### Who is Seungdols ?

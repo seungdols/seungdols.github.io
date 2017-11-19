@@ -17,23 +17,13 @@ TIL은 사실 Jay Jin님의 [Slideshare](http://www.slideshare.net/jayjin0427/ss
 ### STIL 작성 규칙
 
 - 무조건 공부한 것은 간단하게 작성할 것
-- 서버 셋팅 등 부가적인 것들은 Docu Wiki인 [Seungdols Wiki](http://seungdols.com)에 작성하도록 한다.
 - 이미지가 필요하지 않은 글을 작성(이미지 첨부의 경우 위지웍 에디터를 지원하는 티스토리가 편리하다)
 - 글은 무조건 Github markdown을 작성 규칙으로 한다.
-- 하루패드를 사랑하여 간혹 하루패드로 작성할 수 있다.(요즘은 Atom.io or Vi를 이용한다.)
-- ~~Vi/Vim으로 포스팅을 할 정도가 되려면 Mac book을 사야한다.(먼 미래의 이야기)~~
-- Vi를 Mac Iterm2처럼 이쁘게 꾸몄다.
 
 ### 추가
 
-- ~~현재 테마는 기본 테마에서 살짝 손 본 형태(나의 웹디자이너의 꿈은 순위권 10위 안에만 존재함)~~
-- ~~심각하게 이쁘지 않다.(이미 알고 있으니 뭐라 하지 말 것)~~
 - 디자인은 계속 진화 중이다. (지금 상당히 이쁨)
-- ~~시간이 많지 않다(이건 뻥이다)~~
 - 전반적인 디자인 시안은 [creatijin](http://creatijin.tistory.com)이 친구가 해주었고, 상세 설정은 내가 알아서 ~~할 예정이다.~~ 했다.
-- 기본적으로 도쿠위키를 사용중인데 6월 이내로 블로그에 데이터를 옮긴 후 깃허브가 아닌 클라우드에 동작 시킬지 말지 고민중이다.
-- 클라우드 서버 셋팅 하는 것도 일인 것 같다.
-
 
 #### Who is Seungdols ?
 
@@ -42,7 +32,6 @@ TIL은 사실 Jay Jin님의 [Slideshare](http://www.slideshare.net/jayjin0427/ss
 - 개똥철학을 가지고 있다.
 - 프로그래밍을 잘 하고 싶어하는 개발자 & 잡식 개발자(나름의 디자인 철학도 고수).
 - [Seungdols tistory](http://seungdols.tistory.com)를 운영중.
-- [Seungdols Wiki](http://seungdols.com/start)를 운영중.
 - 지식 공유를 꾀하는 개발자(고로 당신이 더 잘 알고 있는 걸 난 이제 막 배운 경향이 없지 않아 있을 것이다.)
 - 개인적인 연락/공식적인 연락 모두 좋아하는 사람이다
 - This page is seungdols blog. This blog contains IT infomation, programming, coding info etc.
