@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Weekly News #21"
+description: "그냥 저냥 #위클리뉴스 #21"
+date: "2018-03-12 22:24"
+tags: [weekly-news, programming]
+comments: true
+---
+
+
+
+# 그냥 저냥 #위클리뉴스 #21
+
+* [뒤늦은 2017년 돌아보기](https://mooyoul.github.io/2018/02/10/a-lookback-at-2017/) : 2017년의 일들에 대한 기록들이 정말 잘 정리 되어 있고, 달별로 어떤 일이 발생했고, 기술적으로 어떻게 해결했는지에 대한 이야기들이 써져있다. 
+* [내 맘대로 월간뉴스 - 2018년 02월](https://www.sangkon.com/2018/03/02/sigamdream_monthly_2018_02/) : 처음 도커를 시작하는 사람들을 위한 글, 자바스크립트 비동기 처리와 콜백 함수에 대한 글, github를 이용해 댓글을 사용하고 싶을때등, 수많은 유용한 글들의 모임이 월간 단위로 정리 되어 있다. 
+* [리액트 quick start 노트](https://www.haruair.com/blog/4303) : 요즘 리액트가 프론트엔드 개발의 많은 부분을 차지하고 있긴 하다. 그렇기때문에 리액트에 대해 공부할 필요가 있긴 하다. 업무상 프론트를 담당하고있으므로...
+* [NullableJ: Handling Null in Java](https://dzone.com/articles/nullablej-handling-null-in-java) : 간단하게 본 글이지만, Java에서 Null만 잘 처리해도 에러의 절반은 확 줄어드는 것은 맞다고 생각한다. 그런 점에도 볼만하다. 
+* [PWA 시작하기](https://www.zerocho.com/category/HTML/post/5a9a638033c01a001bfa6912) : PWA를 적용했을때, 좋을 서비스 구조라면 적용해볼법 하지 않은가?라는 생각을 하기도 합니다. 그럴려면, PWA가 무엇인지에 대해 공부할 필요가 있겠죠? 이 글로 한 번 시작해보는 것이 어떨까요? 
+* [Spring boot 2.0 on ACID! + Spring Boot](https://www.zerocho.com/category/HTML/post/5a9a638033c01a001bfa6912) : Spring boot가 2.0이 릴리즈 되었는데요. 해당 버전과 관련하여 직접 코드와 함께, 설명하는 글이라 저는 좋다고 판단했습니다.  
+* [MongoDB hasNext() and next() Example](https://examples.javacodegeeks.com/software-development/mongodb/mongodb-hasnext-and-next-example/) : MongoDB를 요즘 많이 쓰시는데, 해당 글에 도움이 될만한 글입니다. 커서에 대한 설명도 나오니까요! (정독 가즈아!!!)
+* [Cheatsheet: Java Functional Interfaces](https://dzone.com/articles/cheatsheet-java-functional-interfaces) : Java8로 넘어오면서 생긴 `functional interface`에 대한 치트시트입니다. 치트시트로 정리해둔 글을 정독하는 것만으로도 생산성을 빠르게 올릴 수 있겠죠? 
+* [MongoDB count() and itcount() Example](https://examples.javacodegeeks.com/software-development/mongodb/mongodb-count-itcount-example/) : MongoDB의 카운트 관련 예제입니다. 요즘 몽고디비를 관심있게 보려고 합니다. 그렇기에 예제의 글을 많이 보게 되네요. 
+* [Spring @Lazy annotation use cases](https://www.javacodegeeks.com/2018/03/spring-lazy-annotation-use-cases.html) : `@Lazy`라는 어노테이션에 대해서는 처음 본 건데, 생각보다 유용해보입니다. 
+* [ElasticSearch Tutorial for Beginners](https://www.javacodegeeks.com/2018/03/elasticsearch-tutorial-beginners.html) : `ElasticSearch`는 요즘 대부분 많이 사용하지만, 실질적인 사용이 생각보다 어려울 수 있는데, 이렇게 예제를 올려주는 친절한 분들이 계시네요!
+* [IntelliJ IDEA 2018.1: Kubernetes support](https://blog.jetbrains.com/idea/2018/03/intellij-idea-2018-1-kubernetes-support/) : 2018년 버전의 인텔리J는 쿠버네이츠 플러그인도 지원해주게 됐네요! 
+* [광광 울며 정리하는 JavaScript의 this](https://milooy.wordpress.com/2018/01/12/%EA%B4%91%EA%B4%91-%EC%9A%B8%EB%A9%B0-%EC%A0%95%EB%A6%AC%ED%95%98%EB%8A%94-javascript%EC%9D%98-this/) : javascript의 this의 개념을 잘 정리해두는 것이 자바스크립트와 친해지는데 가장 좋은 일 같습니다...헤맬때가 한 두번이 아니라는게...
+* [TypeScript: 타입 추론과 타입 단언](https://hyunseob.github.io/2017/12/12/typescript-type-inteference-and-type-assertion/) : TypeScript의 인기도 요즘은 당연시 되고, React + TypeScript 조합을 쓰는 걸 한 두번 본게 아니기에 중요하다고 생각합니다. 그 중에서 타입에 대한 설명을 자세하게 해주고 있습니다. 
+
