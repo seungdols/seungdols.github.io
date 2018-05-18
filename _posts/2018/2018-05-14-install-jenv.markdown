@@ -26,6 +26,19 @@ $ brew cask install java8 #java8 버전 최신 릴리즈로 설치됩니다.
 
 일단 위와 같이 실행을 하여 java를 설치해주시면 됩니다. 
 
+#### cask 오류 발생할 경우 
+
+```bash
+❯ brew cask install java8
+Error: Cask 'java8' is unavailable: No Cask with this name exists.
+```
+
+위와 같은 에러가 발생할 경우 아래와 같이 입력해주시면 됩니다. 
+
+```bash
+brew cask install caskroom/versions/java8
+```
+
 ### 설치된 java 확인
 
 ```bash
