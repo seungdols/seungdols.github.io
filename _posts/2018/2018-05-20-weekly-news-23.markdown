@@ -1,0 +1,39 @@
+---
+layout: post
+title: "weekly-news #23"
+description: "그냥 저냥 #위클리뉴스 #23"
+date: "2018-05-20 12:36"
+tags: [programming, weekly-news]
+comments: true
+---
+
+# 그냥 저냥 #위클리뉴스 #23
+
+* [연봉은 실력의 결과과 아니다](http://channy.creation.net/blog/1186)
+* [실리콘밸리 top5 회사 합격 후기](https://medium.com/@jubileekim/%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC-top5-%ED%9A%8C%EC%82%AC-%ED%95%A9%EA%B2%A9-%ED%9B%84%EA%B8%B0-c50640b26eab)
+
+## JS 
+
+* [자바스크립트에서 사용되는 this에 대한 설명 1](https://github.com/FEDevelopers/tech.description/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94-this%EC%97%90-%EB%8C%80%ED%95%9C-%EC%84%A4%EB%AA%85-1) : 자바스크립트의 this를 공부하는 건 자바스크립트를 하는 사람에게는 넘어야 할 산이라고 생각한다. 그런데, 좋은 페이지가 있어서 나중에도 계속 보기 위해 위클리 뉴스로 가져왔고, ES5에서 나온 `use strict;`모드의 대한 차이가 존재하는 것까지도 설명을 해준다. 
+* [자바스크립트에서 사용되는 this에 대한 설명 2](https://github.com/FEDevelopers/tech.description/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C-%*EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94-this%EC%97%90-%EB%8C%80%ED%95%9C-%EC%84%A4%EB%AA%85-2) : 1편에 이은 javascript의 **this**에 대한 시리즈 글로 상당히 상세하게 케이스별로 설명을 해주는데, 이에 대한 내용은 꼭 숙지해야 **this**에 대한 오해가 없을 것 같고, 의미없는 시간 낭비를 하지 않을 수 있을거라 생각한다.
+* [이벤트 버블링, 이벤트 캡쳐 그리고 이벤트 위임까지](https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/) : 이벤트에 대한 버블링, 캡쳐링에 대한 이해도 상당히 중요하다는 생각을 요즘에서야 더 많이 쓰기게 되고 있습니다. 그에 대해 캡틴님 블로그에 잘 정리 되어있어서 가져오게 되었고, 자바스크립트를 좀 더 잘 쓰기 위해서는 이 개념들의 확실한 이해가 필요로 하다고 생각한다.
+
+
+## Java
+
+* [Spring Batch의 동작 코드 #step 생성과 실행](http://blog.woniper.net/358) : spring batch에 대한 시리즈를 쓰고 계신데, 기초적인 내용인것 같지만, 분석하시는 내용이 상당히 상세하게 되었기에 Spring batch에 관해서 처음 접하는 사람이라면 보면 좋을 것 같다. 
+* [Spring Batch의 동작 코드 #Job생성과 실행](http://blog.woniper.net/357) : Spring Batch의 Job생성과 실행에 대한 부분의 설명글인데, 나는 Spring Batch에 대해서는 조심스럽게 접근 하는 편이다. 왜냐하면, 생각보다 작은 실수로 엄청나게 긴 시간을 헛되게 보낼 수 있다.
+* [결제 시스템 성능, 부하, 스트레스 테스트](http://woowabros.github.io/experience/2018/05/08/billing-performance_test_experience.html) : 줌에서 일하셨던 것 같은데 어느새 우아한 형제들에서 일하고 계신 권용근님이 작성한 우아한 형제들 블로그의 포스팅인데, 요즘 내가 관심 갖는 주제이기도 하고, 스트레스 테스트는 정말 어려운 일이라 조심스럽기도 하다. 사실 어떤 변수에 의해 테스트는 정말 달라지기도 한다. 그럼에도 불구하고, 상세하게 해당 작업에 대해 써주셨다. 이런 일들에 대한 중요한 참고자료가 될 것이라 생각한다. 
+
+## Web
+
+* [기술 뉴스 #102](https://blog.outsider.ne.kr/1376) : 듀랑고를 했던 유저로써 반가운 글이 포함되어 있는 outsider님의 블로그 기술뉴스이다. 이번편에는 듀랑고 데이터 엔지니어의 로그 관련 포스팅이 가장 인상적이었다. 로그 시스템에 대한 부분은 중요하면서도 생각보다 설계 및 운용에 대한 부분들이 워낙 세세하게 고려해야 할 것들이 참 많다. 그럼에도 불구하고 아주 세세하게 자료를 남겨주신 전효준님께 감사 인사를 드려야 할 것 같다.  로그 시스템 구축이라는 것은 쉽지 않은 작업인데, 5초이내에 조회 및 시각화까지라니...(그저 놀라울따름..) 이런 것들이 가능한 것은 사스가 AWS의 힘도 톡톡히 보는 것 같다.
+* [IntelliJ 무료버전에서 Spring 5 MVC프로젝트 구축](http://www.bsidesoft.com/?p=6160) : Hika님의 회사 블로그인데, 정말 알짜 글들이 쏟아지는 블로그중에 하나이다. 오늘의 글은 스프링5 프로젝트 셋팅 방법인데, 이를 인텔리제이 무료버전에서 구성하는 방법을 소개해주셨다. 사실, 셋팅이 정말 중요하다. 익숙해지도록 하자.
+* [오픈 소스로 만들어진 Mac app](https://github.com/serhii-londar/open-source-mac-os-apps) : 오픈 소스로 만들어진 여러가지의 유용한 Mac apps들을 모아둔 곳이다. 보니 해커뉴스를 바로 받아오는 앱도 있다. 여러가지 쓸모 있는 어플리케이션들이 있어서 유용한 것 같다.
+* [[MSA] #1 Monolithic Architecture 란?](https://ahea.wordpress.com/2018/04/26/msa-1-monolithic-architecture-%EB%9E%80/)
+* [[MSA] #2 Microservice Architecture 란?](https://ahea.wordpress.com/2018/04/26/msa-2-microservice-architecture-%EB%9E%80/)
+* [[MSA] #3 Circuit Breaker](https://ahea.wordpress.com/2018/04/26/msa-3-circuit-breaker/)
+* [[MSA] #4 API Gateway](https://ahea.wordpress.com/2018/04/26/msa-4-api-gateway/)
+* [[MSA] #5 Service Discovery](https://ahea.wordpress.com/2018/04/26/msa-5-service-discovery/)
+* [[MSA] #6 Spring Cloud Netflix](https://ahea.wordpress.com/2018/04/26/msa-6-spring-cloud-netflix/)
+
