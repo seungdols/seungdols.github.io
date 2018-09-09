@@ -59,16 +59,16 @@ comments: true
 
 ```yaml
 - name: set variable for tomcat directories
-  set_fact: tomcat_directory="['tomcat1', 'tomcat2']"
-  when: (tomcat1_dir.stat.exists) and (tomcat2_dir.stat.exists)
-
-- name: set variable for tomcat directories
   set_fact: tomcat_directory="['tomcat1']"
   when: tomcat1_dir.stat.exists
 
 - name: set variable for tomcat directories
   set_fact: tomcat_directory="['tomcat2']"
   when: tomcat2_dir.stat.exists
+
+- name: set variable for tomcat directories
+  set_fact: tomcat_directory="['tomcat1', 'tomcat2']"
+  when: (tomcat1_dir.stat.exists) and (tomcat2_dir.stat.exists)
 ```
 
 그리하여, 디렉토리 존재유무에 대한 리턴 된 값을 이용하여, 특수한 변수를 만들게 되었습니다. 위의 생각을 하게 된 것은 `stackoverflow`의 글을 보고는 생각이 났습니다!
