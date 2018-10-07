@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Weekly News #25"
+description: "그냥 저냥 #위클리뉴스 #25"
+date: "2018-10-07 23:17"
+tags: [weekly-news, programming]
+comments: true
+---
+
+# 그냥 저냥 위클리 뉴스 #25
+
+### 읽어보면 좋을 글 
+
+* [돈이 되지 않는 일을 할 권리](https://brunch.co.kr/@sungmipark/3) : 돈이 되지 않은 일이라는 것은 무엇을까라는 고민을 해본 적이 있었을까? 내가 하는 것은 회사에 가서 업무를 해내고, 그러한 활동만 노동이라고 생각했다. 그런데, 이 글에서 그 생각을 여지없이 부숴버리는 문장이 있다. "우리는 일 하지 않으면, 논다고 생각한다는 것이다. 그 이유는 우리에게 활동에 관련된 언어가 일과 놀이만 존재하기 때문이다." 이 글을 읽으면서 무언가 쿵 하고 머리를 맞은 것 같았다. 
+* [적극적 소득 vs 소극적 소득](https://ppss.kr/archives/173264) : 적극적 소득과 소극적 소득에 대한 이해를 할 수 있는 아티클이다. 사실, 매일 매일 좋은 글이 발행되는데, 내가 잘 찾아서 못봐서 그렇지 여기는 항상 좋은 글이 많은것 같다. 
+
+### Java 
+
+* [Java 11 and IntelliJ IDEA](https://dzone.com/articles/java-11-and-intellij-idea): Java11이 드디어 릴리즈 되었다. 벌써 11이 되어 오다니, 7,8에서 업데이트가 늦은 만큼 빠른 릴리즈를 하고 있다. 대신에 중요한 포인트는 OpenJDK로 퍼블릭 업데이트를 하고, OracleJDK는 구독모델이 생겼고, 상업에서 사용하는 서비스들은 11까지만 사용이 가능하다. 확인한 바로는 그렇다. 그런데, 누구보다 빠르게 IntelliJ는 업데이트를 빠르게 진행해 Java11도 지원하게 되었다. 
+* [Understanding Spring Reactive: Servlet 3.1/Spring MVC Non-Blocking IO](https://dzone.com/articles/servlet-31spring-mvc-non-blocking-io): Servlet 3.1부터 논블럭킹 IO를 지원했었으나, 실제로 대부분 그렇게 사용하지 않았다. 물론, 지금은 비동기 논블럭킹 IO를 사용 할 수 있다. 스프링 프레임워크 5부터는 MVC framework, WebFlux 둘 중 하나를 선택해 사용할 수 있다. 웹플럭스를 사용하기 이전에 논블럭킹 IO에 대해서도 공부 할 필요는 있다. 
+* [90 New Features and APIs in JDK 11 (Part 1)](https://dzone.com/articles/90-new-features-and-apis-in-jdk-11): 우선 제일 신기한 점은 람다 표현식 내에서 로컬 변수를 만들어 사용할 수 있다. 이부분은 아주 유용하게 쓸 수 있을 것 같다. 더 대박인건 `String`클래스에 `isBlank`가 생겼다. 그 외에도 유용한 것들이 많이 생겼다.
+* [90 New Features and APIs in JDK 11 (Part 2)](https://dzone.com/articles/90-new-features-and-apis-in-jdk-11-part-2): ZGC의 개선이라고 해야할까? 그 부분도 놀랍지만, 나즈혼이 Deprecated 되었다는 점, 확인 해야 할 점이 늘었다. 
+* [The Second Edition of "Refactoring"](https://martinfowler.com/articles/refactoring-2nd-ed.html#gone-to-the-printers): 마틴 파울러의 리팩토링 책이 두번째 판이 출간 되었다. 한국어로 나오기에는 시간이 좀 걸릴 것 같고, Safaribooks online에는 이미 올라와 있다. 이 책은 메인 언어가 JavaScript로 되어있다고 한다.  
+* [Debugging Java Streams With IntelliJ](https://dzone.com/articles/debugging-java-streams-with-intellij): IntelliJ에서 스트림에 대한 디버깅을 지원하는데, 잘 모르는 경우가 있다. 특히, 스트림의 처리는 내부 반복, 내부 파이프라인에서 처리 되므로 그냥 확인이 어렵다. 그러한 부분을 IDE가 해결해준다. 
+* [REST API Error Handling With Spring Boot](https://dzone.com/articles/rest-api-error-handling-with-spring-boot): REST API에서 에러 처리를 어떻게 해야 할지? 고민이 되기 쉬운데, 많은 걸 봐야 감이 오는 것 같다. (여전히 REST API는 어렵다.)
+
+### JS
+
+* [Dan Abramov: Beyond React 16 | JSConf Iceland 2018](https://www.youtube.com/watch?v=nLF0n9SACd4) : 각기 다른 컴퓨팅 파워, 네트워크 환경에서 어떻게 동일한 사용자 경험을 줄 수 있을 것인가?에 대한 물음으로 나온 아이디어 2가지를 소개한다. Time Slicing, Suspense라는 것으로 CPU, IO에 대응하는 기법이다. 뭐랄까. 그냥 천재다.
+* [30 seconds of code - JavsScript](https://30secondsofcode.org): 자바스크립트로 목적에 따라서 구현된 코드를 소개한다. 물론, snippet으로 등록해서 사용해도 될 정도이다. 이렇게 구현된 코드로 공부를 하는 방법도 좋은 방법 같다. 왜냐하면, 이미 집단 지성으로 만들어진 코드이지 않을까? 그렇다면, 더할나위 없는 코드 공부가 된다. 
+
+* [React Global State without Redux](https://www.robinwieruch.de/react-global-state-without-redux/)
+* [Create React App 2.0: Babel 7, Sass, and More](https://reactjs.org/blog/2018/10/01/create-react-app-v2.html): CRA가 드디어 2.0이 나왔고, 업데이트를 쉽게 할 수 있다. 일단 바벨7으로 올라 갔고, `<></>`와 같은 Fragment 또한 쉽게 사용이 가능해졌다. 
+* [How to prevent a rerender in React](https://www.robinwieruch.de/react-prevent-rerender-component/)
+* [Vue.js 참고 자료](https://elky84.github.io/2018/09/29/vue_js_link/)
+
+### ML
+
+* [케라스를 이용해 seq2seq를 10분안에 알려주기](https://tykimos.github.io/2018/09/14/ten-minute_introduction_to_sequence-to-sequence_learning_in_Keras/) : 쉽게 말하면, 특정 시퀀스를 이미 학습하고 다른 시퀀스를 학습하는 형태인데, 해당 내용에서 말하는 것은 하나의 도메인에서 다른 도메인으로 시퀀스 변환학습 하는 것을 말한다. 
+* [지도/비지도학습과 강화학습 풀이법](https://tykimos.github.io/2018/09/22/LearningMethod/) : 기본적인 설명이지만, 어려움을 느낄 수 있다. 그 속에서 중요한 점은 강화학습은 보상이 포인트라는 사실을 알 수 있다. 
+* [딥러닝의 Hello World, Fashion-MNIST](https://tykimos.github.io/2018/09/30/Hello_Fashion_MNIST/) : 기본적인 예제이지만, 케라스를 통해서 딥러닝에 대해 공부 할 수 있다는 점에서 좋은 예제가 아닐까 한다. 원래 튜토리얼이 조금 어렵다고 느끼기 마련인데, 코드도 github에 있으니 더 좋다. 
+
