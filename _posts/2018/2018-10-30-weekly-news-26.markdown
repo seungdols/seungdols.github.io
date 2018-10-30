@@ -1,0 +1,50 @@
+---
+layout: post
+title: "Weekly News #26"
+description: "그냥 저냥 #위클리뉴스 #26"
+date: "2018-10-31 00:40"
+tags: [weekly-news, programming]
+comments: true
+---
+
+# 그냥 저냥 위클리뉴스 #26
+
+
+## JavaScript
+
+* [명령형 자바스크립트 클래스를 함수형 선언적 코드로 바꾸는 8단계](https://github.com/nhnent/fe.javascript/wiki/%EB%AA%85%EB%A0%B9%ED%98%95-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A5%BC-%ED%95%A8%EC%88%98%ED%98%95-%EC%84%A0%EC%96%B8%EC%A0%81-%EC%BD%94%EB%93%9C%EB%A1%9C-%EB%B0%94%EA%BE%B8%EB%8A%94-8-%EB%8B%A8%EA%B3%84): 원문도 출처로 명시되어 있고, 번역글이긴 한데, 번역이 정말 잘 되어 있다고 생각 했다. 그리고 코드로 표현되어 있고, 함수형 패러다임에서 주요한 합성함수, 순수함수, 커링등 개념들이 많이 나와 있어서 학습하기 좋다.
+* [[NodeJS] nodejs는 single-thread가 아니다](https://medium.com/@rpf5573/nodejs-nodejs%EB%8A%94-single-thread%EA%B0%80-%EC%95%84%EB%8B%88%EB%8B%A4-f02b0278c390): 나도 그렇게 알고 있던 사실이었는데, CPU 관련 부하가 큰 경우는 다른 Thread에서 작업한다는 사실이 놀라웠다. 정말 몰랐던 내용을 쉽게 설명 해 준글.
+* [TypeScript Generic](https://jsdev.kr/t/typescript-generic/3235): TypeScript의 Generic의 번연본인데, 사실, TypeScript가 interface, class를 만지다 보면, 굉장히 복잡하게 사용을 할 수 있다. 거기에 Generic의 내용인데, 이해하기에 난도는 높다.
+* [reduce() 를 이용해 순차적으로 프라미스를 해결하는 방법은 어떻게 동작하는가?](https://github.com/nhnent/fe.javascript/wiki/%23180:-reduce()-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EC%88%9C%EC%B0%A8%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%94%84%EB%9D%BC%EB%AF%B8%EC%8A%A4%EB%A5%BC-%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94%EA%B0%80%3F): 정말 유용한 글이라 생각한다. reduce를 이용한 Promise 사용은 사실 흔하게 사용하는데 어떻게 동작하는지에 대해서는 모를 수 있다. 그것의 궁금증을 해결해 줄 수 있는 글.
+* [Redux vs. The React Context API](https://daveceddia.com/context-api-vs-redux/): React 16.3 버전에서 추가 된 Context API와 Redux의 사용 비교한 글이다. 서로의 내용을 깊이 있게 참고할 수 있는 좋다. 
+* [Javascript Iterator](http://dev-momo.tistory.com/entry/Javascript-Iterator): for-of의 설명과 함께, `Iterator`에 대한 설명을 하는데, 굉장히 자세하게 써있다. 
+* [Higher-Order Function 이란 무엇인가](http://dev-momo.tistory.com/39): `HOF`라고 보통 표현하기도 한다. `React`에서도 유사하게, `HOC`로 많이 쓰는 형태이다. 함수형 패러다임에서 없어서는 안되는 강력한 개념이다. 알아두어야 할 내용이다. 
+* [Async-await는 어떻게 구현하는가](http://dev-momo.tistory.com/41): `async, await`은 `Koa`를 사용하면, 바로 사용이 가능한데, `Promise Hell`에서 벗어나게 해주고, 비동기 처리를 동기식처럼 선형적인 코드로 만들어준다. 근래들어서 필수적으로 알아야 하는 개념 중 하나라 생각한다.
+* [What are React Hooks?](https://www.robinwieruch.de/react-hooks/): `React Hooks`이라는 개념이 등장 했다. 릴리즈 된 건 아니지만, 리액트로 개발 하는 이들의 관심을 끌고 있는 컨셉이다. React Component 클래스를 사용하지 않고, 함수형 컴포넌트로도 React Hooks을 이용해 개발할 수 있도록 돕는다고 하는데, 정확하게 이해는 못했다. 
+
+## Java
+
+* [신규 포인트 시스템 전환기 #1 - 개발 단계](http://woowabros.github.io/experience/2018/10/12/new_point_story_1.html)
+* [신규 포인트 시스템 전환기 #2 - 오픈 준비 단계](http://woowabros.github.io/experience/2018/10/15/new_point_story_2.html)
+* [Installing OpenJDK 11 on MacOS](https://dzone.com/articles/installing-openjdk-11-on-macos)
+* [What Does it Mean to Be 'Reactive?'](https://dzone.com/articles/my-experience-trying-to-explain-reactive-word-mean): `Reactive`라는 의미를 어떤건지 알 수 있도록 쓰여져 있으나, 이해는 쉽지만 코드로 작성하기는 어렵다는 생각이 든다. 
+* [What Features Would You Want to See in Java 12?](https://dzone.com/articles/what-features-would-you-want-to-see-in-upcoming-ja): Java12에서 `Raw String literal`이 제일 마음에 든다.
+* [Preview Raw String Literals in IntelliJ IDEA 2018.3](https://blog.jetbrains.com/idea/2018/10/preview-raw-string-literals-in-intellij-idea-2018-3/): Java12의 기능 중 하나인 `Raw string literal`을 `Intellij 2018.3` 사용할 수 있다. 
+
+## Kafka
+
+* [[Kafka] 콘솔 명령어 모음](http://atin.tistory.com/664)
+
+## Article
+
+* [IBM, 오픈소스업체 레드햇 340억弗에 인수](http://www.zdnet.co.kr/news/news_view.asp?artice_id=20181029085540): IBM에서 레드햇을 인수 했다!!! 앞으로 어떻게 될지가 궁금해졌다!!!
+* [태도가 지능보다 중요한 이유](http://www.zdnet.co.kr/news/news_view.asp?artice_id=20181029085540)
+* [좋아하는 일만 하며 사는 법](http://blog.lastmind.io/archives/880)
+* [[B급 프로그래머] 초급 개발자가 알아야 하는 12가지 기술](http://jhrogue.blogspot.com/2018/10/b-12.html)
+* [[B급 프로그래머] 10월 4주 소식(개발/관리도구, 고성능 서버/데이터베이스 부문)](http://jhrogue.blogspot.com/2018/10/b-10-4.html)
+* [{ 고퀄리티⚡️개발 컨텐츠 모음 }](https://github.com/Integerous/goQuality-dev-contents)
+
+
+## MacOS Tip
+
+* [macOS에서 SSH Key 암호를 그만 요구 당하기](https://item4.github.io/2018-10-24/Stop-Ask-Passphrase-of-SSH-Key-in-macOS/)
