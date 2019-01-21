@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Weekly News #28"
+description: "그냥 저냥 #위클리뉴스 #28"
+date: "2019-01-19 15:52"
+tags: [weekly-news, programming]
+comments: true
+---
+
+* [한 달 짜리 개인 프로젝트 이야기 (3) - Dvorak과 이별하다 - HappyProgrammer - Medium](https://medium.com/happyprogrammer-in-jeju/%ED%95%9C-%EB%8B%AC-%EC%A7%9C%EB%A6%AC-%EA%B0%9C%EC%9D%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9D%B4%EC%95%BC%EA%B8%B0-3-dvorak%EA%B3%BC-%EC%9D%B4%EB%B3%84%ED%95%98%EB%8B%A4-c56c960a9ec8): 많은 사람들이 사용하는 것의 편리함과 공용성에 대해 생각 해볼 수 있는 글이다. 많이 사용한다는 것이 어떤 의미가 있는 것인지? 
+* [나의 공부 방법](https://johngrib.github.io/wiki/my-study-method/): 정말 대단하신 분이라고 생각하는 개발자 중의 한 분이신 이종립님의 이야기인데, 공감이 참 많이 간다. 나도 중학교시절부터 책을 좋아 했는데, 그 이후 뭐랄까 좋지 않은 습관이 머리말부터 인쇄 판쇄까지를 읽어야 하는 습관이었다. 책은 목차가 있는 이유가 있다. 시간이 지나면서 여유가 생기고, 끝까지 읽지 않고 필요한 부분만 읽는 성숙함이 자연스레 생기게 되었고, 그 맛이 있다. 다른 이들도 책으로 공부하는 맛을 느꼈으면 좋겠다.
+* [[B급 프로그래머] 동작하게 만들고, 제대로 만들고, 빠르게 만든다](http://jhrogue.blogspot.com/2019/01/b_19.html): 개발자의 최우선은 결국 동작하는 코드를 만들어 내는 것이다. 그리고 아름다운 코드를 만들어야 하는 미션이 있다. 그럼에도 가장 중요한 것은 동작해야 의의가 있다는 말이 참 와 닿는다. 
+* [내 맘대로 위클리 뉴스 - 2019년 2주(2019.1.7 - 2019.1.13)](https://www.sangkon.com/2019/01/13/sigamdream_weekly_2019_2/): `vue.js`를 이용해 인스타그램을 clone한 형태를 만들어 보는 링크가 있는데 이건 시간 나면 꼭 해보고 싶다.
+* [세상에서 가장 이해받지 못하는 영웅, 데이터 과학자 (1/3)](https://cojette.github.io/misunderstoodhero1_3/): 데이터 사이언티스트란 무엇을 하는 사람들인가? 라는 적절한 Role을 이해하기란 어렵다. 이해하는 데에는 관심과 시간만 있으면 될 것 같다.
+* [#retrospection 2018년 회고](http://ohyecloudy.com/pnotes/archives/retrospection-2018/): 색다른 언어를 공부해서 실무에 도입해보는 것도 좋은 선택이라 생각한다. `Eilxir`라는 언어로 사이드 프로젝트와 실무에서 사용을 해보셨는데, 평이 괜찮은 것 같다. 일단, 바쁜 와중에도 학습하는 모습이 인상적이라고 할 수 있다.
+* [VS Code에 console.log shortcut 추가하기](https://milooy.wordpress.com/2019/01/10/console-log-shortcut-in-vscode/): 기계인간 이종립님의 나의 공부 방법이란 위의 링크에도 있지만, `snippets`를 구축하는 것도 좋은 방법이 되지 않나?라는 생각을 해보게 된다. 물론 개발 생산성도 높이 올라가고, MacOS App을 하나 질렀는데, 나도 거기에 차곡차곡 하나씩 쌓아 올려 보려고 한다.
+* [코딩 시험과 TDD](https://justhackem.wordpress.com/2019/01/05/coding-test-and-tdd/): 코딩 시험이란게 사실, 높은자를 뽑기 위함이라기 보다는 낮은 사람을 거르기 위한 용도라 들었다. 그런면에서는 인정하는 바이다. 그렇지만 너무나 수준 높은 알고리즘 인터뷰는 면접자를 정말 힘들게 할 수 있으니 적정 선을 지키는 것이 중요하다는 생각이 든다.
+* [Node v11.7.0 (Current) | Node.js](https://nodejs.org/en/blog/release/v11.7.0/)
+* [How to create a REST API with Express.js in Node.js - RWieruch](https://www.robinwieruch.de/node-express-server-rest-api/)
+* [Is it worth learning Golang ?](https://www.javacodegeeks.com/2019/01/worth-learning-golang.html): `Go lang` 관심은 많으나, 실제로 써보고 싶은데, 아직 시작을 못한 언어이다. 추후에 도움이 될 거라 생각한다.
+* [(JavaScript) Error 객체에 관하여](https://www.zerocho.com/category/JavaScript/post/5c1913622e014f001e827a89): JavaScript를 만지다 보면 자주 만나지만, 막상 깊게 본적은 내용이라 가져왔는데, 잘 정리 되어 있다. 
+* [2018년 돌아보기](https://hyunseob.github.io/2018/12/31/2018-year-in-review/): 리액트, 타입스크립트로 많은 글을 쓰시고, 공유해주시는 이현섭님의 회고이다. 좋은 내용이 참 많다. 그리고 철학이 있는 개발자라는 생각이 드는 회고였다.
+* [이력서 - 이현섭](https://hyunseob.github.io/resume/): 이현섭님의 이력서를 우연히 보게 되었는데, 너무 좋아서 가져오게 되었고, 나도 이렇게 하나 만들고 6개월 단위로 하나씩 업데이트를 해볼까 한다.
+* [How to learn React.js in 2019 - RWieruch](https://www.robinwieruch.de/learn-react-js/): 2019년에 어떻게 ReactJS를 배워야하는지에 대한 글인데, 상세하게 되어 있으므로 주의하자...영어를 많이 읽어야 도움이 되는 것 같고, 변화의 해가 되는 시기가 아닐까 한다. 특히, Hooks가 이제 곧 릴리즈 될 날이 머지 않았다.
+* [Why React Hooks](http://dev-momo.tistory.com/43): ReactJS17에서 추가 될 API인데, 좀 더 고차원적인 고뇌가 담긴 API라고 생각하게 되며, 좀 더 편리하고,순수 함수를 통한 개발하는 것이 결국에는 프로그래머에게 도움이 되는 방향으로 가고 있다는 생각이 들었다.
+* [Create-react-app Mobx, Router 환경 구성 - 주노준호 블로그](https://junojunho.com/front-end/create-react-app-with-mobx)
+* [Dockerfile 작성부터 이미지 배포까지 간단 요약](https://adhrinae.github.io/posts/docker-101): 안도형님의 도커 파일 작성부터 이미지 배포까지 하게 된 일련의 프로세스를 순서정연하게 정리해주신 글인데, 참고하면 좋을 것 같다.
+* [Beginning Javascript Iterator and Generator](http://dev-momo.tistory.com/44)
+* [2019.01.10. 기술문서 번역 모임 참석 후기(Review of Technical document Translator Conference in Seoul, Korea)](https://medium.com/@studioego/2019-01-10-%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%84%9C-%EB%B2%88%EC%97%AD-%EB%AA%A8%EC%9E%84-%EC%B0%B8%EC%84%9D-%ED%9B%84%EA%B8%B0-review-of-technical-document-translator-conference-in-seoul-korea-8af6aef3e02b)
+* [루비(Ruby) 2.6 릴리즈 및 주요 문법 변경 사항 소개](https://www.44bits.io/ko/post/ruby-2-6-0-released-and-changes)
+* [2018년 하반기 회고](https://jojoldu.tistory.com/373): 내가 좋아하는 이동욱님의 회고이다. 이 분의 꾸준함과 노력을 따라갈 수 없다는 생각이 들었다. 정말이지...노력을 많이 하시는데, 항상 글에는 겸손과 자세 낮춤이 묻어나는 분이시다.
+* [[개발]가능한 지키려하는 개발 원칙](https://isme2n.github.io/devlog/2019/01/10/dev-convention/)
+* [OOP를 빨리 잊으라는 글에 대하여...](http://blog.fupfin.com/?p=179): 지난 번 말했던 이야기에 비판?이라고 할 수 있다. 그렇지만, 이러한 비판과 적절한 대안을 이야기 하는 것을 옳다. 비방만 하는 것은 문제가 있다고 생각 한다. 특히, 개념의 이해는 어렵지만 한 번 뿌리 내리면, 굳건하게 실력의 버팀목이 되어 준다는 생각을 하게 되었다.
+* [개발자를 어떻게 학습시키는게 효과적일까?. 자기반성 모드](http://sculove.github.io/blog/2018/12/31/learn2018/): 프론트엔드 개발자이신 손찬욱님의 자기 반성의 글이다. 무엇에 대한 반성인가는 개발자를 효과적으로 학습하시는 것에 대함이었다. 김창준님의 **함께자라기**라는 책을 읽고 난 후의 피드백을 톨해 자신의 삶을 반영시켜 생각해보신 글이다. 
+* [React에서 Mobx 경험기 (Redux와 비교기) - 우아한형제들 기술 블로그](http://woowabros.github.io/experience/2019/01/02/kimcj-react-mobx.html): 나는 `Redux`에 회의적이었는데, `Mobx`를 알게 된 이후 부터이다. 그런데 생각해보면, 서비스 마다 특성이 다르고, 뭘 적용해야 더 나은지?는 가늠하기 어렵다. 그럼에도 불구하고, `Mobx`는 블랙박스처럼 무언가 무언가 많이 해준다. 그러나, 그게 마냥 은탄환은 아니라는 점에서 명심해야 한다.
+* [2018년, 내가 모르는 기술들](https://overreacted.io/ko/things-i-dont-know-as-of-2018/): 2018년 내가 모르는 기술들이라는 글의 번역인데, 읽어보면 누구나 아! 하고 느낄 수 있는 글이며, 시니어 개발자도 그 분야에 대해 전부 알지 못한다는 점에서 내가 신입 사원이었을 무렵의 질문들이 생각 나 부끄러웠다. 시니어 개발자가 되면, 모든지 아는 사람으로 생각했던, 생각이 어렸던 그떄보다 지금은 더 나은 걸음으로 가고 있다는 생각이 떠올라 부끄럽기도 하면서 글을 읽으면서 재밌었다.
