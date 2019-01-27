@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Weekly News #29"
+description: "그냥 저냥 #위클리뉴스 #29"
+date: "2019-01-27 20:30"
+tags: [weekly-news, programming]
+comments: true
+---
+
+
+## 개발
+
+* [Tiny Tip Calculator 개발기](https://edykim.com/ko/post/postmortem-tiny-tip-calculator/): 번역을 정말 자주 해주시는데, 또 토이 프로젝트로 팁 계산을 해주는 ios앱을 만들어주셨다. 깔끔하고, 여행을 갔을 때, 써야겠다.
+* [한 달 짜리 개인 프로젝트 (5) — 당신의 타자 실력을 알려주는 웹 앱](https://medium.com/happyprogrammer-in-jeju/%ED%95%9C-%EB%8B%AC-%EC%A7%9C%EB%A6%AC-%EA%B0%9C%EC%9D%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-5-%EB%8B%B9%EC%8B%A0%EC%9D%98-%ED%83%80%EC%9E%90-%EC%8B%A4%EB%A0%A5%EC%9D%84-%EC%95%8C%EB%A0%A4%EC%A3%BC%EB%8A%94-%EC%9B%B9-%EC%95%B1-7e0c0e44b37c): 프로그래머를 위한 타자 연습페이지를 모방하여, 한글 연습을 할 수 있는 웹 앱인데, 심심하거나 타자 연습을 진짜로 할 때, 좋다는 생각과 함께 항상 원하는 어플리케이션을 직접 개발하시는 모습이 참 존경스럽고, 만들어주신 스타웍스 또한 잘 쓰고 있는데, 해당 앱도 정말 자주 쓰게 될 것 같다.
+* [[B급 프로그래머] Devops를 위한 인터뷰 문제](http://jhrogue.blogspot.com/2019/01/b-devop.html): 실제로 devops라는 건 정말 어렵다. 추상적인 영역이고, 사이트 신뢰성을 얻기란 어려운 문제고 항상 모든 문제의 모호함은 존재하는데, 기본이 중요한 것 같다. Devops라는 Role에 따른 인터뷰 질문인데, 답하는 것은 좀 어렵다. 그런데, 해당 내용에 대한 좋은 방향점을 알려주는 글이다.
+* [This Month I Learned - 2019년 1월](https://adhrinae.github.io/posts/this-month-i-learned-1901): 하노이의 탑에 대한 부분이 공감이 된다. 어떤 익숙한 문제이더라도 막상 해결하려고 하는데에는 시간이 걸리고, 최적화를 스스로 하는 것은 굉장히 어려운 사실이라는 점이 공감된다. 그리고, UI 엔지니어링의 요소들에 대한 부분, 안정적인 서비스 운영이라는 정보도 굉장히 유익하다. 
+* [CURRENT TIME IN HH:MM:SS WITH JAVA 8+ AND DATETIMEFORMATTERBUILDER](http://adambien.blog/roller/abien/entry/current_time_in_hh_mm): Java8에서 날짜 관련 포맷 만드는 일이 많은데, 그럴때 참고하면 좋을 것 같다. 굉장히 명시적이라 가독이 좋은게 장점이다.
+* [세상에서 가장 이해받지 못하는 영웅, 데이터 과학자 (3/3)](https://cojette.github.io/misunderstoodhero3_3/): 정말 중요한 점은 바로 데이터 과학자도 ML을 사용한다는 점을 설명하는 점이 정말 지혜로운 설명이었다. 기술에 대해 오해하는 지점이 생기는데, 모든 문제의 해결이 ML로 귀결되는 것은 아닌데, 오해하곤 한다. 조심해야 할 문제인데, 전혀 다른 내용의 아티클에서 해당 내용에 대한 답?!을 찾게 되어 나중에 이렇게 설명을 해야겠다.
+* [Why Isn’t X a Hook?](https://overreacted.io/why-isnt-x-a-hook/): React Hooks API를 첫번째로 릴리즈 한 뒤의 **왜 다른 API는 Hooks가 되지 않는가?**라는 질문들에 대한 토론에 대한 글인데, Hooks에 대한 내용을 좀 인지하고 있어야 해당 글을 이해하기 쉽다.
+* [코랩 시작하기](https://tykimos.github.io/2019/01/22/colab_getting_started/): 파이썬, 머신러닝, 딥러닝을 시작할 때에 환경 설정이 필요로한데, 해당 환경 구축을 클라우드 환경에서 사용할 수 있게 구글 클라우드 서비스를 이용한 방법에 대한 설명이다.
+* [Manual Bean Definitions in Spring Boot](http://spring.io/blog/2019/01/21/manual-bean-definitions-in-spring-boot): Spring Boot환경에서 수동으로 `Bean` 정의를 하는 방법의 글이다. 중간에 `@EnableAutoConfiguration`의 어노테이션을 사용하지 않는다고 가정하는 경우이다. 그런데, 나는 해당 어노테이션이 정확하게 어떻게 동작하는지? 알고 있는지 생각해보니 없었다. 무언가를 쓸 때, 어떻게 동작하는지는 알고 쓰는 습관을 들이는 게 좋다는 생각이 들었다.
+* [[번역] 확장성 있고, 이식성 있는 도커 컨테이너 네트워크 설계](https://ziwon.github.io/post/designing-scalable-portable-docker-container-networks/): 도커 컨테이너라는 점에 대한 부분을 이해하기 어려운데, 해당 아티클을 읽기전에는 도커 개념과 도커 Swarm에 대한 개념을 알고 있어야 이해하기 쉽다고 한다. 물론, 해당 개념에 대한 링크도 제공하고 있다.
+
+## 기타 
+
+* [네이버 가격 비교의 비밀을 알고 최저가를 노려보자](https://ppss.kr/archives/185153): 네이버 가격비교와 관련한 상품의 최저가에 대한 상세한 비교글인데, 분석한 수준이 굉장히 높다. 읽어보면, 최저가에 대한 해답이 보일것이라 생각한다. 우리는 누구나 싸게 살 권리가 있으므로?! ^^
+* [어떻게 지루함이 당신을 더 창의적으로 만들까요?](http://newspeppermint.com/2019/01/22/boredom-and-creativity/): 좋은 지루함과 나쁜 지루함이 어떻게 도움이 되는지에 대한 글인데, 지루함에 대한 부분을 조금 다른 관점으로 생각하는 점이 흥미롭다.
+* [좋은 기술 블로그를 만들어 나가기 위한 8가지 제언](https://www.44bits.io/ko/post/8-suggestions-for-tech-programming-blog**: 좋은 블로그를 만들어 나가는데는 **완성된 글은 온전한 문장들로 이루어져야합니다***라는 글을 보고 반성을 많이 하게 되었다. 좋은 글을 쓰고, 좋은 정보를 공유하고자 하는데, 과연 나는 잘 지키고 있는지에 대한 의문이 생겼다. 그리고 **튜토리얼을 작성할 때는 동작하는 예제를 작성하라**는 예시는 정말 공감 많이 했다.
