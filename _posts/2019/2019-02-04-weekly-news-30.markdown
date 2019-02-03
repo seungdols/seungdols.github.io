@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Weekly News #30"
+description: "그냥 저냥 #위클리뉴스 #30"
+date: "2019-02-04 00:18"
+tags: [weekly-news, programming]
+comments: true
+---
+
+# 그냥 저냥 #위클리뉴스 #30
+
+* [JavaScript 코드 리뷰 - 코드 리뷰 문화](https://cimfalab.github.io/deepscan/2016/08/code-review-1): 코드 리뷰에 대한 글인데, 코드 리뷰에 대한 모든 면을 적어주었다. 그래서 읽어보면 좋겠고, 코드 리뷰를 하지 않는 팀, 회사라면, 다 같이 공유해서 읽어 보는 것도 좋겠다. 결국은 코드 리뷰는 비용이 들지만, 다시 되돌아 오는 복리라고 생각하면 좋다. *작게 자주 올리는 것이 좋다*는 말에 격하게 동의한다.
+* [자바스크립트 비동기 처리 과정과 RxJS Scheduler](http://sculove.github.io/blog/2018/01/18/javascriptflow/#disqus_thread): 오래전의 글이지만, 자바스크립트 비동기 처리를 고민하다보니, 결국은 기본 엔진에 대한 공부를 하게 된다. `Event Loop`와 `Queue` 그리고, `Microtask queue`의 관계로 자바스크립트 처리 과정을 Step by Step으로 알려준다.
+* [[WHY 시리즈 1] E.001 - mlab, API - Mijeong (Rachel) - Medium](https://medium.com/@mjspring/why-%EC%8B%9C%EB%A6%AC%EC%A6%88-1-e-001-mlab-api-15deb61d6411?fbclid=IwAR36ORqaiRUWp8boB9hTknNreZwa5JSoLD3I3PLHNNFzFgPSlHWshnm0Fro)
+* [[WHY 시리즈 1] E.002 - Monolith, 요구사항, Pull Request - Mijeong (Rachel) - Medium](https://medium.com/@mjspring/why-%EC%8B%9C%EB%A6%AC%EC%A6%88-1-e-002-monolith-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD-pull-request-a5c827ebd3f?fbclid=IwAR1_7Qtuqs2zBHDLCT6keSPEKoWPMaJgkNID6cg67IHvDcHAtFDftUuLXLo)
+* [[WHY 시리즈 1] E.003 - 단위 테스트, 개밥 먹기, 데이터 구조 정의 - Mijeong (Rachel) - Medium](https://medium.com/@mjspring/why-%EC%8B%9C%EB%A6%AC%EC%A6%88-1-e-003-%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B0%9C%EB%B0%A5-%EB%A8%B9%EA%B8%B0-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B5%AC%EC%A1%B0-%EC%A0%95%EC%9D%98-3d7568f9023e?fbclid=IwAR1pBSHD_B-3xDPWcepMhsXjmgBqf2F7IPt3y8rTRSD0MkxzCLBy1EKbRjk)
+* [[WHY 시리즈 1] E.004 - 서버 분리, 데이터 모델 관계, API Resource - Mijeong (Rachel) - Medium](https://medium.com/@mjspring/why-%EC%8B%9C%EB%A6%AC%EC%A6%88-1-e-004-%EC%84%9C%EB%B2%84-%EB%B6%84%EB%A6%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AA%A8%EB%8D%B8-%EA%B4%80%EA%B3%84-api-resource-75433452b368?fbclid=IwAR2DP9Ufe0JcuzHL-sUSW-PQO_zLdfxYvvU3ktsTu9iY_ia8YvGDr1ICgr0): 박미정님의 `WHY 시리즈`이다. 나는 이 글들을 곱씹어 보기 위해 모두 가져왔다. 분명 나에게 좋은 길라잡이가 되는 문장, 문단 등등 있을 것이라 판단한다. 미정님의 발표자료는 나중에 봐도 꼭 내가 얻을 것이 있었던 경우가 많았다. (사실 어느 순간 팬이 되었다고 한다.)
+* [https://www.youtube.com/watch?v=UttzAcbuk5k&feature=youtu.be&fbclid=IwAR1bhFYu3tIKBhRpU63sF7v23XlF42xd_VHowI90vretPtQSbouthIKnH_w](https://www.youtube.com/watch?v=UttzAcbuk5k&feature=youtu.be&fbclid=IwAR1bhFYu3tIKBhRpU63sF7v23XlF42xd_VHowI90vretPtQSbouthIKnH_w): *빨리 실패하는 것이 더 이득이다.* 라는 말에 공감하게 된다. 오픈 이후에 버그를 찾는 것 보다 오픈 전 버그를 찾아 수정하는 것이 **비용이 정말 싸다.** 그렇기 때문에 TDD를 하는 것을 한다는 것은 좋은 일이지만, 팀내의 합의도 필요한 부분이라고 생각한다. 그러기 위해서는 개개인의 노력이 좀 필요하지 않나? 생각을 해본다. TDD에 대해서 조금 더 공부하고자 한다면, 이규원님의 블로그를 통해 학습하는 것도 좋다고 생각한다. 그리고, 이 영상을 보면서 느낀점이지만, 단위 테스트가 2500여개, 기능 테스트, Fake Service를 통한 통합 테스트까지 하는 걸 보면서 굉장히 Safety Driven이 되는 구나 싶기도 했다. 나는 얼마나 운에 서비스를 맡겼던 것인지 모르겠다.
+* [https://www.youtube.com/watch?v=Fr3mKCxnp8Q&feature=youtu.be](https://www.youtube.com/watch?v=Fr3mKCxnp8Q&feature=youtu.be): - 요즘은 왜? 라는 질문을 많이 스스로 하게 된다. 예전에는 일정에 맞춰서 서비스를 내보내야 하니까. 버그 없는 기능을 위해서 개발을 하고, 많이 사용하는 기술을 채택 하고 개발을 했다면, 이제는 왜 이 기술을 사용하는지? 왜 이렇게 일을 해야 하는지? 묻는 편이 되었다.
+* [[Querydsl] 다이나믹 쿼리 사용하기](https://jojoldu.tistory.com/394?fbclid=IwAR14krBwqLHQrf0EQV8sDQt-RfT8vpLisLMyh3itrrDWpnP4nGYUisfxius): `Query DSL`을 통하여 다이나믹 쿼리를 사용하는 방법인데, `Mybatis`랑 별차이가 없는 것 같아서 좋아보였다.
+* [[Querydsl] 연관관계 없이 Join 조회하기](https://jojoldu.tistory.com/396): `Query DSL`에서 **Join**하는 방법인데, 버전이 업데이트 됨으로써 지원이 되었다고 한다. `Jooq`가 아니여도 좋은 대안이 될 수 있겠다.
+* [Useful Git Commands](https://www.javacodegeeks.com/2019/01/useful-git-commands.html): - 유용한 Git commands의 사례인데, 보고 좋은 것들은 alias 해두면 좋겠다 싶은게 몇 몇 있다.
+* [내 맘대로 위클리 뉴스 - 2019년 4주(2019.1.21 - 2019.1.27)](https://www.sangkon.com/2019/01/28/sigamdream_weekly_2019_4/): 코틀린의 Data 클래스의 대한 내용이 재밌었고, 파이썬의 루프와 재귀에 대한 내용이 상세하게 되어 있어서 읽어보면 좋겠다.
+* [[B급 프로그래머] 1월 4주 소식(빅데이터/인공지능, 암호화폐/블록체인, 읽을거리 부문)](http://jhrogue.blogspot.com/2019/01/b-1-4.html): 2018년도의 코세라 탑 10 강의 순위가 머신러닝이라는 것이 예상대로 였고, 아마 올해도 머신러닝은 끝없이 이야기가 나올 주제가 아닐까 생각해본다. 그리고 이제는 엔비디아에서만 딥러닝을 돌리는 시대가 아니게 되었구나. 라는 생각이 들었다.
+* [데이터 베이스의 자동증가 값을 기본키로 사용할 수 없을때는? - 우아한형제들 기술 블로그](http://woowabros.github.io/study/2019/01/30/identifier_generator.html): 우아한 형제들에서 JPA, Hibernate를 정말 잘 사용하는 회사인것 같아 부럽기도 하고, 내심 회사에서 쓸일이 없다면, 토이 프로젝트라도 해봐야 할 것 같은데..(막상 생각 나지 않지만) 레거시 환경에서 신규로 작업 하더라도 유지 해야 하는 상황 일 때, 위 방법을 참고하면 좋겠다.
+* [How to Write Your Own Spring Boot REST Service - DZone Java](https://dzone.com/articles/spring-boot-rest-service-1?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava): `Spring Boot framework`를 통해 `REST service`를 간략하게 Mock 처리하여 개발 하는 코드를 상세하게 알려준다. 스프링 부트를 처음 도입할 때, 이렇게 작은 규모로 작게 작게 연습해보는 것도 도움이 될 것 같아서 가져왔다.
+* [기술 뉴스 #119 : 19-02-01 :: Outsider's Dev Story](https://blog.outsider.ne.kr/1424): `react-cache`라는 라이브러리가 눈에 띄였다. 이건 솔직히 필요로 해보여서 시간을 두고 체크를 해봐야 할 것 같다. 실무를 하다 보면 비동기가 꼭 해법은 아니고, 동기식 동작이 필요 할 때가 있다. 그럴 경우 참 애매한데, 고생을 해봐야 동기 API가 생각나게 된다. 그 외 다수 좋은 아티클의 링크 및 요약 글이 있다.
