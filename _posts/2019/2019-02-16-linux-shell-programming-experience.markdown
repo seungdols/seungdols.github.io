@@ -17,6 +17,7 @@ comments: true
 
 ```bash
 /usr/bin/find $NGINX_LOG_ARCHIVE_DIR -name "access.$YESTERDAY.log" -exec /usr/bin/gzip -f '{}'\;
+```
 
 위 코드에서 계속 에러가 발생했는데, 해당 오류를 찾으려고 검색해보니 굉장히 쉬우면서 황당한 오류였다. 
 
@@ -25,9 +26,10 @@ comments: true
 아래와 같이 수정하면 된다. 
 
 ```bash
-/usr/bin/find $NGINX_LOG_ARCHIVE_DIR -name "access.$YESTERDAY.log" -exec /usr/bin/gzip -f '{}’ \;```
+/usr/bin/find $NGINX_LOG_ARCHIVE_DIR -name "access.$YESTERDAY.log" -exec /usr/bin/gzip -f '{}’ \;
 ```
 
 ## 참고 
 
 * [find-missing-argument-to-exec](https://stackoverflow.com/questions/2961673/find-missing-argument-to-exec)
+
