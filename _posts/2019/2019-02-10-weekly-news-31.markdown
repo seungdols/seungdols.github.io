@@ -2,10 +2,12 @@
 layout: post
 title: "Weekly News #31"
 description: "그냥 저냥 #위클리뉴스 #31"
-date: "2019-02-10 21:54"
+date: "2019-02-10 00:16"
 tags: [weekly-news, programming]
 comments: true
 ---
+
+# 2019-02-10 weekly news 31th
 
 
 * [How to build massive service for advance](https://www.slideshare.net/charsyam2/how-to-build-massive-service-for-advance?utm_source=gaerae.com&utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social): 강대명님이 대규모 웹 서비스에 대한 전반적인 아키텍쳐에 대한 설계에 관해서 자료를 만들어주셨는데, 이러한 자료는 사실 어떤 책을 읽어도 얻기 힘든 정보들이 많다. SPOF라던가? 무중단 배포와 같은 정보는 필수적인 요소인데, 이에 대한 내용들을 잘 녹여주셨다.
