@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Weekly News #32"
+description: "그냥 저냥 #위클리뉴스 #32"
+date: "2019-02-16 17:34"
+tags: [weekly-news, programming]
+comments: true
+---
+
+* [[번역] UnitTest: Martin Fowler - 이상한모임](http://blog.weirdx.io/post/57004): `Unit`의 단위를 어떻게 할 것인가?에 대한 부분은 참 아무리 생각해도 어렵다. 쉽지 않은 주제이고, 테스트를 어떻게 잘 작성해야 하는지에 대한 부분도 항상 고려해야 하는 부분이라, 테스트를 작성하면서, 팀원들과 어떻게 테스트를 할지에 대한 토론을 하면서도 이야기 나누면 좋을 주제다. 
+
+* [Thinking in React(리엑트스럽게 생각하기)](https://velog.io/@odini/Thinking-in-React%EB%A6%AC%EC%97%91%ED%8A%B8%EC%8A%A4%EB%9F%BD%EA%B2%8C-%EC%83%9D%EA%B0%81%ED%95%98%EA%B8%B0): `ReactJS`를 접하면서 느낀 건데, 참 그 전에 내가 작업하던 스타일과 다르다. 스타일은 패러다임으로 이해하면 쉬울 듯 한데, 중요한건 패러다임을 바꾸면서 프로그래밍을 하기란 쉽지 않다. 그래서 `React`에 대해서 무언가를 잘 하고 싶다면, 해당 철학에 맞게 생각하는 것이 중요한데, 이런 아티클이 그에 대한 것을 도우리라 생각한다. 
+
+* [[천자 칼럼] 1만2500시간의 '의도적 휴식'](http://www.hankyung.com/news/amp/2018051381961): 개발자는 결국 훈련도 중요하지만, 휴식도 중요하게 생각해야 하고, 우리는 인간이기에 꾸준히 소비될 수 있는 열정을 관리 하는 것은 중요하다고 나는 항상 말한다. 물론, 나도 그것을 잘 지켜야 한다는 걸 잘 알고 있다. 
+
+* [Hello, React Hooks!](https://ahnheejong.name/articles/hello-react-hooks/): 사내 발표 하러도 오셨는데, 그 때는 맨 아래에 링크 건 `TS` 관련한 발표셨다. 물론 그때도 정말 좋은 경험기를 발표해주셔서 고마움이 컸는데, `React Hooks`가 발표 되었는데, 해당 내용을 잘 정리 해주셨는데, 중간 중간 참 쉽죠잉?이 음성지원 되는 듯하다. 그렇지만, 절대 쉽지 않다. 
+
+* [Emacs 2주 삽질기](https://drypot.wordpress.com/2019/02/14/emacs-2%EC%A3%BC-%EC%82%BD%EC%A7%88%EA%B8%B0/): Emacs는 오래된 에디터? 라고 할 수 있는데, 보통 Vim User들과 많이 비교를 하게 된다. 그런데, 중요한건 둘 다 굉장히 좋은 에디터 툴이자, 오래된 프로그램?!이라는 데에 있다. 근래들어서는 Vim 유저들도 Emacs로 넘어 오게 되었는데 그것은 바로 플랫폼의 한계라고 해야 할 것 같다. 실제로 Vim은 분명 좋은 툴이지만, 한계가 있고, 그에 반하여 Emacs는 정말 좋은 대안이 된다. 왜냐하면, Lisp기반이라 플러그인 형태로 어떠한 기능을 올리가 쉽다. 그래서 요즘은 `Emacs + Evil` 조합을 많이 쓰는데, 중요한건 나도 Vim을 좋아하지만, `NeoVim + SpaceVim`, `Emacs + Spacemacs`를 혼용하여 사용하고 있다. 급하다면, `spacevim`을 사용하고 그 외는 `spacemacs`를 사용하고 있는데, 정말 좋다. 역시, 무거운 플러그인은 나를 춤추게 한다. (기능빨 중요)
+
+* [[B급 프로그래머] 2월 2주 소식(빅데이터/인공지능, 암호화폐/블록체인, 읽을거리 부문)](https://t.co/vHkK4ZwuoH): 케라스가 상당히 떠오른 느낌을 받는 기사가 있는데, 이제 진짜로 텐서플로를 하더라도 첫 시작은 케라스 API를 통해 입문하게 된다. 왜냐하면, 텐서플로가 이미 고수준 케라스 API를 내장했기 때문이다. 머신러닝 입문자들은 케라스로 머신러닝, 딥러닝을 쉽게 공부할 수 있는 장점이 있다. 
+
+* [useHooks](https://usehooks.com): `React Hooks`에 대한 예제 모음집 사이트로 이해하면 쉽다. 
+
+* [React as a UI Runtime](https://overreacted.io/react-as-a-ui-runtime/): `React`에 대한 `UI Runtime`에 대한 글인데, 나도 정확하게 다 이해하진 못했다. 입문자가 읽기에 친절한 글이 아니라고도 써있다. 
+
+* [Under the hood of React's hooks system - The Guild - Medium](https://medium.com/the-guild/under-the-hood-of-reacts-hooks-system-eb59638c9dba): `React Hooks`의 시스템에 관한 글인데, `Dispatcher`, `hooks queue`, `fiber`에 대한 설명이 있어서 `React Hooks`라는 시스템을 이해하는데 도움을 주는 글이다. 
+
+* [React hooks: not magic, just arrays - Rudi Yardley - Medium](https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e): `React Hooks`가 어떠한 마법이 아니고, 그저 `Arrays`로 상태 관리를 한다고 하는 글이며, 사실 자세하게 읽지는 못했다. 
+
+* [Why Do React Hooks Rely on Call Order?](https://overreacted.io/why-do-hooks-rely-on-call-order/): 왜 `React hooks`가 호출 순서에 의존하는지에 대한 설명이다. 물론 쉬운 내용은 아니지만, `React Hooks`에 대해서 깊게 터득하는 데에는 좋은 자료이다.
+
+* [facebook/react](https://github.com/facebook/react/blob/master/packages/react-reconciler/src/ReactFiberHooks.js): `ReactFiberHooks`의 코드이다. 나중에 실력이 쌓이면, 분석해볼만 하다.
+
+* [React를 Vue.js보다 선호하는 이유](https://ahnheejong.name/articles/why-i-prefer-react-over-vuejs/): 안희종님의 블로그에서 본 글인데, 왜? `Vue.js`보다 `Reactjs`를 선호하는지에 대한 생각과 정리 글인데, 한 번 읽어보는 것이 좋다. 물론, 나는 `Reactjs`를 사용하는 중임에도 `Vue.js`를 더 좋아하는데, 사실 두 기술에 대한 개발자의 호감도도 작용한다고 믿는다. 그럼에도 불구하고, 어떤 기술에 대해 비교하는 것, 개인적인 기술 견해 및 직접 사용해보고 비교해보는 습관은 개발자로써 배워야 할 태도라고 생각했다.  
+
+* [TypeScript와 Flow: 자바스크립트 개발에 정적 타이핑 도입하기](https://www.slideshare.net/HeejongAhn/typescript-flow-81799404): 안희종님의 발표자료인데, 왜 우리는 `TypeScirpt`를 써야 하는가?에 대한 것인데, 정독해보면, 왜 좋은지?를 알 수 있다. 물론 나도 이미 써본 (뽕을 맞은) 사람이라, `TS`를 사용하는 것이 더 이롭다는 것이 나의 후기이다. 
