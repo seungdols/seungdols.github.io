@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Weekly News #34"
+description: "그냥 저냥 #위클리뉴스 #34"
+date: "2019-03-05 20:30"
+tags: [weekly-news, programming]
+comments: true
+---
+
+## JAVA 
+
+[LINE의 OpenJDK 적용기: 호환성 확인부터 주의 사항까지 - LINE ENGINEERING](https://engineering.linecorp.com/ko/blog/line-open-jdk/): Oracle JDK사용에 제약이 생기면서 앞으로 수 많은 Java기반 프로젝트에서 벌어질 것이라 생각한다. 근데 그렇다고 안바꿀 수도 없고, 적절한 시점에 안바꾼다는건 좀 기술 부채가 정말 빠르게 쌓이는 것이라 생각한다. 
+
+[Java NIO Direct Buffer를 이용해서 대용량 파일 행 기준으로 쪼개기](http://homoefficio.github.io/2019/02/27/Java-NIO-Direct-Memory-Access%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%8C%80%EC%9A%A9%EB%9F%89-%ED%8C%8C%EC%9D%BC-%ED%96%89-%EB%8B%A8%EC%9C%84%EB%A1%9C-%EC%AA%BC%EA%B0%9C%EA%B8%B0/): 실제로 일을 하다보면, 만나는 상황인데, 엄청나게 큰 데이터 파일을 전송해야 하는 일이 생길 수 있는데, 이런 예시가 고급 예시가 아닐까란 생각을 하게 된다. Java 레벨에서 운영체제 메모리에 직접 접근하는 방식을 활용하는데, **Direct Buffer** 해제에 대한 부분은 좀 의구심이 든다. 왜? 상세하게 설명한 부분이 없을지에 대해서는 약간? 이상한 느낌이 들었다. 근데 나보다 큰 데이터를 처리 하는분들에게 쓸모가 있어보인다.  
+
+
+[테스트 코드 없이 레거시 코드를 다 감수하시겠습니까? - 우아한형제들 기술 블로그](http://woowabros.github.io/experience/2019/02/27/Working_Effectively_with_Legacy_Code.html): 레거시 코드에 신규 코드를 추가하면서 테스트는 과연 어떻게 진행해야 할까?에 대한 부분을 고민 해본 사람이 많을 것이라 생각하는데, 막상 실제로 테스트 코드를 작성하는 이는 드물것 같다. (일단, 레거시와 신규 코드가 제대로 연결이 잘 되어야...) 쉽지 않지만, *TDD*를 해보려고 노력한다면, 레거시 코드를 수정하면서도 버그를 미연에 찾을 수 있을 것 같다는 생각을 하게 되었다. 
+
+[코드리뷰 적응기(feat. 파일럿 프로젝트) - 우아한형제들 기술 블로그](http://woowabros.github.io/experience/2019/02/28/pilot-project-settle.html): 정산 관련 서비스를 맡게 되면서 간략한 파일럿을 만들고, 해당 코드들의 코드 리뷰를 받고, 피드백을 적용하는 수순을 보여주고 있는데 굉장히 세세하게 설명을 써두셔서 코드 리뷰를 적용하는 곳, 앞으로 적용 하게 될 회사/팀은 참고하면 좋겠다. 
+
+## NEWS
+
+[내 맘대로 위클리 뉴스 - 2019년 8주(2019.2.18 - 2019.2.24)](https://www.sangkon.com/2019/02/25/sigamdream_weekly_2019_8/): Java Section을 필수적으로 확인 해보면 좋을 것 같다. *Nullability*에 대한 아티클, *SOLID*에 대한 아티클도 좋은 자료이기때문에 읽어주면 좋을 것 같다. 특히나, *SOLID*에 대한 아티클은 코드가 참 깔끔하다는 인상을 받았다. 
+
+[월간 개발자스럽다 1902호](https://blog.gaerae.com/2019/02/monthly.html): *인문학도, 개발자 되다*라는 책을 읽은 뒤의 후기를 남겨주셨는데, 이 책에 대해서 약간은 호기심이 생기고, 궁금해졌는데, 과연 사게 되면 언제 읽을지 모르기에 고민을 해보고 구매해야겠다. 
+
+[기술 뉴스 #121 : 19-03-01 :: Outsider's Dev Story](https://blog.outsider.ne.kr/1432): 룩핀 서비스를 만드는 곳에서 Rails 개발자들의 면접 질문 리스트를 공개 했다고 합니다. 그런데, 공개한 이유가 참 재밌습니다. Rails관련 빼고도 **ELK**관련해서도 질문을 하는군요. (역시 기본 테크가 된걸까요...?)
+
+
+## VIM
+
+[VIM-GO를 이용한 Golang 개발환경 꾸미기](https://ingeec.tistory.com/103): vim으로 go 개발하시는 분들이 있다면, 이런 방식으로 꾸며보는 것도 좋겠습니다. 간결하긴 하지만, 구현부 이동에 대해서도 설명을 해주고 있어서 사실 잘만 조합하면 훨씬 낫겠다라는 생각도 들긴 합니다. 아 물론..**Go Land**가 좋기 때문에 굳이 vim으로 하실 필요는 없습니다. 
+
+
+## DOCKER
+
+[Docker - 이미지와 컨테이너, 10분 정리 - 이상한모임](http://blog.weirdx.io/post/60599): docker관련해서는 정말 기초가 어렵다는 생각을 하게 된다. 그렇지만, 결국은 이미지, 컨테이너라는 키워드에 집중 하면 된다는 생각을 이 글을 보고 하게 되었다. 10분 정리라고 되어있지만, 정말 깔끔하게 정리가 되어 있어서 도커 관련해서는 이 글을 먼저 읽고 지나가자!
+
+
+## Network
+
+[[Book] HTTP 완벽 가이드: 웹은 어떻게 동작하는가 :: Outsider's Dev Story](https://blog.outsider.ne.kr/1431?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+rss_outsider_dev+%28Outsider%27s+Dev+Story%29): **outsider**님이 *HTTP 완벽 가이드*라는 책을 읽고 정리하시고, 후기를 써두셨다. 사실 요즘 이 책으로 회사에서 스터디를 하고 있는데, 웹 개발자에게 필수 지식이 *HTTP*라는 말을 파트 리더님께 듣게되었는데, 시간이 지날 수록 해당 조언에 격하게 공감을 하고 있다. 
+
+## 개발자에게 도움이 되는 
+
+[(내맘대로 선정한) 프로그래머를 위한 필독서 두번째 · Elky Essay](https://elky84.github.io/2019/03/03/a_must_read_books_02/): 대부분 유명한 책이기때문에, 제목을 읽어봤을 책들이 많이 있었다. 특히나 *해커와 화가*라는 책은 나도 구매를 했지만, 아직 읽지 못한 책이다. 다른 책에서도 언급이 자주 되기 때문에, 좋은 책이라 생각하는데, 한 번쯤은 이렇게 가벼운 기술 관련 책들도 읽어보면 좋을 것 같다.
