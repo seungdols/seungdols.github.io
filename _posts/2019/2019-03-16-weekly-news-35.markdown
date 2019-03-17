@@ -1,0 +1,67 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #35"
+description: "그냥 저냥 #위클리뉴스 #35"
+date: "2019-03-18 00:56"
+tags: [programming, weekly-news]
+comments: true
+---
+
+### Java
+
+* [What Is an IoC Container in Spring? [Video] - DZone Java](https://dzone.com/articles/what-is-ioc-container-in-spring-what-is-the-spring?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava)
+
+* [Functional Programming Is Just a Safety Restriction on Object Orientation - DZone Java](https://dzone.com/articles/inversion-of-coupling-control-1?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava)
+
+* [Quickstart: How to Use Redis on Java - DZone Java](https://dzone.com/articles/quickstart-how-to-use-redis-on-java?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava)
+
+* [Java 10 Immutable/Unmodifiable Stream API Collectors - DZone Java](https://dzone.com/articles/java-10-immutableunmodifiable-stream-api-collector?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava)
+
+* [Java 11 New Features Tutorial](https://examples.javacodegeeks.com/core-java/java-11-new-features-tutorial/)
+
+* [어떻게 웹플럭스는 적은 쓰레드만으로 많은 요청을 처리할 수 있을까?](https://perfectacle.github.io/2019/03/10/how-can-webflux-process-huge-requests-with-fewer-threads/): 결국에는 이벤트 기반과 큐를 이용한 방식이라는 사실을 생각해보면, 프레임워크의 트렌드가 이벤트, 큐라는 키워드로 이루어졌다는 걸 깨달았다. 그런 점을 이 글을 통해서 느꼈다. 
+
+
+### Docker
+
+* [Docker - 컴포넌트, 20분 정리](https://www.sangkon.com/2019/03/12/hands-on-docker-part2/): 지난번 효율적인 10분 정리가 채 가시기도 전에 20분 정리 글을 올려주셨다. 이번에는 Node.js + Express의 서비스를 도커 이미지로 만들고, 도커 컴포즈를 이용해, Redis와도 연동하는 방법을 차례 차례 설명을 해주셨다. 역시나 놀랍고, 그리고 압축형태의 도커베이스를 쓰지 않으면, 간단한데도 거의 1기가에 육박한다는 점이 놀라웠다..(경량화가 주요 포인트가 아니였나...? 싶은..)
+
+### 개발자에게 도움이 되는
+
+* [리뷰: 함께 자라기 - 애자일로 가는 길](https://blog.gaerae.com/2019/03/book-agile.html): 내가 이 책을 읽으면서도 느낀 점은 애자일은 ~ 블라 블라다. 라는 책이 아니여서 좋았고, 이 책을 읽으면서 애자일이 아! 이런 거구나. 아! 이게 애자일이구나. 우리 팀도 애자일 전체를 적용한 것은 아니지만, 일부 활용하고 있었구나. 등등 많았다. 개발자라면, 이 책을 읽어보길 바란다. 그리고 이 글에서 인상적인 문구들도 내가 공감 했던 부분과 일맥상통 했다. 
+
+* [[B급 프로그래머] (스택오버플로우) 구글이 JSON 응답에 while(1);을 붙여 보내는 이유는?](http://jhrogue.blogspot.com/2019/03/b-json-while1.html): 정말 신기한 방법이었고, 구글은 정말 여러방면에서 창의적인 발상을 많이 하는 개발자들이 많구나 싶었다. 물론, 구글의 공식적인 답변은 아니지만, 스택오버플로우의 신기한 시나리오에 의함이었다. 역시나, 대단한 사람들이 많다.
+
+[내 맘대로 위클리 뉴스 - 2019년 11주(2019.3.11 - 2019.3.17)](https://www.sangkon.com/2019/03/16/sigamdream_weekly_2019_11/): kotlin의 시퀀스와 일반 컬렉션의 차이를 보여주는 기사가 참 흥미로운 것이 시각화해서 설명한다. 모르는 정보를 학습할 때는 사실, 비주얼 기반 학습법이라는 점을 최대한 활용하면 이해가 쉽다. 그림만 봐도 얼추 이해가 되었다. 그리고 **Vue.js** 초심자가 보면 좋을 아티클이 있었다. 아무래도 2편도 나올 것 같다. 
+
+* [기술 뉴스 #122 : 19-03-15 :: Outsider's Dev Story](https://blog.outsider.ne.kr/1434): **python**으로 Git을 만들면서 실제 내부 동작을 이해 할 수 있는 글이 참 좋았다. 시간 나는 주말에 한 번 직접 해봐야겠다. 솔직히 Git을 쓰면서도 내가 과연 잘 쓰고 있는지?에 대해 자문 하는 시간이 될 것 같다. 
+
+* [리멤버 지원자분들이 묻는 질문 Top 4](http://blog.dramancompany.com/2019/03/%EB%A6%AC%EB%A9%A4%EB%B2%84-%EC%A7%80%EC%9B%90%EC%9E%90%EB%B6%84%EB%93%A4%EC%9D%B4-%EB%AC%BB%EB%8A%94-%EC%A7%88%EB%AC%B8-top-4/): 리멤버라는 서비스를 만드는 드라마앤컴퍼니의 블로그에 올라온 지원자 분들이 많이 묻는 질문 4개를 추려서 답변을 한 내용의 글이다. 그런데, 취준생이신 분들이 얻어 갈 정보가 많다고 생각 했다. 왜 이런 기술 스택을 쓰는지? 성능이 다른 스택보다 좋지 않은데, 어떻게 생각하는지?에 대한 기술적인 관점을 알 수 있는 글이기에, 왜 다른 회사는 그 기술 스택을 쓸까?에 대해서 또 다른 고민을 할 수 있게 만드는 글이라고 생각한다. (이런 글 취준 입장에서 정말 좋습니다. :)
+
+* [Advantages and Disadvantages of a Monolithic Repository](https://people.engr.ncsu.edu/ermurph3/papers/seip18.pdf): 단일 코드 저장소의 이점과 단점에 관한 구글의 논문인데, 다 읽어보지 못했다. :/
+
+* [딥러닝을 이용해 상품 이미지에서 색상 속성을 추출하기](https://tmondev.blog.me/221482642227): 상품 이미지에서 색상 속성을 추출하는 법에 관한 글인데, 굉장히 상세하다.(물론, 텐서플로 코드는 없다.) 중요한 부분은 어떻게 진행 했고, 어떤 문제점(배경색 제거)는 어떻게 했는지 설명하고 있다는 점이다. 
+
+* [나는 그동안 무엇으로 성장했을까?](http://huns.me/development/2281): 단순히 성장에 관한 글인 줄 알았지만, 생각보다 깊은 수준의 성장에 대한 고민과 해결책, 그리고 개발자로 사는 현실적인 고뇌가 담겨진 글이었다. 어떻게 하면, 좋은 제품을 만들 수 있을까? 무수히 많은 고민과 삽질 속에서 얻은 경험을 글로 녹여 주셨다. *함께 일하면 얼마나 성장을 하게 될까?*
+
+* [Tiny Tip Calculator 개발기](https://edykim.com/ko/post/postmortem-tiny-tip-calculator/): 스스로의 문제가 되는 부분을 해소하기 위해 직접 개발한 앱에 대한 회고록으로 생각하면 될 것 같다. (번역도 자주 해주시는데, 어떻게 이렇게 짬을 내어 만드셨는지...!) 이 글을 읽어보면, 어떤 기술 스택을 사용했고, 후보들은 무엇이 있었는지? 어떤 기회비용이 있었는지를 상세하세 설명 해주는 개발 경험기를 남겨주셨다.  
+
+### JavaScript
+
+* [Why I Was Wrong About TypeScript](https://www.youtube.com/watch?v=AQOEZVG2WY0)
+
+* [A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/)
+
+* [How Are Function Components Different from Classes?](https://overreacted.io/how-are-function-components-different-from-classes/)
+
+* [Coping with Feedback](https://overreacted.io/coping-with-feedback/)
+
+* [forEach, for in, for of 특징 및 성능 비교](https://medium.com/sjk5766/foreach-for-in-for-of-%ED%8A%B9%EC%A7%95-%EB%B0%8F-%EC%84%B1%EB%8A%A5-%EB%B9%84%EA%B5%90-47a77464b034?fbclid=IwAR2QRb7Td3x8tN-qNfSJcBlNkSdS_dIgZ-RNzim4y_7yUVptqNVeuz7nk_c): JavaScript의 반복문에 대한 퍼포먼스 비교와 특징을 잘 정리 해주셨다. :D
+
+### 기타
+
+* [경력직 채용, 그 태도에 관하여](https://ppss.kr/archives/141428): 채용에 관한 정말 긴 내용이 쓰여져 있는데, 정말 굉장히 상세하고, 여러 이론들도 빗대어 표현하여 읽어보면 좋을 것 같다. 물론, 요즘 채용에 관한 부분은 비단 인사 조직만의 문제가 아니다. 개발자 채용은 개발자를 뽑는 팀에서도 판단을 해야 하는 문제다. 그래서 채용에 대한 태도가 중요하고, 얼마나 많은 준비를 하는지? 스스로 되돌아 볼 필요가 있다. 채용을 운으로만, 느낌으로만 하진 않는지? 코드도 못미더워서 테스트 주도 개발을 한다는 데, 사람을 채용하는데 준비도 없이 맞이하고 있는 것은 아닌지? A가 되지 않도록 해야 하지 않을까? 과연 모든 기업들이 얼마나 많은 노력을 하고 있는지? 궁금하다. 그리고 채용은 뽑으면 끝!나는 업무가 아니라, 그 사람이 그 팀에 완전히 적응 할 때까지의 프로세스를 뜻하고, 그 팀과 맞지 않다면, 다른 팀으로 전배 시키는 일련의 적재적소 배치 프로세스를 해야 한다고 생각한다. 왜? 요리를 하고 나서 설거지를 미루는가? 요리사는 요리도 하고, 설거지도 같이 한다. 그럼 왜 우리는 반만 일하는 건지 자문해 볼 필요가 있다고 생각한다.  
+
+### 영어
+
+* [Take off: 휴가 내고자 할 때, 사용하는 단어](https://blog.naver.com/somienglish/221458572256): 얼마전부터에 알게 된 블로그인데, 영어에 관한 포스팅이 자주 올라오는데, 예문과 뜻을 각 포스트 주제에 맞게 정리를 해주신다. 이런 꿀팁들이 진짜 중요하다. 
