@@ -1,0 +1,41 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #36"
+description: "그냥 저냥 #위클리뉴스 #36"
+date: "2019-03-27 23:40"
+tags: [programming, weekly-news]
+comments: true
+---
+### 개발자에게 도움이 되는
+
+* [확장하기 쉬운 코드가 아니라 삭제하기 쉬운 코드를 작성하자](https://harfangk.github.io/2016/10/30/write-code-that-is-easy-to-delete-not-easy-to-extend-ko.html?fbclid=IwAR2QqMQtI8ZBXB56RmahovnGBgNY-SHiw0lMoRfhGxJDfpkClOe9W30iYAc): 다익스트라 알고리즘을 만든 사람이지만, 신박한 견해라고 생각했는데, 돌이켜보니 좋은 이야기였다. *소모된 코드가 바로 유지보수를 줄이는 작업*이라는 관점 또한 신기했다. 그리고, 많이 작성하지 말고, 코드를 먼저 흔히 사용되는 코드라면 복사 붙여넣기 해보자는 것도 좀 재밌는 관점이었다. 
+
+* [[번역]개발자로 압박을 덜 받으려면 어떻게 해야하는가?](https://brunch.co.kr/@jowlee/71): 제일 중요한 점은 *내가 모든 것을 다 할 수 없다*는 점을 인정하는 것이 중요하다는 생각이 든다. 그리고 올바른 학습 목표를 가지고, 계획하고 그것을 잘 실천하는 것이 중요하다는 점을 우리는 알지만, 때때로 잘 실천하기가 어렵다. 역시 꾸준함이 생명이라는 생각이 들었다. 
+
+* [수학인듯 과학아닌 공학같은 컴퓨터과학/알고리즘 기초](https://librewiki.net/wiki/%EC%8B%9C%EB%A6%AC%EC%A6%88:%EC%88%98%ED%95%99%EC%9D%B8%EB%93%AF_%EA%B3%BC%ED%95%99%EC%95%84%EB%8B%8C_%EA%B3%B5%ED%95%99%EA%B0%99%EC%9D%80_%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%BC%ED%95%99/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EA%B8%B0%EC%B4%88): 흔하게 알고 있는 알고리즘에 대한 부분이 모두 정리가 되어 있어 참고하기 좋다. (한국어)
+
+* [나는 코드를 쓸테니, 너는 인프라를 맡거라.](https://blog.hax0r.info/2018-11-28/i-will-write-the-code-you-will-be-in-charge-of-the-infrastructure/?utm_source=gaerae.com&utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social&fbclid=IwAR22xHXrwuuiUuUf4Dcy968nhlEw81ycXN6sfAGRk7Z49016BITBzo9xvZw): Lambda, S3, pytho, serverless등으로 무중단 배포/프로비저닝 배포등을 소개하는데, 정말 신기하고, 해당 인프라 생태계를 만든 AWS가 정말 놀랍다. [serverless](https://serverless.com/) framework를 좀 공부를 해보면 정말 편해질 것 같다. 특히나, **typescript**지원이라니.. 실무에서 써보고 싶다.
+
+* [리눅스의 페이지 캐시와 버퍼 캐시](https://brunch.co.kr/@alden/25): 커널 2.4이전과 2.4이후의 페이지 캐시와 버퍼 캐시의 구조를 살펴 볼 수 있다. 생각보다 쉽게 쓰여져 있고, 흔하게 사용하는 *cat*명령어로도 페이지 캐시의 유무를 확인 할 수 있어서 재밌게 읽었다. 
+
+### Backend
+
+* [DDD 값 객체와 마이크로서비스 | Popit](https://www.popit.kr/ddd-%EA%B0%92-%EA%B0%9D%EC%B2%B4%EC%99%80-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4/?fbclid=IwAR20hJqsERXNElEMBGYGpK_tFerjUdaW2HRM8bPnzIeC304F_S9j5OsRUq8): 마이크로 서비스와 DDD의 값 객체에 관해서 설명을 해주고 있는데, 내가 사실 DDD에 지식이 그렇게 크게 없다 보니 DDD를 사용하지 않을 떄 보다 무엇이 좋은지를 잘 가늠하지 못하겠다. 역시 아는 만큼 보이는 것일까? 싶었고, 올해 안으로 DDD를 적용해보면 어떨까 싶기도 하다. 
+
+* [Spring 의 시작, 프레임워크의 구성요소와 동작원리](https://asfirstalways.tistory.com/334): JBEE님이 스프링 프레임워크의 개략적인 구성 요소와 동작 원리를 정리를 써주셨는데, 깔끔하고 군더더기 없이 정리가 되어 있어 참고 해보면 좋다.
+
+* [서버리스 Serverless 아키텍처 파헤치기](https://futurecreator.github.io/2019/03/14/serverless-architecture/): 서버리스에 대한 설명을 간략하고, 쉽게 잘 정리 해주셨고, 비주얼적인 설명이 참 와닿았다. 이제는 FaaS의 시대가 도래한 것 같다는 생각이 들었고, 쉽고 빠르게 처리 되는 로직의 경우는 확실히 람다에서 처리 하는 것이 좋은 장점이 될 것만 같다. 도입 해볼 수 있다면, 도입 해보는 것도 고려 해보면 좋겠지만, 쉽지 않다는 것이 크다. 자체 플랫폼을 써야 한다면 당연히 어렵고, AWS를 쓸 수 있는 업무 환경이 되어야 좀..편하게? 써볼 수 있지 않나 생각해본다. 
+
+* [[Spring/번역] 컨트롤러 테스트 가이드 in Spring Boot](https://dadadamarine.github.io/java/spring/spring-boot-testing-1/#): 사실 얼마전까지만 해도 컨트롤러 테스트를 어떻게 해야하는지? standalone? MockMvc? 엄청 헤맸었는데, 부서내 경력직으로 오신 분의 테스트를 보고 찾아 보다가 얼추 알게 되었다. 사실, 현업에서 컨트롤러 테스트 코드가 있는 경우가 드물다고 생각하는데, 만약 있다면, 좋은 환경에서 일하는 것이라 장담한다. 물론 없다고 좋은 환경이 아닌 것은 아니지만, 선 가이드를 볼 수 있다면, 주니어 개발자에게는 좋은 환경일 수 있다는 것을 말하고 싶었다. 그런데, 이 글을 보고 나니 참, 정리가 잘 되어 있었는데, 이제야 찾게 되어 아쉬웠다. 많은 시간을 헤매지 않고도 컨트롤러 테스트에 대한 좋은 글을 볼 수 있을 거라 예상 한다. 
+
+* [Kotlin으로 가자](https://brunch.co.kr/@cg4jins/18): Kotlin으로 개발한 경험기에 대한 내용과 간략한 언어의 특징적인 점들에 대한 소개 글인데, 중점적인 부분은 언어 자체적으로 심플함을 추구한다는 점이었다. Lombok을 사용할 수 없다는 점이 좀 아쉽지만, 사실 언어 자체에서 그렇게 크게 불편하지 않기 때문에 만약 코틀린으로 간다면, Lombok을 걷어내야 한다. 
+
+### Frontend
+
+* [프론트엔드 Framework을 공부하는 방법](https://gomcine.tistory.com/entry/%EB%82%B4%EA%B0%80-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-Framework%EC%9D%84-%EA%B3%B5%EB%B6%80%ED%95%9C-%EB%B0%A9%EB%B2%95): 총 3가지로 분류 하는데, 컴포넌트, 라우팅, 상태 관리로 나누는데, 사실 이 3가지를 단계별로 학습하는 것이 가장 깔끔하고, 군더더기 없다고 생각 한다. 리액트를 배우는데에 리덕스는 불편한 요소가 될 수 있다. 다른 서드 파티 라이브러리들도 마찬가지다. 핵심을 먼저 배우도록 하자는 것이 이 글의 핵심이다. 
+
+* [신입 프론트엔드 개발자를 위한 스킬셋](http://koreawebdesign.com/community/?mod=document&uid=63): 요즘 채용 공고를 보면, 신입을 뽑는건지 아닌지 헷갈릴정도다. 그럼에도 불구하고, 신입에게 기대하는 바는 무엇인지?에 대해서 궁금하다면, 이 글을 읽어보면 좋다. 결국 중요한 점은 기본기인 프로그래밍적인 마인드일 것이라고 생각한다. 
+
+### 일반적인
+
+* [이뤄지는 꿈의 특징](https://brunch.co.kr/@skykamja24/229): 우리는 모두 꿈을 가지고 있는데, 이 꿈에 관한 글인데, 읽어보면 좋겠다. 특히, 손정의 회장의 문구를 인용하셨는데, 참 와닿는다.
