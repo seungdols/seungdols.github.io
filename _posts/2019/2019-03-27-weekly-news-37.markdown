@@ -1,0 +1,103 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #37"
+description: "그냥 저냥 #위클리뉴스 #37"
+date: "2019-04-06 13:18"
+tags: [programming, weekly-news]
+comments: true
+---
+
+### JavaScript
+
+* [javascript this 정리](https://lejewk.github.io/2019/03/20/javascript-this/?utm_source=gaerae.com&utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social): JavaScript에서의 this는 굉장히 다양한 방법으로 동작하기 때문에 각각의 상황에서 어떻게 바인딩 되는지 알아두면 좋다. 그렇지 않으면, 내가 원하지 않던 바인딩으로 원친 않는 동작을 야기할 수 있기 때문인데, 케이스별로 정리를 잘 해주셨다. 
+
+* [(ECMAScript) ES2019(ES10)의 변화](https://www.zerocho.com/category/ECMAScript/post/5c909bfe5a8005001ffb3f14): 생각보다 큰 기능이 추가 되진 않았는데, 그 중에서도 *flat*관련한 함수가 추가 되었다. 그 부분에 있어서는 좋은 것 같다. 
+
+* [[JavaScript] Promise와 예외 핸들러...](https://namocom.tistory.com/652): 정말 궁금 했던 사실이면서 기본적인 이야기인데, 딱 찾게 되었다. **await**이 없이 반환할 경우, 비동기 요청만 되고, 아무런 문제가 없을까?에 대한 부분이 의구심이 있었는데, 명확하게 케이스를 설명 해주셨다. 그럼, **await**을 하지 않으려면, **직접 catch**해야 한다는 사실이다. 함수 내부에서 reject된 경우 상위의 **try-catch**에서는 잡히지 않기 때문이라고 한다. 
+
+* [(번역) Shadow DOM은 무엇일까?](https://wit.nts-corp.com/2019/03/27/5552): Shadow DOM에 대해서 알 수 있는 데, 생각보다 이해하기 쉽진 않다. 그런데, 중요한 점은 Virtual DOM과는 동작이 다르다는 것이다. 실제 DOM에 기생하는 역할이라고 보면 될까? 하지만, 그것도 뭔가 완전한 이해는 아닌 것 같은데, 얼마나 유용한지는 좀 더 찾아봐야 알 것 같다.
+
+* [tc39/proposal-class-fields](https://github.com/tc39/proposal-class-fields/blob/master/PRIVATE_SYNTAX_FAQ.md): class의 private variable의 표기를 `#`으로 하겠다는 제안이 나왔다. `_`를 사용하는 것은 이미 사용하고 있기에 `#`으로 만들자는 제안인데, 좀 모호한 측면이 있다고 생각 한다.
+
+### React
+
+* [컴포넌트를 여러 컴포넌트로 나눠야 할 때](https://edykim.com/ko/post/when-to-break-up-a-component-into-multiple-components/): 이 글의 내용을 공감하게 되는데, 실제로 실무에서 컴포넌트를 미리 쪼개려고 생각하다 보면, 어떻게 추상성을 뽑아 내야 할지 모호할 때가 있다. 실은 미리 컴포넌트를 쪼개는 것이 아니라 하나의 컴포넌트로 구성한 뒤에 불편해지는 상황이 발생할때, 쪼개면 된다는 글인데, 상당히 동의하는 편이다. 추상화의 비용도 고려를 해야 한다. 
+
+* [리액트 훅(Hooks): 컨텍스트(context) API는 어떻게 되나요?](https://edykim.com/ko/post/react-hooks-whats-going-to-happen-to-react-context/): **Context API**가 어디 가는 것은 아니라는 사실이다. Hooks를 정말 많이 쓰게 되더라도 Context API는 편리함을 가져다 주었다. 물론, Hooks가 더 많은 편리성을 준다는 점은 무시할 수 없다. 
+
+* [React's ⚛️ new Context API](https://kentcdodds.com/blog/reacts-new-context-api): React 16.3에서 새로운 Context API를 공개하였는데, 자세하게 알고 싶다면 해당 글을 읽으면 이해하는데 도움이 된다. 
+
+* [리액트 훅(Hooks): 제 테스트는 어떻게 되나요?](https://edykim.com/ko/post/react-hooks-whats-going-to-happen-to-my-tests/): 테스트라는 것에 대해 사실 좀 어렵다는 느낌을 많이 갖고 있는 편인데, 이 글을 보면서 느낀 점은 결국 테스트는 구현 상세에 의존하지 않도로 작성해야 한다는 점과 리팩토링에 대한 부분을 다시 한 번 이해하게 되었다. 함수의 외연을 바꾸는 것은 결국 **리팩토링이 아니다.** 그리고, 컴포넌트를 어떻게 작성하던지 테스트를 통과하게끔 만들어야 한다는 것이 중요한 것 같다. 물론, 함수의 외연을 바꾸면 테스트는 실패해야 맞다고 생각한다. 
+
+* [리액트 훅(Hooks): 렌더링 프로퍼티는 어떻게 되나요?](https://edykim.com/ko/post/react-hooks-whats-going-to-happen-to-render-props/): 해당 아티클은 리액트에 관해서 입문자가 읽기에는 적합하지 않다는 생각을 했다. 물론, 쉬운 내용은 아니지만, 렌더링 프로퍼티 패턴은 생각보다 많은 사용처가 있다는 생각을 하게 되었고, 슬슬 나도 리액트에 깊게 알아볼 필요가 있다는 생각을 일하면서 많이 느끼곤 했다. 이렇게 자주 쓰는거면 뭔가 공통요소를 뽑아내고 싶다.등등 슬슬 패턴에 관해서도 궁금해진다면, 이 글을 읽어보면 좋겠다. 더불어 [downshift의 예시](https://github.com/downshift-js/downshift/blob/9b3467dce2be59832765277570857de5679d8392/stories/examples/windowing-with-react-virtualized.js)를 보는 것도 좋다고 생각한다. 
+
+* [프로퍼티 내리꽂기 (prop drilling)](https://edykim.com/ko/post/prop-drilling/): 상태 전달에 관한 글로 이해하면 좋을 것 같다. 어떻게 상태를 전달하느냐?에 관해 정답은 없는데, 이 글은 프로퍼티를 어떻게 전달하는 방법에 관한 가장 손쉽지만, 커질 수록 관리하기 어려운 생각이 든다. 
+
+
+* [Learn to combine RxJs sequences with super intuitive interactive diagrams](https://blog.angularindepth.com/learn-to-combine-rxjs-sequences-with-super-intuitive-interactive-diagrams-20fce8e6511): Rx에 관해서 설명을 잘 해주고 있는데, 나는 사용하고 있지는 않아, 어떤건지 정확하게 감이 오지는 않는데, 서버쪽 API에서 사용하면 장점이 클 것 같다는 생각을 했고, 이벤트 기반이 많을 수록 장점이 클 것 같다는 생각을 하게 되었다. 
+
+* [RxJS and Reactive Programming - Animations and visual lessons](https://reactive.how/): Rx에 대해 동영상으로 배울 수 있는 곳이다. 그런데, dev 도메인으로 바꾸고 현재는 연결이 안되는데, 고쳐질 것 같다. 
+
+* [Writing Resilient Components](https://overreacted.io/writing-resilient-components/): Component를 탄력있게 만드는 방법에 관해 소개하는데, 결국 개별 상태를 갖고 있지 않는 것이 방법인 것 같다. 
+
+* [React Hooks: Migration from Class to Function Components - RWieruch](https://www.robinwieruch.de/react-hooks-migration/): 리액트 컴포넌트 클래스에서 함수형 컴포넌트로 바꾸는 방법에 관한 글이다. 어떻게 **Hooks**로 옮기는가에 대한 글인데, 이전할 계획이라면 읽어보면 좋겠다. 
+
+* [React Function Components by Example - RWieruch](https://www.robinwieruch.de/react-function-component/): Function Components에 관한 예시 코드들이 나오는데, 참고해보면 좋을 것 같다. 
+
+### Node.js
+
+* [nodejs 테스트 도구와 방법론 (테스트의 중요성, 전략, mocha, chai, sinon, istanbul, 유용한 팁)](https://sjh836.tistory.com/174): 다양한 테스트 툴들을 소개하고, 어떻게 해야 하는지 팁과 함께 소개하는데, 알맞는 테스트 도구를 잘 선정하고 목적에 맞게 사용하는 것이 중요하고, 테스트 코드를 작성하는 것은 더 중요하다는 생각을 점점 더 갖게 된다.
+
+### k8s
+
+* [kubernetes를 이용한 서비스 무중단 배포](http://tech.kakao.com/2018/12/24/kubernetes-deploy/): 카카오의 쿠버네티스 배포 전략에 관한 글인데, 카카오는 이미 전사에 쿠베를 도입한 것 같다. 그리고 어떻게 하면 서비스 조직들이 편리하게 쿠베 시스템을 이용할 수 있는지? 어떻게 하면 무중단으로 배포 할 수 있는지? 세세하게 나와있는데, 결과적으로는 트렌드를 잘 반영하는 회사라 생각 한다. 더군다나 전사 플랫폼을 운영하는 부서가 정말 탄탄하다는 생각이 든다.
+
+* [Maybe You Don't Need Kubernetes | Matthias Endler](https://matthias-endler.de/2019/maybe-you-dont-need-kubernetes/): 생각보다 약을 파는 글이지만, 쿠버네티스를 도입하기 전에 고민해보면 좋을 것 같다. 과연 **정말 필요할까?**
+
+### http
+
+* [QUIC과 HTTP/3 - 2. 기존의 성능 개선 기법 및 한계](https://www.saturnsoft.net/network/2019/03/26/quic-http3-2/): 벌써 HTTP/3에 관해 이야기가 나오고, 2의 한계와 방법에 관한 설명인데, 그림으로 설명을 해주셔서 이해하기 쉽고, 정리가 깔끔해서 읽어보면 좋다. 
+
+### 개발자에게 도움이 되는
+
+* [소프트웨어 엔지니어 코딩 인터뷰 준비하기 (미국)](https://imasoftwareengineer.tistory.com/66)
+
+* [내 맘대로 위클리 뉴스 - 2019년 12주(2019.3.18 - 2019.3.24)](https://www.sangkon.com/2019/03/25/sigamdream_weekly_2019_12/): Kotlin은 Null을 언제 사용할까?의 아티클이 좋다. 그리고 그 외 아티클도 읽어보면 좋고, 특히 Vue관련 튜토리얼 프로그래밍 같은 류가 나 같은 이해가 느린 개발자들에게 좋은 것 같다. 
+
+* [게임 서버 개발과 웹 서버 개발의 차이 · Elky Essay](https://elky84.github.io/2019/03/17/game_server_develop_difference_web_server_develop/): 게임 서버 개발과 웹 서버 개발의 차이를 써주셨는데, 어떻게 보면 같은 부분이 많은 것 같다. 물론 다른 부분은 극명하게 다르다. 
+
+* [DB도 형상관리를 해보자! : TOAST Meetup](https://meetup.toast.com/posts/173)
+
+* [TDD 해보니까 어때? (1)](https://sehun-kim.github.io/sehun/tdd-paircoding1/): TDD를 왜 했고, 어떻게 했는지? 에세이 같은 글인데, 나는 왜 그간 TDD를 하지 않았는지 반성하게 된다. 물론 좋은 점은 분명하지만, 현실적인 어려움도 소개하고 있다. 
+
+* [흔한 개발자가 두서 없이 쓰는 글 #3 (완)](https://luckyyowu.tistory.com/396): 개발자로써 읽어보면 한 개발자의 지난 삶의 발자취를 읽어볼 수 있는 글인데, 주니어 개발자라면, 읽어보길 추천한다. 
+
+### 데이터 분석
+
+* [새로운 데이터 분석가와의 랑데부를 위하여(1)](https://cojette.github.io/rendezvous1/)
+
+### Java
+
+* [데이터 기술 동향 < 정보마당 - 한국데이터산업진흥원](https://www.kdata.or.kr/info/info_04_view.html?field=&keyword=&type=techreport&page=18&dbnum=183776&mode=detail&type=techreport): 웹서버와 JSP에 관한 설명인데, 스프링 프레임워크에 입문하고자 한다면 읽어보길 추천 한다. 
+
+* [springframework:webclient [권남]](http://kwonnam.pe.kr/wiki/springframework/webclient): webclient에 관한 설명이 있는데, 권남님은 정말 꾸준하게 학습하시고 기록을 많이 남기시는 것 같다. (하루에도 수십번 남기시는 것 같다.)
+
+* [3월 우아한 Tech 세미나 후기 - 우아한형제들 기술 블로그](http://woowabros.github.io/experience/2019/03/18/tech-toby-reactive.html): 신청을 했지만, 탈락하여 아쉽게도 가지 못했는데, 후기글이 올라왔다. 
+
+* [Java 12: Mapping With Switch Expressions - DZone Java](https://dzone.com/articles/java-12-mapping-with-switch-expressions-1?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava)
+
+* [Sorting a HashMap In Java](https://www.javacodegeeks.com/2019/03/sorting-hashmap-java.html)
+
+### tool
+
+* [linux:tmux [권남]](http://kwonnam.pe.kr/wiki/linux/tmux): 나는 주로 로컬 터미널에서도 tmux를 기본적으로 쓰는데, 이에 대해 알고 싶다면 읽어보자.
+
+### 일반적인
+
+* [회의록, 누가 쓰나요?](https://ppss.kr/archives/190883)
+
+### Ansible
+
+* [26 GCP와 Ansible을 활용한 쿠버네티스 클러스터 한방에 구성하기 1편](https://zerobig-k8s.tistory.com/30?fbclid=IwAR0BTpWpAtGxmsyUScrAuNuTO5NaszolFB4J3FTYeJ3NsdkdGhAakccdn-M): GCP(Goolge Cloud Platform)과 Ansible을 이용해 한 번에 쿠버네티스 클러스터를 구축하는 연재의 글인데, GCP를 쓸 수 있는 환경이라면 읽어보면 좋겠다. (초기 구축이 어렵지, 활용은 정말 좋은 방법이다.)
+
+* [Shell Scripts to Ansible](https://www.ansible.com/blog/shell-scripts-to-ansible?fbclid=IwAR1meNuKpx9RAgnTxBKmrBgxeuYLeSRYAMsNGj2TSzki7QNpReh6BMYyxcU): Ansible에서 **sudo**권한이 필요할 때가 많은데, 이것을 좀 편리하게 하는 방법에 대한 글이다. 
