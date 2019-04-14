@@ -1,0 +1,79 @@
+---
+layout: post
+title: "그냥 저냥 #위클리뉴스 #39"
+description: "그냥 저냥 #위클리뉴스 #39"
+date: "2019-04-15 02:16"
+tags: [programming, weekly-news]
+comments: true
+---
+
+# 그냥 저냥 #위클리뉴스 #39 
+
+### 개발자에게 도움이 되는
+
+* [비동기를 사랑하는 오픈소스 개발자, 이희승 - LINE ENGINEERING](https://engineering.linecorp.com/ko/blog/line-developer-interview-3/): 전 세계에서 한국인이 만든 오픈 소스를 사용한다는 일은 정말 멋진 일이라 생각한다. 그런데, 정말 많은 오픈 소스 프로젝트를 만드신 개발자로 널리 알려져 있는 이희승님의 인터뷰이다. Network 관련한 지식이 정말 깊으시다는 생각을 하게 된다. 그리고, *Java* 언어를 다루는 실력 또한...*NIO* 관련해서도 잘 쓰시는 분이라 생각 했다. 약간 플랫폼 장인? 실은 나도 꿈꾸는 바가 개발을 위한 플랫폼 개발이 꿈이긴 하다. (현재는 아직 플랫폼 개발이란건 선망의 대상으로 생각하는 편이다.) 그래서 플랫폼 개발에 관해서, 이희승님에 관해서 궁금하다면 읽어보면 좋겠다. 채용도 하고 계시니 지원해보면 좋을 듯 하다!
+
+* [개발자 인생 회고 #1](https://brunch.co.kr/@jaewooahn/6): 우연히 보게 된 글이지만, 오래전부터 개발을 해오신 분들의 이야기는 무척이나 재밌다. 뭔가 무협만화를 보는 것만 같은 기분이 든다. (내공이 막 3천갑자 쯤 되어 보인다.)
+
+* [개발자 인생 회고 #2](https://brunch.co.kr/@jaewooahn/7)
+
+* [개발자 면접 질문을 공개합니다](https://medium.com/lookpin-engineering/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EA%B3%B5%EA%B0%9C%ED%95%A9%EB%8B%88%EB%8B%A4-ae6e55d94f27?fbclid=IwAR3X_w7aWfLVz0_kBLaViZJF5B6Pb0NBZXzlchQ-wWf3lMv7mVJnd0655RY): 룩핀이란 서비스를 운영하는 레벨13의 개발자 면접 질문에 대한 이야기이다. 왜 면접에 대한 질문들을 공개 하는가?에 대한 이야기인데, 지난번 소개 했던 [Rails 서버 개발자](https://medium.com/lookpin-engineering/rails-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A9%B4%EC%A0%91-%EC%A7%88%EB%AC%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8-cb2fac5f7447)와 이어지는 이야기이다. 이 회사가 추구하는 바가 어떤 기술이고, 우리는 현재 이 기술을 사용하고 있으며, 우리는 이런 기술력을 가진 사람을 원한다고 공개 구혼?과도 같은 글을 써주셨는데, 나는 오히려 이런 글이 이 회사를 매력적으로 만든다고 생각하는 편이다. 항상 어느 회사든지 잘?! 하는 개발자를 구하고자 하는데, 채용 페이지, 채용 전략, 채용 철학에 대해서는 깊이 생각하지 않는다. 우리는 이런 기술 쓰는데, 우대 사항은 이거 이거 이거등등, 이것도 해보면 좋고, 저것도 해보면 좋다. 라고 써 있다. (근데, 내가 만약 그 모든 기술에 전문가라면 그 회사 안 갈것이다.) 대부분의 취준생들은 우대사항을 보고 지원 하길 꺼려한다. (대부분의 회사에 있는 채용 페이지에 나온 그 정도의 기술 수준을 가지려면 경력 5년차에 미친듯이 개발 공부를 했어야 가능할 것이라 나는 생각한다.) 그런데, 이 회사는 마치 우린 정말 이런 기술을 사용하는데, 같이 사용해볼 개발자분이 있다면, 지원해주길! 바라는 마음에 썼다는 것이 느껴진다. (다른 회사의 채용 페이지를 유심히 보고 한 번 생각해보면 좋겠다.)
+
+* [기획자는 어떻게 SQL을 공부할까 - WTM 2019 발표후기 - 이상한모임](http://blog.weirdx.io/post/60799): 발표 영상도 링크에 추가 해주셨는데, 40분이라 다 듣지는 못했다. 발표자료를 보면 역시 고수이심이 틀림이 없다. (고퀄) 그런데, 일단 대단하다는 생각을 갖게 되었다. 어떻게 직접 하실 생각을 했을까? (혹시 이런 생각도 편견일지 모른다는 생각을 갖긴 했다.** 그렇지만, 뭔가 어?! 하는 생각이 들었고, 결국 **IT**라는 집합안에서 해야 하는 일들은 결국, 시작도 디지털이고, 끝도 디지털이라는 생각이 든다. 그런데, 대부분의 회사에서, 업무 영역에서 왜 디지털을 빼놓고 생각을 하는 것인가?라는 생각을 작년에 많이 생각 했다. 왜? 기획자는 쉽게 말을 할까? 왜? 개발자는 기획자가 말한 것 마다! **안된다!**라고 해야 하는 걸까? 하는 일련의 어떤 것들을 생각하곤 했는데, 많은 반성과 나조차도 편견에 휩싸인 사람이지 않았나? 되돌아 보게 된다. 
+
+* [[B급 프로그래머] 4월 2주 소식(개발/관리도구, 고성능 서버/데이터베이스 부문)](http://jhrogue.blogspot.com/2019/04/b-4-2.html): 자신만의 리액트를 만드는 가이드라는 번역글이 참 좋았고, 다른 글들도 유익 했으나, 모든 아티클을 읽어보진 못했다. 특히 요즘은 도커 관련해서 공부중이라 그런지, 도커 실행을 위한 10가지 옵션에 관한 아티클은 페이지를 저장해두었다. 다른 아티클도 유용한게 많아, 천천히 읽어볼 생각이다.
+
+* [vim:tips [권남]](http://kwonnam.pe.kr/wiki/vim/tips): vim을 쓸 수록, 깨알팁들이 많이 필요로 한 도구가 아닐까? 내가 딱 필요한 그 때, 이런게 있어 하고 알려주는 그런게 필요로 한데, 케이스별로 정리가 되어 있다. 
+
+### k8s
+
+* [[Tip] 기억하기 위한 여러 팁들](https://blog.naver.com/alice_k106/221507277530): 도커와 쿠베관련한 팁이 정리 되어 있다. 아직은 모르지만, 훗날 유용한 팁이 될 것 같아서 가져왔다.
+
+* [162. [Kubernetes] 1편 : 쿠버네티스 Ingress 개념 및 사용 방법, 온-프레미스 환경에서 Ingress 구축하기](https://blog.naver.com/alice_k106/221502890249): Ingress관련한 설명과 예시 중심으로 소개를 하고 있어, 쉽게 이해 할 수 있다. 
+
+### Java
+
+* [Top 20 System Design Interview Questions for Java Programmers - DZone Java](https://dzone.com/articles/top-20-system-design-interview-questions-for-java?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava): 작은 개념의 시스템 디자인부터 큰 규모의 앱(어플리케이션)까지의 시스템 디자인에 관한 인터뷰 질문 모음이다. 생각해보면, 이런 질문들이 많이 오고가기 때문에 준비를 해두면 좋겠다. (Solution이 있는 질문도 있다.)
+
+* [Spring Boot JPA MySQL Example](https://examples.javacodegeeks.com/enterprise-java/spring/boot/spring-boot-jpa-mysql-example/): *JPA*를 써보지 않아서, 공부하고자 가져왔는데, 차례 차례 설명하고 있다. 쉽게 말하면, 튜토리얼이라고 생각하면 편하다. 글에서는 이클립스를 기준으로 설명하는데, IntelliJ를 사용한다면, Postman을 쓸 필요 없이 Idea에 있는 HTTP Request를 이용하면 좋겠다. :)
+
+* [How Servlets Work in Java - DZone Java](https://dzone.com/articles/how-servlets-works-video?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava)
+
+* [10 Books Java Developers Should Read in 2019 - DZone Java](https://dzone.com/articles/10-books-java-developers-should-read-in-2019?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed:%20dzone%2Fjava): 올 해에 읽으면 좋을 책 10권을 소개하는데, 이펙티브 자바 3판을 무려 샀지만, 몇 개월째 읽지 못하고 있다. 그 책이라도 읽으면 올해 1/10은 한셈이지 않을까? 
+
+* [Java 8 Optional In Depth Example](https://examples.javacodegeeks.com/core-java/java-8-optional-in-depth-example/): *Optional*에 대해서도 뭔가 공부를 많이 해보고 싶긴 하다. 사실, 잘 써볼려고 노력하는 것 중 하나가 실무 프로젝트에서 *null*을 안쓰려고 하는데, 생각보다 쉽지 않았다. 해당 글은 Optional에 대해서 케이스별로 구분해서 예시 기반으로 설명을 한다. 그렇지만, 깔끔한 코드 베이스 상황에서는 사용하기 편리하지만, 기존 코드가 깔린 상황에선 사용하기가 난해하다. (아직 허접이라 그렇다.)
+
+### JavaScript
+
+* [TypeScript and React: Hooks](https://fettblog.eu/typescript-react/hooks/): 유요한 Hook들의 TypeScript 버전이라고 생각하면 좋겠다. 코드로 비교를 하기 때문에 위/아래 비교하면서 학습하면 좋을 것 같다. 
+
+* [[함수형 자바스크립트] 1.함수형 자바스크립트](https://isme2n.github.io/devlog/2019/04/12/functional-programing-1/): 함수형에 관해서 소개를 하고, 설명을 하는 데, *함수형 프로그래밍은 사실, 분해와 합성의 상호 작용이라고 할 수 있다.*라고 표현한 부분이 모호하던 함수형 프로그래밍에 정의를 내려주었다. 그리고 최대한 단순하게 만들자!는 것에 대해서는 정말 동의한다. 
+
+* [[함수형 자바스크립트]2. 고계 자바스크립트](https://isme2n.github.io/devlog/2019/04/13/functional-programing-2/): 함수와 고계에 관한 설명을 해주는데, 간결하게 설명을 잘 해서 이해하기 쉽다. 
+
+* [[함수형 자바스크립트]3. 자료구조는 적게, 일은 많이](https://isme2n.github.io/devlog/2019/04/14/functional-programing-3/): 함수형에서 많이 사용하게 될 함수이자 개념을 소개하고 있는데, map, reduce, filter에 대해 한국어로 잘 빗대어 표현 했다. 찰떡 같은 설명이었다. 
+
+* [Hello Nestjs](https://dev-momo.tistory.com/45): **nest**라는 프레임워크인데, 사실 너무 생소한 프레임워크라 잘 몰라서 공부해보고 싶은 생각이 문득 들었다. 애초 설계부터 프레임워크였고, 구조 자체가 스프링 MVC프레임워크와 유사해서 쉽게 배울 수 있을 것 같다. (간단한 경우 nest를 사용해볼까 싶은..?) 일단, 뭘 좀 써봐야 알 것 같다. 과연, Koa에 상응하는 수준일지 궁금하다. 
+
+### React
+
+* [React State with Hooks: useReducer, useState, useContext - RWieruch](https://www.robinwieruch.de/react-state-usereducer-usestate-usecontext/): 단점이 영어라는 것만 빼면, 좋은 Hooks와 상태에 관한 글인데, 나조차도 한번에 모두 이해하지 못했다. 그렇지만, 읽어보면 *use__*에 대한 함수들의 역할과 기능을 이해하는데 도움이 된다. 
+
+
+* [React Styled Components Tutorial - RWieruch](https://www.robinwieruch.de/react-styled-components/): 아직 실무에서 써보진 않았지만, 사실 이 방법이 더 좋아보이긴 하다. 오히려 리액트와 잘 어울리는 개념이 아닐까? 생각하게 된다. 차례 차례 한 단계씩 설명하고 있고, 코드도 모두 포함 되어 있다.  
+
+### Server
+
+* [Hyeseong's Blog - (번역) Thinking in GraphQL](https://blog.cometkim.kr/posts/thinking-in-graphql-ko/): GraphQL이 어떤 것인지? 감을 잡기 위해서는 이 글을 읽어보면 좋을 것 같다. 정말 몇년 전만 하더라도, 뜬구름 잡는다는 말을 많이 들었던 기술인데, 이제는 표준이 되려고 하고 있는 시대에 와 있다고 생각하고, 나조차도..REST는 실제로 구현하는데에 한계와 제한점이 많다고 생각하고, (네트워크 효율을 위한 모델이지, C-S 구조에서 효율성을 극대화했을 뿐, 유용성은 거의 제로에 가깝지 않나?라고 생각하는 편이다.) 대체제로 나온 기술인데, 한 번쯤 무엇인지 잠시나마라도 읽어보면 좋겠다.
+
+### 일반적인
+
+* [행복은 불행을 들여다보는 능력](https://ppss.kr/archives/192252): *"사회심리학자 바네사 부오트는 행복이 언제나 즐겁고 명랑한 상태가 아니라, 불행을 여러 방향에서 들여다보는 능력이라고 말합니다."* 이 말이 정말 확 와닿는 이야기였다. 행복이란 마냥 행복한 것이 아니고, 불행에서도 행복을 찾는다는 말을 보게 되니 진짜 행복이라는 것은 뭔가 연계성이 있는 것 같다는 생각이 들었다. 마음의 해상도를 높이고, 마음챙김을 함으로써 나의 행복감을 자주 찾을 수 있게 만들어주는 것이 삶을 살아가는데 정말 많은 도움이 될 것이라 생각 한다.
+
+* [구글이 목표를 달성하는 방식 OKR](https://ppss.kr/archives/191995): OKR이라는 것을 이용해 목표를 이루는 방식이고, 평가하는 것인데, 상당히 좋은 것 같아서 나도 이 책을 읽어볼까 싶기도 했다. (아직은 독서해야 할 책이 넘친다.) 그런데, 이 책을 읽고 나면, 더 빠른 목표를 이루는 방법이 될 것 같아. E-book을 찾게 되었다. 그 정도로 이 아티클에서 해당 주제를 잘 설명했다....(강제 독서행이 될 것만 같다.)
+
+* [사업으로 돈 버는 방법에 관하여](https://ppss.kr/archives/192250): *본인은 원천징수(프리랜서)와 세금계산서(개인사업자)를 병행하면서, 법인을 직접 관리하지는 않고 다른 안정적인 법인의 지분을 갖고 이사진으로 활동* 이 방법이 최고라고는 하는데, 이 방법을 어떻게 하는 건지는 왜 안알려주는건가....하, 괜히 더 우울해졌다.
+
+### Data
+
+* [새로운 데이터 분석가와의 랑데부를 위하여(2)](https://cojette.github.io/rendezvous2/): 데이터 분석을 하기 위해 공부를 하고 계신 분들이라면, 꼬젯님의 블로그를 열심히 보다 보면, 많은 통찰력을 얻을 수 있지 않을까?라는 생각을 하게 된다. 이 글에서도 시니어 분석가의 이야기가 잠깐 나오지만, 신입들의 언급이 잠시 나온다?! 그런데, 이 부분이 신입들에게는 엄청 중요하지 않을까 싶다. 같이 일 할 사람을 잘 구하는 것은 어려운데, 이 글에서 얻을 수 있는 것은 데이터 분석가라는 직업 자체가 사실, 나 조차도 조금은 생소하며, 항상 이 업무 역할의 전문가가 같이 일 했으면 하지만, 진짜 하늘의 별따기라는 것을 알게 된다. 글 읽는 내내 뭔가 난 과연 같이 일하는 사람들과 랑데부가 좋은지?! 갑자기 또 우울한 고민에 빠지기 시작 했다. (일단, 개발자들도 읽어보면 도움이 되리라 생각한다.)
