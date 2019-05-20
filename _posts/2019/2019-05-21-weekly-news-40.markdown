@@ -17,19 +17,19 @@ comments: true
 
 * [신입 개발자가 스타트업에서 AWS로 살아남는 이야기 - 조용진(모두의 캠퍼스)](https://www.youtube.com/watch?v=r6TFnNQsQLY&feature=youtu.be): AWS를 아주 작은 범위로 서비스 하는 회사에 들어가 점진적으로 늘어나는 서비스에 대하여, AWS 스택을 늘리면서 많은 경험기를 담고 있으며, AWS Hacking에 대한 포스트모텀 후기까지 공유를 해주어, 많은 도움이 될 것이라 생각 한다. AWS를 잘 활용하는 것은 정말 편리하고 좋지만, 해킹 당하면 정말 위험하구나를 알려주어 경각심을 갖게 되었다. 
 
-* [마이크로 서비스 관련 글 총정리 | Popit](https://www.popit.kr/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B4%80%EB%A0%A8-%EA%B8%80-%EC%B4%9D%EC%A0%95%EB%A6%AC/?fbclid=IwAR2QFsIkD1aUu7pxV2AAt2Awgd0meniEHMljWcMUaz2_9qX1TQbLGap3M6Y): 이제까지 Popit에 올라 왔던 MSA 관련한 내용들의 집합인데, 주제별로 정리가 되어 있어서 참고하기 좋다. 
+* [마이크로 서비스 관련 글 총정리](https://www.popit.kr/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B4%80%EB%A0%A8-%EA%B8%80-%EC%B4%9D%EC%A0%95%EB%A6%AC/?fbclid=IwAR2QFsIkD1aUu7pxV2AAt2Awgd0meniEHMljWcMUaz2_9qX1TQbLGap3M6Y) : 이제까지 Popit에 올라 왔던 MSA 관련한 내용들의 집합인데, 주제별로 정리가 되어 있어서 참고하기 좋다. 
 
 * [KSUG 스프링캠프 2019 발표자료 - "무엇을 테스트할 것인가, 어떻게 테스트할 것인가"](https://www.slideshare.net/ssuser59a869/ksug-2019?fbclid=IwAR2UcYpT58l7AUEPj8vAXIUpllk4meCTlLk4aGDZJSnaECgMwpRR1sVkYAc): 권용근님의 발표자료인데, 동영상이 올라오면 좋겠다는 생각을 하게 되었다. 하지만, 슬라이드만으로도 전달 하고자 하는 내용을 잘 알 수 있었다. 테스트에 관해서는 사실, 좀 "어렵다"라는 생각을 많이 가지고 있었다. 그렇지만, 이 자료를 보면서 알 수 있었던 사실 하나는 내가 주로 **구현을 테스트 하고 있었다. 라는 사실을 깨달았다.** 그리고, 테스트 가능한 부분과 가능하지 않은 외부요인들을 구분하지 않고 테스트 코드에 넣고 있었다는 사실을 깨달았다. 
 
-* [자바, 성능, 모니터링 테크세미나 정리 및 후기 (by 우아한 형제들)](https://taetaetae.github.io/2019/05/12/got-of-java-seminar/): 확실히 모니터링과 성능은 뗄려고 해도 뗄 수 없는 기생 관계라고 해야할까? 싶은 생각이 든다. Java 환경에서 APM 제품을 많이 알고 있진 않았는데, 굉장히 많은 제품들이 있다는 것을 깨달았고, 예전부터 관심 있던 Scouter의 기능이 생각보다 다양해서 Pinpoint의 기능보다 더 좋은 기능도 있다는 것을 알게 되었다. 물론, 
+* [자바, 성능, 모니터링 테크세미나 정리 및 후기 (by 우아한 형제들)](https://taetaetae.github.io/2019/05/12/got-of-java-seminar/) : 확실히 모니터링과 성능은 뗄려고 해도 뗄 수 없는 기생 관계라고 해야할까? 싶은 생각이 든다. Java 환경에서 APM 제품을 많이 알고 있진 않았는데, 굉장히 많은 제품들이 있다는 것을 깨달았고, 예전부터 관심 있던 Scouter의 기능이 생각보다 다양해서 Pinpoint의 기능보다 더 좋은 기능도 있다는 것을 알게 되었다. 물론, 
 
 * [웹 서버 개발의 Session 전략](https://devhaks.github.io/2019/04/20/session-strategy/): Session에 관해서 보통은 잘 모르기 쉽고, 왜 메모리에 저장하는것이 문제가 되는지?, 파일로 저장하게 될 경우에는 어떤 문제가 있는지? 모를 수 있다. 하지만, 이에 대해서 잘 정리 되어 있어서 세션에 관해서 공부하기 좋다. 다만, 여러 환경이 있을 수 있기에 어떤 것이 정답인지는 알 수 없지만, 확실한 건 케이스 별로 잘 알고 있는 것이 중요하다.
 
 ### Front
 
-[Why Performance Matters | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/why-performance-matters/): 일단, "사용자들은 기다려주지 않는다."는 말이 생각 났다. 실제로 통계적으로도 이탈률이나, 페이지 인입등에서 차이가 나기 시작한다는 것을 알 수 있다. 그러므로, 개발자들은 무엇을 할 수 있을지? 제안도 나열 되어 있다. 특히, React를 이제 막 써보는 입장이라 Preact에 관한 부분도 관심이 갔다. 대체제라면, 안 쓸 이유가 없기 때문이다. 
+* [Why Performance Matters](https://developers.google.com/web/fundamentals/performance/why-performance-matters/): 일단, "사용자들은 기다려주지 않는다."는 말이 생각 났다. 실제로 통계적으로도 이탈률이나, 페이지 인입등에서 차이가 나기 시작한다는 것을 알 수 있다. 그러므로, 개발자들은 무엇을 할 수 있을지? 제안도 나열 되어 있다. 특히, React를 이제 막 써보는 입장이라 Preact에 관한 부분도 관심이 갔다. 대체제라면, 안 쓸 이유가 없기 때문이다. 
 
-[[자바스크립트] 브라우저 렌더링](https://12bme.tistory.com/140): Browser가 어떻게 렌더링을 하는지에 대해서 단계적으로 설명을 하고 있으며, Reflow, Repaint이 어떻게 이루어지는지? 어떻게 하면서 Reflow 발생을 줄일 수 있는지에 대해서 설명하고 있다. 
+* [[자바스크립트] 브라우저 렌더링](https://12bme.tistory.com/140): Browser가 어떻게 렌더링을 하는지에 대해서 단계적으로 설명을 하고 있으며, Reflow, Repaint이 어떻게 이루어지는지? 어떻게 하면서 Reflow 발생을 줄일 수 있는지에 대해서 설명하고 있다. 
 
 ### Java
 
