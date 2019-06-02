@@ -2,7 +2,7 @@
   "title"    : "{{ post.title }}",
   "category" : "{{ post.category }}",
   "tags"     : [{% for tag in post.tags %}"{{ tag }}",{% endfor %} null],
-  "href"     : "/blog/{{ post.url }}",
+  "href"     : "{{ post.url }}",
   "date"     : {
     "day"   : "{{ post.date | date: "%d" }}",
     "month" : "{{ post.date | date: "%B" }}",

@@ -15,7 +15,7 @@ layout: default
         <ul class="tags tags-ul">
             {% for tag in post.tags %}
                 <li>
-                    <a href="{{site.baseurl}}/search/?tags={{ tag }}">{{ tag | downcase }}</a>
+                    <a href="{{site.baseurl}}/search?tags={{ tag }}">{{ tag | downcase }}</a>
                 </li>
             {% endfor %}
         </ul>
